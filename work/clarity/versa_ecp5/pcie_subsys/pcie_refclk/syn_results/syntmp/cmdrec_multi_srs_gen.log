@@ -1,7 +1,0 @@
-C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  pcie_refclk  -multisrs  C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_refclk\syn_results\synwork\pcie_refclk_comp.srs  -osyn  C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_refclk\syn_results\synwork\pcie_refclk_mult.srs  -log  C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_refclk\syn_results\synlog\pcie_refclk_multi_srs_gen.srr 
-relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top pcie_refclk -multisrs ..\synwork\pcie_refclk_comp.srs -osyn ..\synwork\pcie_refclk_mult.srs -log ..\synlog\pcie_refclk_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\pcie_refclk_comp.srs|io:i|time:1645962124|size:2179|exec:0|csum:86CA5B06F08F0C9F913F38A38AA3E17F
-file:..\synwork\pcie_refclk_mult.srs|io:o|time:1645962125|size:1883|exec:0|csum:
-file:..\synlog\pcie_refclk_multi_srs_gen.srr|io:o|time:1645962125|size:1043|exec:0|csum:
-file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1640161528|size:8728576|exec:1|csum:190D73C4BA65EA1171CEFE2D0BCF1463

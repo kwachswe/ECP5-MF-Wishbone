@@ -1,1 +1,0 @@
-@W: MT246 :"c:\project\pcie_ecp5_mf\work\diamond\versa_ecp5\xclk_subsys\pll_clk_base\pll_clk_base.v":59:12:59:20|Blackbox EHXPLLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)

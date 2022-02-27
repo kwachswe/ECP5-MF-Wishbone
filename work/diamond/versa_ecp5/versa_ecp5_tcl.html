@@ -1,153 +1,0 @@
-<HTML>
-<HEAD><TITLE>Lattice TCL Log</TITLE>
-<STYLE TYPE="text/css">
-<!--
- body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
--->
-</STYLE>
-</HEAD>
-<PRE><A name="pn220227153210"></A><B><U><big>pn220227153210</big></U></B>
-#Start recording tcl command: 2/27/2022 12:34:44
-#Project Location: C:/project/PCIe_ECP5_MF/work/diamond/versa_ecp5; Project name: versa_ecp5
-source ../../scripts/diamond/setup_versa_ecp5.tcl
-sbp_design open -dsgn "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_subsys.sbx"
-sbp_design open -dsgn "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/xclk_subsys/xclk_subsys.sbx"
-sbp_design open -dsgn "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_subsys.sbx"
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_x1"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_x1/generate_core.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_x1"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_x1/generate_ngd.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-sbp_builder export_add -comp {pcie_subsys/pcie_x1}
-sbp_design save
-sbp_design open -dsgn "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/xclk_subsys/xclk_subsys.sbx"
-sbp_design open -dsgn "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/xclk_subsys/xclk_subsys.sbx"
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/xclk_subsys/pll_xclk"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/xclk_subsys/pll_xclk/generate_core.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/xclk_subsys/pll_xclk"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/xclk_subsys/pll_xclk/generate_ngd.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-sbp_builder export_add -comp {xclk_subsys/pll_xclk}
-sbp_design save
-sbp_design open -dsgn "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_subsys.sbx"
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_refclk"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_refclk/generate_core.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_refclk"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_refclk/generate_ngd.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-sbp_builder export_add -comp {pcie_subsys/pcie_refclk}
-sbp_resource place -rsc {pcie_subsys/pcie_x1/DCUCHANNEL} -id 5
-sbp_resource place -rsc {pcie_subsys/pcie_refclk/EXTREF} -id 3
-sbp_design drc
-sbp_design gen
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_mfx1_top"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_mfx1_top/generate_core.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_mfx1_top"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_mfx1_top/generate_ngd.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-sbp_design open -dsgn "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_subsys.sbx"
-sbp_resource remove -ip {pcie_subsys/pcie_x1}
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/ocie_x1_top"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/ocie_x1_top/generate_core.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/ocie_x1_top"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/ocie_x1_top/generate_ngd.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-sbp_builder export_add -comp {pcie_subsys/ocie_x1_top}
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_x1_top"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_x1_top/generate_core.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_x1_top"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_x1_top/generate_ngd.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-sbp_builder export_add -comp {pcie_subsys/pcie_x1_top}
-sbp_resource remove -ip {pcie_subsys/ocie_x1_top}
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_mfx1_top"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_mfx1_top/generate_core.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-set currentPath [pwd];set tmp_autopath $auto_path
-cd "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_mfx1_top"
-source "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_mfx1_top/generate_ngd.tcl"
-set auto_path $tmp_autopath;cd $currentPath
-sbp_builder export_add -comp {pcie_subsys/pcie_mfx1_top}
-pwd
-source ../../scripts/clarity/dcu_locate.tcl
-source ../../scripts/clarity/patch_versa_e5.tcl
-prj_run Export -impl mf8c -task Bitgen
-sbp_design open -dsgn "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/xclk_subsys/xclk_subsys.sbx"
-sbp_design open -dsgn "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/xclk_subsys/xclk_subsys.sbx"
-sbp_design open -dsgn "C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/xclk_subsys/xclk_subsys.sbx"
-#Stop recording: 2/27/2022 15:32:10
-
-
-
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-</PRE></FONT>
-</BODY>
-</HTML>
