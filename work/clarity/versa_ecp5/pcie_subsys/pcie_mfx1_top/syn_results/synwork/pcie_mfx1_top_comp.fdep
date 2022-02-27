@@ -1,0 +1,152 @@
+#OPTIONS:"|-mixedhdl|-top|pcie_mfx1_top|-layerid|0|-orig_srs|C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\syn_results\\synwork\\pcie_mfx1_top_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|off|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1640161399
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\location.map":1640160581
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\std.vhd":1640160581
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1640160580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\std1164.vhd":1640160581
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\std_textio.vhd":1640160581
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\numeric.vhd":1640161612
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1640160580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\arith.vhd":1640160580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\unsigned.vhd":1640160581
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1640160580
+#CUR:"C:\\lscc\\diamond\\3.12\\cae_library\\synthesis\\vhdl\\ecp5um.vhd":1542238330
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\pcie_mfx1_top.vhd":1645971620
+#OPTIONS:"|-mixedhdl|-modhint|C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\syn_results\\synwork\\_verilog_hintfile|-top|work.pcie_mfdev_subsys|-mpparams|C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\syn_results\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\syn_results\\synwork\\pcie_mfx1_top_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\|-I|C:\\lscc\\diamond\\3.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5um.v|-devicelib|C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|off|-ll|2000|-autosm|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_ver.exe":1640161271
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\syn_results\\synwork\\_verilog_hintfile":1645971621
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\ecp5um.v":1640161406
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\lucent\\pmi_def.v":1640161408
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\hypermods.v":1640160580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\umr_capim.v":1640160580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_objects.v":1640160580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1640160580
+#CUR:"C:\\lscc\\diamond\\3.12\\cae_library\\synthesis\\verilog\\pmi_def.v":1606287228
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcie_mfdev_v6.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pci_exp_params.v":1645971425
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\wishbone_utils.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\wishbone_utils.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\wishbone_utils.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\wishbone_utils.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\bar_reg_internals.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\pcisig_constants.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\tlp_qcodes.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\tlp_qcodes.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\tlp_qcodes.v":1642500492
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\src\\vlog\\tlp_qcodes.v":1642500492
+0			"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\ecp5um.vhd" vhdl
+1			"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top.vhd" vhdl
+2			"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v" verilog
+3			"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v" verilog
+4		*	"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pci_exp_params.v" verilog
+5		*	"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcisig_constants.v" verilog
+6		*	"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\wishbone_utils.v" verilog
+7		*	"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\bar_reg_internals.v" verilog
+8		*	"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\tlp_qcodes.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 3
+2 -1
+3 2 8 7 6 5 4
+4 8 7 6 5
+5 8 7 6 5 4
+6 8 7 6 5 4
+7 8 6 5 4
+8 8 7 6 5 4
+#Dependency Lists(Users Of)
+0 -1
+1 -1
+2 3
+3 1
+4 8 7 6 5 3
+5 8 7 6 5 4 3
+6 8 7 6 5 4 3
+7 8 6 5 4 3
+8 8 7 6 5 4 3
+#Design Unit to File Association
+module work pcie_mfdev_subsys 3
+module work I7639B3DE6448BF04A6DF404C0FEDBA75 3
+module work ICF327C89C36124513E146F1FF3BCDEEB 3
+module work I1D0F7B4B91A0FA84F3F3816624A1A70F 3
+module work I5AA57FA362D8C2F14DF19B01C99AE372 3
+module work I8489B3291801D4F3BE8AED05E26C4566 3
+module work I6433000F3EF06E04177C32D16C534889 3
+module work IA8C351750B9DBEE4D8ADA94748C8E5D1 3
+module work IAC6C4C771C836211892F0FD3F47BC076 3
+module work IF8888DF840520FCED3157D151D128B3B 3
+module work I2296FC491415818D18357D6C2D700C14 3
+module work IE63C8C66EC36AC972570F7B8665A4225 3
+module work IF44E5E7AB65AFFA1AF3DA949DB91C839 3
+module work IB692DAE41499E4B01D446B8B28C804EB 3
+module work IFF5E0986AB6F727F3EEDED75702CE45A 3
+module work IE37A0AF0C4EF574205CEC4FFC0E18B72 3
+module work ICD3F460CCA1DA6A6D1EAF48665780088 3
+module work IC3C2C92E294852CA4AE110FD59776962 3
+module work ID6D6E4DEEE2F225D2FE2E68AEDBFADC7 3
+module work I7649039BBE19689793FEE4FADDDEF1E8 3
+module work IDBAB269DB7AFDA96620B9B09A1C1D253 3
+module work IF9CF184FC93B215506F993588C9E7793 3
+module work ID81B7D29F9F1B2882EE754B639B67517 3
+module work I7C908B0C1EFA5CDE82E200D3BD5B8C53 3
+module work I1BD3AAA735BEFCAF06645830338869BC 3
+module work I96EF4C28535915F06C7CA4A3F14655BA 3
+module work IC067A254D727EC6E4653DEA8E2C9ED79 3
+module work I35D01845B6D15D59E4E7B95EDE6F3368 3
+module work I4A464F8B941F768B40777E11E08CF0DE 3
+module work I1F8444FEC9FE4C651C698EE6099B529D 3
+module work I4CACC63B64035D749DE3C4BCF79F626C 3
+module work IA68D2B0762B11205E05F2AB6538CBB65 3
+module work IB48580D48DC6311D8E12B4626CE243D8 3
+module work I792C47F7E7D7705A2329EEB04CA92E91 3
+module work IF4FD65273243DC47A72869EEEA639DCD 3
+module work IF50ADBFC5F4E76B680AD98E97599279A 3
+module work I2AA06444A0CB39074E17E74C913F2C98 3
+module work I6B46C5BDF6C2841AE2EEF22D18B3C8B9 3
+module work credit_config 3
+module work jtagconn16 2
+module work jtaghub16 2
+module work pmi_pll_fp 2
+module work pmi_pll 2
+module work pmi_dsp_preadd_slice 2
+module work pmi_dsp_multaddsubsum 2
+module work pmi_dsp_casmultaddsub 2
+module work pmi_dsp_multaddsub 2
+module work pmi_dsp_mult 2
+module work pmi_dsp_mac 2
+module work pmi_fifo 2
+module work pmi_fifo_dc 2
+module work pmi_rom 2
+module work pmi_ram_dq_be 2
+module work pmi_ram_dq 2
+module work pmi_ram_dp_true_be 2
+module work pmi_ram_dp_true 2
+module work pmi_ram_dp_be 2
+module work pmi_ram_dp 2
+module work pmi_addsub 2
+module work pmi_counter 2
+module work pmi_sub 2
+module work pmi_add 2
+module work pmi_complex_mult 2
+module work pmi_multaddsubsum 2
+module work pmi_multaddsub 2
+module work pmi_mac 2
+module work pmi_mult 2
+module work pmi_constant_mult 2
+module work pmi_distributed_shift_reg 2
+module work pmi_distributed_spram 2
+module work pmi_distributed_rom 2
+module work pmi_distributed_dpram 2
+module work pcie_mfx1_top 1
+arch work pcie_mfx1_top rtl 1

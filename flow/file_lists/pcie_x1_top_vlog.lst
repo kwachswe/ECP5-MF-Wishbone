@@ -1,0 +1,13 @@
++define+DEBUG
++define+SIMULATE
++incdir+$TF_HOME/work/clarity/versa_ecp5/pcie_subsys/pcie_x1_top/pcie_eval/pcie_x1_top/src/params
++incdir+$TF_HOME/work/clarity/versa_ecp5/pcie_subsys/pcie_x1_top/pcie_eval/pcie_x1_top/src/top
+-l PMI_WORK -l ovi_ecp5um
+$TF_HOME/work/clarity/versa_ecp5/pcie_subsys/pcie_x1_top/pcie_eval/pcie_x1_top/src/params/pci_exp_params.v
+$TF_HOME/work/clarity/versa_ecp5/pcie_subsys/pcie_x1_top/pcie_eval/pcie_x1_top/src/params/pci_exp_ddefines.v
+$TF_HOME/work/clarity/versa_ecp5/pcie_subsys/pcie_x1_top/pcie_eval/pcie_x1_top/src/top/pcie_x1_top_beh.v
+$TF_HOME/work/clarity/versa_ecp5/pcie_subsys/pcie_x1_top/pcie_eval/pcie_x1_top/src/top/pcie_x1_top_core.v
+$TF_HOME/work/clarity/versa_ecp5/pcie_subsys/pcie_refclk/pcie_refclk.v
+$TF_HOME/work/clarity/versa_ecp5/pcie_subsys/pcie_mfx1_top/src/vlog/pcie_mfdev_v6.v
+
+

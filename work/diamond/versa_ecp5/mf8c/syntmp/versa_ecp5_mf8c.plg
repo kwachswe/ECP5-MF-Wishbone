@@ -1,0 +1,219 @@
+@P:  Worst Slack : -2.161
+@P:  clock_gen_ECP5UM|s_rtl_xclk_derived_clock - Estimated Frequency : 316.3 MHz
+@P:  clock_gen_ECP5UM|s_rtl_xclk_derived_clock - Requested Frequency : 280.0 MHz
+@P:  clock_gen_ECP5UM|s_rtl_xclk_derived_clock - Estimated Period : 3.162
+@P:  clock_gen_ECP5UM|s_rtl_xclk_derived_clock - Requested Period : 3.571
+@P:  clock_gen_ECP5UM|s_rtl_xclk_derived_clock - Slack : 0.819
+@P:  pcie_refclk|refclko_inferred_clock - Estimated Frequency : 206.3 MHz
+@P:  pcie_refclk|refclko_inferred_clock - Requested Frequency : 280.0 MHz
+@P:  pcie_refclk|refclko_inferred_clock - Estimated Period : 4.848
+@P:  pcie_refclk|refclko_inferred_clock - Requested Period : 3.571
+@P:  pcie_refclk|refclko_inferred_clock - Slack : -1.277
+@P:  pcie_x1_top_pcs|rx_pclk_inferred_clock - Estimated Frequency : 417.0 MHz
+@P:  pcie_x1_top_pcs|rx_pclk_inferred_clock - Requested Frequency : 280.0 MHz
+@P:  pcie_x1_top_pcs|rx_pclk_inferred_clock - Estimated Period : 2.398
+@P:  pcie_x1_top_pcs|rx_pclk_inferred_clock - Requested Period : 3.571
+@P:  pcie_x1_top_pcs|rx_pclk_inferred_clock - Slack : 1.173
+@P:  pcie_x1_top_pcs|tx_pclk_inferred_clock - Estimated Frequency : 258.3 MHz
+@P:  pcie_x1_top_pcs|tx_pclk_inferred_clock - Requested Frequency : 280.0 MHz
+@P:  pcie_x1_top_pcs|tx_pclk_inferred_clock - Estimated Period : 3.872
+@P:  pcie_x1_top_pcs|tx_pclk_inferred_clock - Requested Period : 3.571
+@P:  pcie_x1_top_pcs|tx_pclk_inferred_clock - Slack : -0.301
+@P:  pcie_x1_top_phy|PCLK_by_2_inferred_clock - Estimated Frequency : 174.4 MHz
+@P:  pcie_x1_top_phy|PCLK_by_2_inferred_clock - Requested Frequency : 280.0 MHz
+@P:  pcie_x1_top_phy|PCLK_by_2_inferred_clock - Estimated Period : 5.732
+@P:  pcie_x1_top_phy|PCLK_by_2_inferred_clock - Requested Period : 3.571
+@P:  pcie_x1_top_phy|PCLK_by_2_inferred_clock - Slack : -2.161
+@P:  pcie_x1_top_phy|PCLK_inferred_clock - Estimated Frequency : 260.0 MHz
+@P:  pcie_x1_top_phy|PCLK_inferred_clock - Requested Frequency : 280.0 MHz
+@P:  pcie_x1_top_phy|PCLK_inferred_clock - Estimated Period : 3.846
+@P:  pcie_x1_top_phy|PCLK_inferred_clock - Requested Period : 3.571
+@P:  pcie_x1_top_phy|PCLK_inferred_clock - Slack : -0.275
+@P:  pll_xclk_base|CLKOS2_inferred_clock - Estimated Frequency : 317.2 MHz
+@P:  pll_xclk_base|CLKOS2_inferred_clock - Requested Frequency : 280.0 MHz
+@P:  pll_xclk_base|CLKOS2_inferred_clock - Estimated Period : 3.153
+@P:  pll_xclk_base|CLKOS2_inferred_clock - Requested Period : 3.571
+@P:  pll_xclk_base|CLKOS2_inferred_clock - Slack : 0.418
+@P:  pll_xclk_base|CLKOS_inferred_clock - Estimated Frequency : 440.4 MHz
+@P:  pll_xclk_base|CLKOS_inferred_clock - Requested Frequency : 280.0 MHz
+@P:  pll_xclk_base|CLKOS_inferred_clock - Estimated Period : 2.271
+@P:  pll_xclk_base|CLKOS_inferred_clock - Requested Period : 3.571
+@P:  pll_xclk_base|CLKOS_inferred_clock - Slack : 1.301
+@P:  System - Estimated Frequency : 305.1 MHz
+@P:  System - Requested Frequency : 280.0 MHz
+@P:  System - Estimated Period : 3.278
+@P:  System - Requested Period : 3.571
+@P:  System - Slack : 0.293
+@P:  Total Area : 5269.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:32s

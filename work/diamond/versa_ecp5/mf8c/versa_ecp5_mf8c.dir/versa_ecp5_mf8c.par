@@ -1,0 +1,38 @@
+PAR: Place And Route Diamond (64-bit) 3.12.1.454.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Sun Feb 27 15:57:25 2022
+
+C:/lscc/diamond/3.12/ispfpga\bin\nt64\par -f versa_ecp5_mf8c.p2t
+versa_ecp5_mf8c_map.ncd versa_ecp5_mf8c.dir versa_ecp5_mf8c.prf -gui -msgset
+C:/project/PCIe_ECP5_MF/work/diamond/versa_ecp5/promote.xml
+
+
+Preference file: versa_ecp5_mf8c.prf.
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_8   *      0            0.771        0            0.147        0            02:54        Completed
+5_2   *      0            0.746        0            0.157        0            03:14        Completed
+5_5   *      0            0.655        0            0.147        0            02:56        Completed
+5_10  *      0            0.233        0            0.158        0            02:51        Completed
+5_9   *      0            0.102        0            0.157        0            02:59        Completed
+5_6   *      0            0.014        0            0.159        0            02:59        Completed
+5_4   *      0            0.002        0            0.148        0            03:02        Completed
+5_3   *      0            -0.071       74           0.152        0            03:10        Completed
+5_7   *      0            -0.160       297          0.148        0            03:11        Completed
+5_12  *      0            -0.336       1012         0.160        0            03:00        Completed
+5_1          0            -0.486       801          0.147        0            03:08        Completed
+5_11         0            -0.789       3492         0.157        0            03:01        Completed
+
+* : Design saved.
+
+Total (real) run time for 12-seed: 12 mins 19 secs 
+
+par done!
+
+Note: user must run 'Trace' for timing closure signoff.

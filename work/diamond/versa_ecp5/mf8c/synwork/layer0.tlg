@@ -1,0 +1,808 @@
+@N: CD231 :"C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd":23:7:23:16|Synthesizing work.versa_ecp5.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-e.vhd":19:7:19:18|Synthesizing work.tspc_cdc_vec.rtl.
+Post processing for work.tspc_cdc_vec.rtl
+Running optimization stage 1 on tspc_cdc_vec .......
+Finished optimization stage 1 on tspc_cdc_vec (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-e.vhd":23:7:23:15|Synthesizing work.core_mf8c.rtl.
+@W: CD272 :"C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-a_rtl.vhd":130:6:130:24|Comparison (=) of different length arrays is always false!
+@W: CD276 :"C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block-e.vhd":49:6:49:17|Map for port o_uart_tx_en of component uart_block not found
+@W: CD730 :"C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-a_rtl.vhd":245:3:245:9|Component declaration has 16 ports but entity declares 17 ports
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-a_rtl.vhd":245:3:245:9|Port o_uart_tx_en of entity work.uart_block is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3-e.vhd":39:7:39:22|Synthesizing work.tspc_wb_cfi_jxb3.rtl.
+@W: CD638 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3-a_rtl.vhd":96:10:96:27|Signal s_u3_spi_has_pload is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-e.vhd":19:7:19:18|Synthesizing work.tspc_cdc_vec.rtl.
+Post processing for work.tspc_cdc_vec.rtl
+Running optimization stage 1 on tspc_cdc_vec .......
+Finished optimization stage 1 on tspc_cdc_vec (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-e.vhd":19:7:19:18|Synthesizing work.tspc_cdc_vec.rtl.
+Post processing for work.tspc_cdc_vec.rtl
+Running optimization stage 1 on tspc_cdc_vec .......
+Finished optimization stage 1 on tspc_cdc_vec (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_reg\vhdl\tspc_cdc_reg-e.vhd":21:7:21:18|Synthesizing work.tspc_cdc_reg.rtl.
+Post processing for work.tspc_cdc_reg.rtl
+Running optimization stage 1 on tspc_cdc_reg .......
+Finished optimization stage 1 on tspc_cdc_reg (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_reg\vhdl\tspc_cdc_reg-e.vhd":21:7:21:18|Synthesizing work.tspc_cdc_reg.rtl.
+Post processing for work.tspc_cdc_reg.rtl
+Running optimization stage 1 on tspc_cdc_reg .......
+Finished optimization stage 1 on tspc_cdc_reg (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":31:7:31:20|Synthesizing work.tspc_fifo_sync.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":29:7:29:24|Synthesizing work.tspc_fifo_sync_mem.rtl.
+Running optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+Post processing for work.tspc_fifo_sync_mem.rtl
+Running optimization stage 1 on tspc_fifo_sync_mem .......
+Finished optimization stage 1 on tspc_fifo_sync_mem (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":33:7:33:24|Synthesizing work.tspc_fifo_ctl_sync.rtl.
+Post processing for work.tspc_fifo_ctl_sync.rtl
+Running optimization stage 1 on tspc_fifo_ctl_sync .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":298:9:298:10|Pruning unused register R_DPS_EQ2.s_mem_dat_refresh_3. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_fifo_ctl_sync (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Post processing for work.tspc_fifo_sync.rtl
+Running optimization stage 1 on tspc_fifo_sync .......
+Finished optimization stage 1 on tspc_fifo_sync (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-e.vhd":30:7:30:22|Synthesizing work.jxb3_spi_dma_tgt.rtl.
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":32:18:32:19|Using onehot encoding for type t_buf_rd. For example, enumeration br_rst is mapped to "100000000".
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":33:18:33:19|Using onehot encoding for type t_buf_wr. For example, enumeration bw_rst is mapped to "100000000".
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":35:21:35:22|Using onehot encoding for type t_dma_rd_fsm. For example, enumeration dr_idle is mapped to "1000000".
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":36:21:36:22|Using onehot encoding for type t_dma_wr_fsm. For example, enumeration dw_idle is mapped to "100000000".
+Post processing for work.jxb3_spi_dma_tgt.rtl
+Running optimization stage 1 on jxb3_spi_dma_tgt .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":416:6:416:7|Pruning unused register s_dma_rd_pos_7(1 downto 0). Make sure that there are no unused intermediate registers.
+@A: CL282 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":416:6:416:7|Feedback mux created for signal s_phase_count[2:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on jxb3_spi_dma_tgt (CPU Time 0h:00m:00s, Memory Used current: 110MB peak: 111MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-e.vhd":30:7:30:20|Synthesizing work.jxb3_regs_ctrl.rtl.
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":32:18:32:19|Using onehot encoding for type t_buf_rd. For example, enumeration br_listen is mapped to "1000000".
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":33:18:33:19|Using onehot encoding for type t_buf_wr. For example, enumeration bw_listen is mapped to "1000000".
+Post processing for work.jxb3_regs_ctrl.rtl
+Running optimization stage 1 on jxb3_regs_ctrl .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Pruning unused register s_reg_xcount_eq0_3. Make sure that there are no unused intermediate registers.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_wb_adr(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_wb_adr(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(9) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(10) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(11) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(12) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(13) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(16) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(17) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(18) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(19) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(20) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(21) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(22) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_rsps_1(23) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_buf_count(12) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_buf_count(13) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_buf_count(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_buf_count(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_buf_count(28) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_buf_count(29) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_buf_count(30) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Optimizing register bit s_reg_buf_count(31) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Pruning register bits 23 to 8 of s_reg_rsps_1(23 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Pruning register bits 1 to 0 of s_wb_adr(11 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Pruning register bits 31 to 28 of s_reg_buf_count(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Pruning register bits 15 to 12 of s_reg_buf_count(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on jxb3_regs_ctrl (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 114MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-e.vhd":21:7:21:24|Synthesizing work.tspc_cfi_spim_pw2n.rtl.
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-a_rtl.vhd":24:18:24:19|Using onehot encoding for type t_cfi_fsm. For example, enumeration sc_rst is mapped to "1000000000000".
+Post processing for work.tspc_cfi_spim_pw2n.rtl
+Running optimization stage 1 on tspc_cfi_spim_pw2n .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-a_rtl.vhd":197:6:197:7|Pruning unused register s_phase_ssel_sh_5(0). Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_cfi_spim_pw2n (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 114MB)
+Post processing for work.tspc_wb_cfi_jxb3.rtl
+Running optimization stage 1 on tspc_wb_cfi_jxb3 .......
+Finished optimization stage 1 on tspc_wb_cfi_jxb3 (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 114MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd":29:7:29:19|Synthesizing work.tsls_wb_bmram.rtl.
+@W: CD276 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":44:6:44:15|Map for port i_ram_wait of component tspc_wb_ebr_ctl not found
+@W: CD730 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd":153:3:153:9|Component declaration has 22 ports but entity declares 23 ports
+Running optimization stage 1 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 1 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 113MB peak: 114MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":29:7:29:21|Synthesizing work.tspc_wb_ebr_ctl.rtl.
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":32:17:32:18|Using onehot encoding for type t_wb_fsm. For example, enumeration wb_idle is mapped to "10000".
+@W: CD434 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":71:33:71:40|Signal i_ram_dq in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.tspc_wb_ebr_ctl.rtl
+Running optimization stage 1 on tspc_wb_ebr_ctl .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":170:6:170:7|Pruning unused register s_prescale_4(0). Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_wb_ebr_ctl (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 115MB)
+Post processing for work.tsls_wb_bmram.rtl
+Running optimization stage 1 on tsls_wb_bmram .......
+Finished optimization stage 1 on tsls_wb_bmram (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 115MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys-e.vhd":5:7:5:16|Synthesizing work.dma_subsys.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd":29:7:29:19|Synthesizing work.tsls_wb_bmram.rtl.
+@W: CD276 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":44:6:44:15|Map for port i_ram_wait of component tspc_wb_ebr_ctl not found
+Running optimization stage 1 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_1 .......
+Finished optimization stage 1 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 115MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":29:7:29:21|Synthesizing work.tspc_wb_ebr_ctl.rtl.
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":32:17:32:18|Using onehot encoding for type t_wb_fsm. For example, enumeration wb_idle is mapped to "10000".
+@W: CD434 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":71:33:71:40|Signal i_ram_dq in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.tspc_wb_ebr_ctl.rtl
+Running optimization stage 1 on tspc_wb_ebr_ctl .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":170:6:170:7|Pruning unused register s_prescale_4(0). Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_wb_ebr_ctl (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 115MB)
+Post processing for work.tsls_wb_bmram.rtl
+Running optimization stage 1 on tsls_wb_bmram .......
+Finished optimization stage 1 on tsls_wb_bmram (CPU Time 0h:00m:00s, Memory Used current: 114MB peak: 115MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-e.vhd":25:7:25:21|Synthesizing work.dma_subsys_regs.rtl.
+Post processing for work.dma_subsys_regs.rtl
+Running optimization stage 1 on dma_subsys_regs .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-a_rtl.vhd":108:6:108:7|Pruning unused register s_regdma_cmd_sta.cmd.int_ack_3. Make sure that there are no unused intermediate registers.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-a_rtl.vhd":108:6:108:7|All reachable assignments to s_wb_adr(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-a_rtl.vhd":108:6:108:7|All reachable assignments to s_wb_adr(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+Finished optimization stage 1 on dma_subsys_regs (CPU Time 0h:00m:00s, Memory Used current: 116MB peak: 117MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-e.vhd":23:7:23:22|Synthesizing work.tspc_dma_chan_ms.rtl.
+@W: CD276 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":54:6:54:14|Map for port o_rd_last of component tspc_fifo_sync not found
+@W: CD276 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":58:6:58:14|Map for port o_wr_last of component tspc_fifo_sync not found
+@W: CD730 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":127:3:127:14|Component declaration has 13 ports but entity declares 15 ports
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":127:3:127:14|Port o_wr_last of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":127:3:127:14|Port o_wr_afull of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":127:3:127:14|Port o_rd_last of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD276 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":54:6:54:14|Map for port o_rd_last of component tspc_fifo_sync not found
+@W: CD276 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":58:6:58:14|Map for port o_wr_last of component tspc_fifo_sync not found
+@W: CD730 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":152:3:152:14|Component declaration has 13 ports but entity declares 15 ports
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":152:3:152:14|Port o_wr_last of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":152:3:152:14|Port o_wr_afull of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":152:3:152:14|Port o_rd_last of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD276 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":54:6:54:14|Map for port o_rd_last of component tspc_fifo_sync not found
+@W: CD276 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":58:6:58:14|Map for port o_wr_last of component tspc_fifo_sync not found
+@W: CD730 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":178:3:178:12|Component declaration has 13 ports but entity declares 15 ports
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":178:3:178:12|Port o_wr_last of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":178:3:178:12|Port o_wr_afull of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":178:3:178:12|Port o_rd_last of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD276 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":54:6:54:14|Map for port o_rd_last of component tspc_fifo_sync not found
+@W: CD276 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":58:6:58:14|Map for port o_wr_last of component tspc_fifo_sync not found
+@W: CD730 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":203:3:203:14|Component declaration has 13 ports but entity declares 15 ports
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":203:3:203:14|Port o_wr_last of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":203:3:203:14|Port o_wr_afull of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd":203:3:203:14|Port o_rd_last of entity work.tspc_fifo_sync is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd":27:7:27:26|Synthesizing work.tspc_dma_chan_ms_ctl.rtl.
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":23:23:23:24|Using onehot encoding for type t_dma_chan_fsm. For example, enumeration rc_rst is mapped to "1000000000000000000000".
+Post processing for work.tspc_dma_chan_ms_ctl.rtl
+Running optimization stage 1 on tspc_dma_chan_ms_ctl .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning unused register s_int_period_1(31 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(8) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(9) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(10) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(11) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(12) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(13) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(14) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(15) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(16) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(17) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(18) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(19) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(20) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(21) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(22) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(23) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(24) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(25) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(26) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(27) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(28) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(29) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(30) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(31) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_wbm_bte(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_wbm_bte(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning unused register s_wbm_bte(1 downto 0). Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_dma_chan_ms_ctl (CPU Time 0h:00m:00s, Memory Used current: 121MB peak: 122MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd":27:7:27:26|Synthesizing work.tspc_dma_chan_ms_ctl.rtl.
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":23:23:23:24|Using onehot encoding for type t_dma_chan_fsm. For example, enumeration rc_rst is mapped to "1000000000000000000000".
+Post processing for work.tspc_dma_chan_ms_ctl.rtl
+Running optimization stage 1 on tspc_dma_chan_ms_ctl .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning unused register s_int_period_1(31 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(3) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(4) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(5) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(6) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(7) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(8) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(9) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(10) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(11) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(12) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(13) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(14) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(15) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(16) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(17) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(18) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(19) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(20) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(21) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(22) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(23) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(24) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(25) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(26) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(27) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(28) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(29) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(30) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|All reachable assignments to s_int_period_load(31) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_wbm_bte(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_wbm_bte(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning unused register s_wbm_bte(1 downto 0). Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_dma_chan_ms_ctl (CPU Time 0h:00m:00s, Memory Used current: 123MB peak: 124MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":31:7:31:20|Synthesizing work.tspc_fifo_sync.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":29:7:29:24|Synthesizing work.tspc_fifo_sync_mem.rtl.
+Running optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_1 .......
+Finished optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 123MB peak: 124MB)
+Post processing for work.tspc_fifo_sync_mem.rtl
+Running optimization stage 1 on tspc_fifo_sync_mem .......
+Finished optimization stage 1 on tspc_fifo_sync_mem (CPU Time 0h:00m:00s, Memory Used current: 123MB peak: 124MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":33:7:33:24|Synthesizing work.tspc_fifo_ctl_sync.rtl.
+Post processing for work.tspc_fifo_ctl_sync.rtl
+Running optimization stage 1 on tspc_fifo_ctl_sync .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":298:9:298:10|Pruning unused register R_DPS_EQ2.s_mem_dat_refresh_6. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_fifo_ctl_sync (CPU Time 0h:00m:00s, Memory Used current: 123MB peak: 124MB)
+Post processing for work.tspc_fifo_sync.rtl
+Running optimization stage 1 on tspc_fifo_sync .......
+Finished optimization stage 1 on tspc_fifo_sync (CPU Time 0h:00m:00s, Memory Used current: 123MB peak: 124MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":31:7:31:20|Synthesizing work.tspc_fifo_sync.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":29:7:29:24|Synthesizing work.tspc_fifo_sync_mem.rtl.
+Running optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_2 .......
+Finished optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_2 (CPU Time 0h:00m:00s, Memory Used current: 123MB peak: 124MB)
+Post processing for work.tspc_fifo_sync_mem.rtl
+Running optimization stage 1 on tspc_fifo_sync_mem .......
+Finished optimization stage 1 on tspc_fifo_sync_mem (CPU Time 0h:00m:00s, Memory Used current: 123MB peak: 124MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":33:7:33:24|Synthesizing work.tspc_fifo_ctl_sync.rtl.
+Post processing for work.tspc_fifo_ctl_sync.rtl
+Running optimization stage 1 on tspc_fifo_ctl_sync .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":298:9:298:10|Pruning unused register R_DPS_EQ2.s_mem_dat_refresh_9. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on tspc_fifo_ctl_sync (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+Post processing for work.tspc_fifo_sync.rtl
+Running optimization stage 1 on tspc_fifo_sync .......
+Finished optimization stage 1 on tspc_fifo_sync (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":31:7:31:20|Synthesizing work.tspc_fifo_sync.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":29:7:29:24|Synthesizing work.tspc_fifo_sync_mem.rtl.
+Running optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_3 .......
+Finished optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_3 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+Post processing for work.tspc_fifo_sync_mem.rtl
+Running optimization stage 1 on tspc_fifo_sync_mem .......
+Finished optimization stage 1 on tspc_fifo_sync_mem (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+Post processing for work.tspc_fifo_sync.rtl
+Running optimization stage 1 on tspc_fifo_sync .......
+Finished optimization stage 1 on tspc_fifo_sync (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+Post processing for work.tspc_dma_chan_ms.rtl
+Running optimization stage 1 on tspc_dma_chan_ms .......
+Finished optimization stage 1 on tspc_dma_chan_ms (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+Post processing for work.dma_subsys.rtl
+Running optimization stage 1 on dma_subsys .......
+Finished optimization stage 1 on dma_subsys (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block-e.vhd":29:7:29:16|Synthesizing work.uart_block.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-e.vhd":37:7:37:15|Synthesizing work.wb_16550s.rtl.
+@W: CD272 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-a_rtl.vhd":103:7:103:22|Comparison (=) of different length arrays is always false!
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s-e.vhd":27:7:27:17|Synthesizing work.pcat_16550s.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s-e.vhd":25:7:25:15|Synthesizing work.tx_16550s.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_reg_pipeline\vhdl\tspc_reg_pipeline-e.vhd":20:7:20:23|Synthesizing work.tspc_reg_pipeline.rtl.
+Post processing for work.tspc_reg_pipeline.rtl
+Running optimization stage 1 on tspc_reg_pipeline .......
+Finished optimization stage 1 on tspc_reg_pipeline (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_event_latch\vhdl\tspc_event_latch-e.vhd":23:7:23:22|Synthesizing work.tspc_event_latch.rtl.
+Post processing for work.tspc_event_latch.rtl
+Running optimization stage 1 on tspc_event_latch .......
+Finished optimization stage 1 on tspc_event_latch (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":31:7:31:20|Synthesizing work.tspc_fifo_sync.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":29:7:29:24|Synthesizing work.tspc_fifo_sync_mem.rtl.
+Running optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_4 .......
+Finished optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_4 (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+Post processing for work.tspc_fifo_sync_mem.rtl
+Running optimization stage 1 on tspc_fifo_sync_mem .......
+Finished optimization stage 1 on tspc_fifo_sync_mem (CPU Time 0h:00m:00s, Memory Used current: 125MB peak: 126MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":33:7:33:24|Synthesizing work.tspc_fifo_ctl_sync.rtl.
+Post processing for work.tspc_fifo_ctl_sync.rtl
+Running optimization stage 1 on tspc_fifo_ctl_sync .......
+Finished optimization stage 1 on tspc_fifo_ctl_sync (CPU Time 0h:00m:00s, Memory Used current: 126MB peak: 127MB)
+Post processing for work.tspc_fifo_sync.rtl
+Running optimization stage 1 on tspc_fifo_sync .......
+Finished optimization stage 1 on tspc_fifo_sync (CPU Time 0h:00m:00s, Memory Used current: 126MB peak: 127MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core-e.vhd":25:7:25:22|Synthesizing work.tx_ser_8250_core.rtl.
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core-a_rtl.vhd":28:18:28:19|Using onehot encoding for type t_tx_fsm. For example, enumeration tx_idle is mapped to "1000000".
+Post processing for work.tx_ser_8250_core.rtl
+Running optimization stage 1 on tx_ser_8250_core .......
+Finished optimization stage 1 on tx_ser_8250_core (CPU Time 0h:00m:00s, Memory Used current: 126MB peak: 127MB)
+Post processing for work.tx_16550s.rtl
+Running optimization stage 1 on tx_16550s .......
+Finished optimization stage 1 on tx_16550s (CPU Time 0h:00m:00s, Memory Used current: 126MB peak: 127MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s-e.vhd":25:7:25:15|Synthesizing work.rx_16550s.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-e.vhd":21:7:21:18|Synthesizing work.tspc_cdc_ack.rtl.
+Post processing for work.tspc_cdc_ack.rtl
+Running optimization stage 1 on tspc_cdc_ack .......
+Finished optimization stage 1 on tspc_cdc_ack (CPU Time 0h:00m:00s, Memory Used current: 127MB peak: 128MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_reg\vhdl\tspc_cdc_reg-e.vhd":21:7:21:18|Synthesizing work.tspc_cdc_reg.rtl.
+Post processing for work.tspc_cdc_reg.rtl
+Running optimization stage 1 on tspc_cdc_reg .......
+Finished optimization stage 1 on tspc_cdc_reg (CPU Time 0h:00m:00s, Memory Used current: 127MB peak: 128MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd":31:7:31:20|Synthesizing work.tspc_fifo_sync.rtl.
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":29:7:29:24|Synthesizing work.tspc_fifo_sync_mem.rtl.
+Running optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_5 .......
+Finished optimization stage 1 on pmi_ram_dp_work_versa_ecp5_rtl_5 (CPU Time 0h:00m:00s, Memory Used current: 127MB peak: 128MB)
+Post processing for work.tspc_fifo_sync_mem.rtl
+Running optimization stage 1 on tspc_fifo_sync_mem .......
+Finished optimization stage 1 on tspc_fifo_sync_mem (CPU Time 0h:00m:00s, Memory Used current: 127MB peak: 128MB)
+Post processing for work.tspc_fifo_sync.rtl
+Running optimization stage 1 on tspc_fifo_sync .......
+Finished optimization stage 1 on tspc_fifo_sync (CPU Time 0h:00m:00s, Memory Used current: 127MB peak: 128MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-e.vhd":25:7:25:22|Synthesizing work.rx_ser_8250_core.rtl.
+@N: CD231 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-a_rtl.vhd":28:18:28:19|Using onehot encoding for type t_rx_fsm. For example, enumeration rx_idle is mapped to "100000".
+Post processing for work.rx_ser_8250_core.rtl
+Running optimization stage 1 on rx_ser_8250_core .......
+@W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-a_rtl.vhd":309:6:309:7|Pruning register bit 0 of s_rx_shift_reg(11 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on rx_ser_8250_core (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Post processing for work.rx_16550s.rtl
+Running optimization stage 1 on rx_16550s .......
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s-a_rtl.vhd":296:6:296:7|Pruning unused register s_rx_timer_int_1. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on rx_16550s (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-e.vhd":25:7:25:23|Synthesizing work.modem_regs_16550s.rtl.
+@N: CD604 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-a_rtl.vhd":193:12:193:25|OTHERS clause is not synthesized.
+Post processing for work.modem_regs_16550s.rtl
+Running optimization stage 1 on modem_regs_16550s .......
+@W: CL271 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-a_rtl.vhd":285:6:285:7|Pruning unused bits 5 to 4 of s_reg_fcr_4(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-a_rtl.vhd":285:6:285:7|Pruning unused bits 7 to 4 of s_reg_ier_3(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-a_rtl.vhd":285:6:285:7|Pruning unused bits 7 to 5 of s_reg_mcr_3(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on modem_regs_16550s (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Post processing for work.pcat_16550s.rtl
+Running optimization stage 1 on pcat_16550s .......
+Finished optimization stage 1 on pcat_16550s (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Post processing for work.wb_16550s.rtl
+Running optimization stage 1 on wb_16550s .......
+@W: CL271 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-a_rtl.vhd":170:6:170:7|Pruning unused bits 4 to 3 of s_wb_addr_in_3(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-a_rtl.vhd":170:6:170:7|Pruning unused bits 1 to 0 of s_wb_addr_in_3(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on wb_16550s (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Post processing for work.uart_block.rtl
+Running optimization stage 1 on uart_block .......
+Finished optimization stage 1 on uart_block (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\clock_gen\vhdl\clock_gen-e.vhd":4:7:4:15|Synthesizing work.clock_gen.rtl.
+@W: CD272 :"C:\project\PCIe_ECP5_MF\soc\units\clock_gen\vhdl\clock_gen-a_rtl.vhd":85:6:85:24|Comparison (=) of different length arrays is always false!
+Running optimization stage 1 on pll_xclk_base .......
+Finished optimization stage 1 on pll_xclk_base (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Post processing for work.clock_gen.rtl
+Running optimization stage 1 on clock_gen .......
+Finished optimization stage 1 on clock_gen (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\soc\units\adr_decode\vhdl\adr_decode-e.vhd":4:7:4:16|Synthesizing work.adr_decode.rtl.
+Post processing for work.adr_decode.rtl
+Running optimization stage 1 on adr_decode .......
+Finished optimization stage 1 on adr_decode (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+@N: CD630 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top_combo.vhd":4:7:4:25|Synthesizing work.pcie_mfx1_top_combo.rtl.
+Running optimization stage 1 on pcie_refclk .......
+Finished optimization stage 1 on pcie_refclk (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Running optimization stage 1 on pcie_x1_top_phy .......
+Finished optimization stage 1 on pcie_x1_top_phy (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Post processing for work.pcie_mfx1_top_combo.rtl
+Running optimization stage 1 on pcie_mfx1_top_combo .......
+Finished optimization stage 1 on pcie_mfx1_top_combo (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Post processing for work.core_mf8c.rtl
+Running optimization stage 1 on core_mf8c .......
+@W: CL240 :"C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-e.vhd":50:6:50:14|Signal o_uart_tx is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-e.vhd":49:6:49:15|Signal o_uart_rts is floating; a simulation mismatch is possible.
+@W: CL240 :"C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-e.vhd":41:6:41:15|Signal o_gpio_led is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on core_mf8c (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Post processing for work.versa_ecp5.rtl
+Running optimization stage 1 on versa_ecp5 .......
+Finished optimization stage 1 on versa_ecp5 (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Running optimization stage 2 on pcie_x1_top_phy .......
+Finished optimization stage 2 on pcie_x1_top_phy (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Running optimization stage 2 on pcie_refclk .......
+Finished optimization stage 2 on pcie_refclk (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Running optimization stage 2 on pcie_mfx1_top_combo .......
+Finished optimization stage 2 on pcie_mfx1_top_combo (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Running optimization stage 2 on adr_decode .......
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\adr_decode\vhdl\adr_decode-e.vhd":7:6:7:18|Input port bits 5 to 1 of i_dec_bar_hit(5 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\adr_decode\vhdl\adr_decode-e.vhd":6:6:6:14|Input i_dec_adr is unused.
+Finished optimization stage 2 on adr_decode (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Running optimization stage 2 on pll_xclk_base .......
+Finished optimization stage 2 on pll_xclk_base (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Running optimization stage 2 on clock_gen_ECP5UM .......
+Finished optimization stage 2 on clock_gen_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 129MB peak: 130MB)
+Running optimization stage 2 on modem_regs_16550s .......
+Finished optimization stage 2 on modem_regs_16550s (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on rx_ser_8250_core .......
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-a_rtl.vhd":309:6:309:7|Trying to extract state machine for register s_fsm_rx.
+Extracted state machine for register s_fsm_rx
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+Finished optimization stage 2 on rx_ser_8250_core (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_5 .......
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_5 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_fifo_sync_mem_false_16_1_ECP5UM_ANY_1 .......
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
+Finished optimization stage 2 on tspc_fifo_sync_mem_false_16_1_ECP5UM_ANY_1 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_5layer0 .......
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_5layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_cdc_reg_work_versa_ecp5_rtl_2layer0 .......
+Finished optimization stage 2 on tspc_cdc_reg_work_versa_ecp5_rtl_2layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_cdc_ack_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_cdc_ack_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on rx_16550s_false_16_ECP5UM .......
+Finished optimization stage 2 on rx_16550s_false_16_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tx_ser_8250_core .......
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core-a_rtl.vhd":168:6:168:7|Trying to extract state machine for register s_fsm_tx.
+Extracted state machine for register s_fsm_tx
+State machine has 6 reachable states with original encodings of:
+   0000001
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+Finished optimization stage 2 on tx_ser_8250_core (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_fifo_ctl_sync_1_1_1_16_1 .......
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
+Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_1_16_1 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_4 .......
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_4 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_fifo_sync_mem_work_versa_ecp5_rtl_4layer0 .......
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
+Finished optimization stage 2 on tspc_fifo_sync_mem_work_versa_ecp5_rtl_4layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_4layer0 .......
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_4layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_event_latch .......
+Finished optimization stage 2 on tspc_event_latch (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_reg_pipeline_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_reg_pipeline_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tx_16550s_false_16_ECP5UM .......
+Finished optimization stage 2 on tx_16550s_false_16_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on pcat_16550s_false_false_16_16_ECP5UM .......
+Finished optimization stage 2 on pcat_16550s_false_false_16_16_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on wb_16550s_work_versa_ecp5_rtl_0layer0 .......
+@W: CL279 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-a_rtl.vhd":170:6:170:7|Pruning register bits 31 to 8 of s_wb_rdat_out(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-e.vhd":56:6:56:13|Input port bits 7 to 3 of i_wb_adr(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-e.vhd":56:6:56:13|Input port bits 1 to 0 of i_wb_adr(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on wb_16550s_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on uart_block_5_ECP5UM .......
+Finished optimization stage 2 on uart_block_5_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_3 .......
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_3 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_fifo_sync_mem_false_512_2_ECP5UM_ANY_1 .......
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
+Finished optimization stage 2 on tspc_fifo_sync_mem_false_512_2_ECP5UM_ANY_1 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_1layer0 .......
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 132MB)
+Running optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_512_1 .......
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":298:9:298:10|Trying to extract state machine for register s_egr_pipe.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
+Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_512_1 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 136MB)
+Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_2 .......
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_2 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 136MB)
+Running optimization stage 2 on tspc_fifo_sync_mem_work_versa_ecp5_rtl_0layer0 .......
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
+Finished optimization stage 2 on tspc_fifo_sync_mem_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 136MB)
+Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_2layer0 .......
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_2layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 136MB)
+Running optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_4_1 .......
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":298:9:298:10|Trying to extract state machine for register s_egr_pipe.
+Extracted state machine for register s_egr_pipe
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
+Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_4_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 136MB)
+Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_1 .......
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 136MB)
+Running optimization stage 2 on tspc_fifo_sync_mem_false_4_2_ECP5UM_ANY_1 .......
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
+Finished optimization stage 2 on tspc_fifo_sync_mem_false_4_2_ECP5UM_ANY_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 136MB)
+Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_3layer0 .......
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_3layer0 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 136MB)
+Running optimization stage 2 on tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0 .......
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_period_count(31) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning register bit 31 of s_int_period_count(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_period_count(30) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning register bit 30 of s_int_period_count(30 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_period_count(29) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning register bit 29 of s_int_period_count(29 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Trying to extract state machine for register s_wbm_cti.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Trying to extract state machine for register s_dma_chan_fsm.
+Extracted state machine for register s_dma_chan_fsm
+State machine has 21 reachable states with original encodings of:
+   0000000000000000000001
+   0000000000000000000010
+   0000000000000000000100
+   0000000000000000001000
+   0000000000000000010000
+   0000000000000000100000
+   0000000000000001000000
+   0000000000000010000000
+   0000000000000100000000
+   0000000000001000000000
+   0000000000010000000000
+   0000000000100000000000
+   0000000001000000000000
+   0000000010000000000000
+   0000000100000000000000
+   0000001000000000000000
+   0000010000000000000000
+   0000100000000000000000
+   0001000000000000000000
+   0010000000000000000000
+   1000000000000000000000
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_period_count(28) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning register bit 28 of s_int_period_count(28 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd":43:6:43:21|Input i_dma_int_period is unused.
+Finished optimization stage 2 on tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 158MB)
+Running optimization stage 2 on tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_1layer0 .......
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_period_count(31) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning register bit 31 of s_int_period_count(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_period_count(30) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning register bit 30 of s_int_period_count(30 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_period_count(29) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning register bit 29 of s_int_period_count(29 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Trying to extract state machine for register s_wbm_cti.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Trying to extract state machine for register s_dma_chan_fsm.
+Extracted state machine for register s_dma_chan_fsm
+State machine has 18 reachable states with original encodings of:
+   0000000000000000000001
+   0000000000000000000010
+   0000000000000000000100
+   0000000000000000001000
+   0000000000000000010000
+   0000000000000000100000
+   0000000000000001000000
+   0000000000001000000000
+   0000000000010000000000
+   0000000000100000000000
+   0000000001000000000000
+   0000000010000000000000
+   0000000100000000000000
+   0000001000000000000000
+   0000010000000000000000
+   0000100000000000000000
+   0010000000000000000000
+   0100000000000000000000
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_seq_last to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(0) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(5) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(6) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(7) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(8) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(9) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(10) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(11) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(12) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(13) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(16) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(17) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(18) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(19) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(20) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(21) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(22) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_xfer_count(23) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_wr to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_seq_done_ev to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_xfer_ev to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_slv_run to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_period_count(28) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning register bit 28 of s_int_period_count(28 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning unused register s_dma_xfer_int_done. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning unused register s_slv_run. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning unused register s_slv_xfer_count(23 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning unused register s_slv_seq_last. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning unused register s_slv_wr. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning unused register s_int_xfer_ev. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning unused register s_seq_done_ev. Make sure that there are no unused intermediate registers.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd":43:6:43:21|Input i_dma_int_period is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd":50:6:50:24|Input i_dma_xfer_int_done is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd":57:6:57:21|Input i_slv_lseq_start is unused.
+Finished optimization stage 2 on tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 158MB)
+Running optimization stage 2 on tspc_dma_chan_ms_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_dma_chan_ms_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 158MB)
+Running optimization stage 2 on dma_subsys_regs .......
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-a_rtl.vhd":108:6:108:7|Trying to extract state machine for register s_regdma_ladr.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-a_rtl.vhd":108:6:108:7|Trying to extract state machine for register s_regdma_hadr_low.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-a_rtl.vhd":108:6:108:7|Trying to extract state machine for register s_regdma_xfer_size.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-a_rtl.vhd":108:6:108:7|Trying to extract state machine for register s_regdma_hadr_high.
+@W: CL247 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-e.vhd":33:6:33:14|Input port bit 2 of i_dma_sta(4 downto 0) is unused 
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-e.vhd":34:6:34:19|Input port bits 31 to 23 of i_dma_xfer_pos(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-e.vhd":35:6:35:13|Input port bits 15 to 8 of i_wb_adr(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-e.vhd":35:6:35:13|Input port bits 1 to 0 of i_wb_adr(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on dma_subsys_regs (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Running optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_1layer0 .......
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":170:6:170:7|Trying to extract state machine for register s_wb_fsm.
+Extracted state machine for register s_wb_fsm
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":45:6:45:13|Input port bits 31 to 16 of i_wb_adr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":45:6:45:13|Input port bits 1 to 0 of i_wb_adr(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":42:6:42:14|Input i_ram_err is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":43:6:43:14|Input i_ram_rty is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":44:6:44:15|Input i_ram_wait is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":46:6:46:13|Input i_wb_bte is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":50:6:50:14|Input i_wb_lock is unused.
+Finished optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Running optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_1 .......
+Finished optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Running optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_1layer0 .......
+Finished optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Running optimization stage 2 on dma_subsys_ECP5UM .......
+Finished optimization stage 2 on dma_subsys_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Running optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_0layer0 .......
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":170:6:170:7|Trying to extract state machine for register s_wb_fsm.
+Extracted state machine for register s_wb_fsm
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":45:6:45:13|Input port bits 15 to 14 of i_wb_adr(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":45:6:45:13|Input port bits 1 to 0 of i_wb_adr(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":42:6:42:14|Input i_ram_err is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":43:6:43:14|Input i_ram_rty is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":44:6:44:15|Input i_ram_wait is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":46:6:46:13|Input i_wb_bte is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":50:6:50:14|Input i_wb_lock is unused.
+Finished optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Running optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Running optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Running optimization stage 2 on tspc_cfi_spim_pw2n_work_versa_ecp5_rtl_0layer0 .......
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-a_rtl.vhd":197:6:197:7|Trying to extract state machine for register s_cfi_fsm.
+Extracted state machine for register s_cfi_fsm
+State machine has 12 reachable states with original encodings of:
+   0000000000001
+   0000000000010
+   0000000000100
+   0000000001000
+   0000000100000
+   0000001000000
+   0000010000000
+   0000100000000
+   0001000000000
+   0010000000000
+   0100000000000
+   1000000000000
+Finished optimization stage 2 on tspc_cfi_spim_pw2n_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Running optimization stage 2 on jxb3_regs_ctrl .......
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Trying to extract state machine for register s_fsm_buf_wr.
+Extracted state machine for register s_fsm_buf_wr
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Trying to extract state machine for register s_fsm_buf_rd.
+Extracted state machine for register s_fsm_buf_rd
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-e.vhd":53:6:53:13|Input port bits 1 to 0 of i_wb_adr(11 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-e.vhd":39:6:39:14|Input i_buf_irq is unused.
+Finished optimization stage 2 on jxb3_regs_ctrl (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 158MB)
+Running optimization stage 2 on jxb3_spi_dma_tgt_24 .......
+@N: CL189 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":416:6:416:7|Register bit s_phase_count(2) is always 0.
+@W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":416:6:416:7|Pruning register bit 2 of s_phase_count(2 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":416:6:416:7|Trying to extract state machine for register s_fsm_dma_wr.
+Extracted state machine for register s_fsm_dma_wr
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":416:6:416:7|Trying to extract state machine for register s_fsm_dma_rd.
+Extracted state machine for register s_fsm_dma_rd
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":416:6:416:7|Trying to extract state machine for register s_fsm_buf_wr.
+Extracted state machine for register s_fsm_buf_wr
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd":416:6:416:7|Trying to extract state machine for register s_fsm_buf_rd.
+Extracted state machine for register s_fsm_buf_rd
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+@W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-e.vhd":39:6:39:14|Input port bits 9 to 8 of i_buf_din(9 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-e.vhd":43:6:43:18|Input i_buf_wr_last is unused.
+Finished optimization stage 2 on jxb3_spi_dma_tgt_24 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 158MB)
+Running optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_2048_1 .......
+@N: CL201 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":298:9:298:10|Trying to extract state machine for register s_egr_pipe.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
+Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_2048_1 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_0 .......
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+Running optimization stage 2 on tspc_fifo_sync_mem_false_2048_2_ECP5UM_ANY_1 .......
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
+Finished optimization stage 2 on tspc_fifo_sync_mem_false_2048_2_ECP5UM_ANY_1 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+Running optimization stage 2 on tspc_cdc_reg_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_cdc_reg_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+Running optimization stage 2 on tspc_cdc_reg_work_versa_ecp5_rtl_1layer0 .......
+Finished optimization stage 2 on tspc_cdc_reg_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+Running optimization stage 2 on tspc_cdc_vec_work_versa_ecp5_rtl_1layer0 .......
+Finished optimization stage 2 on tspc_cdc_vec_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+Running optimization stage 2 on tspc_cdc_vec_work_versa_ecp5_rtl_2layer0 .......
+Finished optimization stage 2 on tspc_cdc_vec_work_versa_ecp5_rtl_2layer0 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+Running optimization stage 2 on tspc_wb_cfi_jxb3_work_versa_ecp5_rtl_0layer0 .......
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3-e.vhd":54:6:54:14|Input i_sys_rdy is unused.
+Finished optimization stage 2 on tspc_wb_cfi_jxb3_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+Running optimization stage 2 on core_mf8c_5_ECP5UM .......
+@N: CL159 :"C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-e.vhd":29:6:29:15|Input i_gpio_sw4 is unused.
+Finished optimization stage 2 on core_mf8c_5_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+Running optimization stage 2 on tspc_cdc_vec_work_versa_ecp5_rtl_0layer0 .......
+Finished optimization stage 2 on tspc_cdc_vec_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+Running optimization stage 2 on versa_ecp5 .......
+Finished optimization stage 2 on versa_ecp5 (CPU Time 0h:00m:00s, Memory Used current: 143MB peak: 158MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\layer0.rt.csv
+

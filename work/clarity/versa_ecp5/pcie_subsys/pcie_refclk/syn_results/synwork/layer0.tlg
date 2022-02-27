@@ -1,0 +1,16 @@
+Selecting top level module pcie_refclk
+@N: CG364 :"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\ecp5um.v":1751:7:1751:13|Synthesizing module EXTREFB in library work.
+Running optimization stage 1 on EXTREFB .......
+Finished optimization stage 1 on EXTREFB (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_refclk\pcie_refclk.v":8:7:8:17|Synthesizing module pcie_refclk in library work.
+Running optimization stage 1 on pcie_refclk .......
+Finished optimization stage 1 on pcie_refclk (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on pcie_refclk .......
+Finished optimization stage 2 on pcie_refclk (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 97MB)
+Running optimization stage 2 on EXTREFB .......
+Finished optimization stage 2 on EXTREFB (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 97MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_refclk\syn_results\synwork\layer0.rt.csv
+

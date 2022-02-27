@@ -1,0 +1,448 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.rx_rsl|-mpparams|C:\\project\\PCIe_ECP5_MF\\work\\diamond\\versa_ecp5\\mf8c\\synwork\\_mh_params|-layerid|2|-orig_srs|C:\\project\\PCIe_ECP5_MF\\work\\diamond\\versa_ecp5\\mf8c\\synwork\\versa_ecp5_mf8c_comp.srs|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\bin64\\c_vhdl.exe":1640161399
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\location.map":1640160581
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\std.vhd":1640160581
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1640160580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\std1164.vhd":1640160581
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\std_textio.vhd":1640160581
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\numeric.vhd":1640161612
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\umr_capim.vhd":1640160580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\arith.vhd":1640160580
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd2008\\unsigned.vhd":1640160581
+#CUR:"C:\\lscc\\diamond\\3.12\\synpbase\\lib\\vhd\\hyperents.vhd":1640160580
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\rx_rsl\\vhdl\\rx_rsl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\work\\clarity\\versa_ecp5\\pcie_subsys\\pcie_mfx1_top\\pcie_mfx1_top_combo.vhd":1645971620
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\packages\\tspc_utils\\vhdl\\tspc_utils-p.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\top\\core_mf8c\\vhdl\\core_mf8c_comps-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\packages\\tspc_wbone_types\\vhdl\\tspc_wbone_types-p.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\uart_block\\vhdl\\uart_block_comps-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\units\\tspc_dma_chan_ms\\top\\vhdl\\tspc_dma_chan_ms_types-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\units\\tspc_cfi_spim_pw2n\\vhdl\\tspc_cfi_spim_pw2n_types-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\pcat_16550s\\vhdl\\pcat_16550s_comps-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\modem_regs_16550s\\vhdl\\modem_regs_16550s_comps-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\tx_ser_8250\\vhdl\\tx_ser_8250_core_types-p.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\rx_ser_8250\\vhdl\\rx_ser_8250_core_types-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_cdc_vec\\vhdl\\tspc_cdc_vec-e.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\adr_decode\\vhdl\\adr_decode-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\clock_gen\\vhdl\\clock_gen-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tsls_wb_bmram\\units\\tspc_wb_ebr_ctl\\vhdl\\tspc_wb_ebr_ctl-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tsls_wb_bmram\\top\\vhdl\\tsls_wb_bmram-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\units\\tspc_cfi_spim_pw2n\\vhdl\\tspc_cfi_spim_pw2n-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_cdc_reg\\vhdl\\tspc_cdc_reg-e.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\units\\tspc_dma_chan_ms\\units\\vhdl\\tspc_dma_chan_ms_ctl-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_fifo_sync\\tech\\vhdl\\tspc_fifo_sync_mem-e.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\top\\vhdl\\tspc_wb_cfi_jxb3-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_cdc_ack\\vhdl\\tspc_cdc_ack-e.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\modem_regs_16550s\\vhdl\\modem_regs_16550s-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\rx_ser_8250\\vhdl\\rx_ser_8250_core-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\rx_16550s\\vhdl\\rx_16550s-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\tx_ser_8250\\vhdl\\tx_ser_8250_core-e.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_event_latch\\vhdl\\tspc_event_latch-e.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_reg_pipeline\\vhdl\\tspc_reg_pipeline-e.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\tx_16550s\\vhdl\\tx_16550s-e.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\pcat_16550s\\vhdl\\pcat_16550s-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\top\\vhdl\\wb_16550s-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\uart_block\\vhdl\\uart_block-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\top\\vhdl\\dma_subsys-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\top\\core_mf8c\\vhdl\\core_mf8c-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\top\\core_mf8c\\vhdl\\core_mf8c_exports-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\top\\versa_ecp5\\vhdl\\versa_ecp5_comps-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\top\\versa_ecp5\\vhdl\\versa_ecp5-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\packages\\tspc_utils\\vhdl\\tspc_utils-pb.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\packages\\tspc_wbone_types\\vhdl\\tspc_wbone_types-pb.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\units\\tspc_dma_chan_ms\\top\\vhdl\\tspc_dma_chan_ms_types-pb.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\units\\others\\vhdl\\jxb3_cfi_reg_types-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\units\\others\\vhdl\\jxb3_cfi_reg_types-pb.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\units\\tspc_dma_chan_ms\\top\\vhdl\\tspc_dma_chan_ms_comps-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_fifo_sync\\top\\vhdl\\tspc_fifo_sync_comps-p.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\rx_16550s\\vhdl\\rx_16550s_comps-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\tx_16550s\\vhdl\\tx_16550s_comps-p.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\rx_ser_8250\\vhdl\\rx_ser_8250_core_types-pb.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\top\\vhdl\\dma_subsys_comps-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\units\\dma_subsys_regs\\vhdl\\dma_subsys_regs_types-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\units\\dma_subsys_regs\\vhdl\\dma_subsys_regs_types-pb.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\top\\vhdl\\tspc_wb_cfi_jxb3_comps-p.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_cdc_vec\\vhdl\\tspc_cdc_vec-a_rtl.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\adr_decode\\vhdl\\adr_decode-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\clock_gen\\vhdl\\clock_gen-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\units\\dma_subsys_regs\\vhdl\\dma_subsys_regs-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\units\\dma_subsys_regs\\vhdl\\dma_subsys_regs-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tsls_wb_bmram\\units\\tspc_wb_ebr_ctl\\vhdl\\tspc_wb_ebr_ctl-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tsls_wb_bmram\\top\\vhdl\\tsls_wb_bmram-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\units\\tspc_cfi_spim_pw2n\\vhdl\\tspc_cfi_spim_pw2n-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\units\\others\\vhdl\\jxb3_regs_ctrl-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\units\\others\\vhdl\\jxb3_regs_ctrl-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\units\\others\\vhdl\\jxb3_spi_dma_tgt-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\units\\others\\vhdl\\jxb3_spi_dma_tgt-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_cdc_reg\\vhdl\\tspc_cdc_reg-a_rtl.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\units\\tspc_dma_chan_ms\\units\\vhdl\\tspc_dma_chan_ms_ctl-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_fifo_ctl_sync\\vhdl\\tspc_fifo_ctl_sync-e.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_fifo_ctl_sync\\vhdl\\tspc_fifo_ctl_sync-a_rtl.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_fifo_sync\\tech\\vhdl\\tspc_fifo_sync_mem-a_rtl.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_fifo_sync\\top\\vhdl\\tspc_fifo_sync-e.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_fifo_sync\\top\\vhdl\\tspc_fifo_sync-a_rtl.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\tspc_wb_cfi_jxb3\\top\\vhdl\\tspc_wb_cfi_jxb3-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_cdc_ack\\vhdl\\tspc_cdc_ack-a_rtl.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\modem_regs_16550s\\vhdl\\modem_regs_16550s-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\rx_ser_8250\\vhdl\\rx_ser_8250_core-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\rx_16550s\\vhdl\\rx_16550s-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\tx_ser_8250\\vhdl\\tx_ser_8250_core-a_rtl.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_event_latch\\vhdl\\tspc_event_latch-a_rtl.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\common\\units\\tspc_reg_pipeline\\vhdl\\tspc_reg_pipeline-a_rtl.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\tx_16550s\\vhdl\\tx_16550s-a_rtl.vhd":1645961365
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\units\\pcat_16550s\\vhdl\\pcat_16550s-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\wb_16550s\\top\\vhdl\\wb_16550s-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\uart_block\\vhdl\\uart_block-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\units\\tspc_dma_chan_ms\\top\\vhdl\\tspc_dma_chan_ms-e.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\units\\tspc_dma_chan_ms\\top\\vhdl\\tspc_dma_chan_ms-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\units\\dma_subsys\\top\\vhdl\\dma_subsys-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\top\\core_mf8c\\vhdl\\core_mf8c-a_rtl.vhd":1645961364
+#CUR:"C:\\project\\PCIe_ECP5_MF\\soc\\top\\versa_ecp5\\vhdl\\versa_ecp5-a_rtl.vhd":1645961364
+0 "C:\project\PCIe_ECP5_MF\soc\units\rx_rsl\vhdl\rx_rsl.vhd" vhdl
+1 "C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top_combo.vhd" vhdl
+2 "C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_utils\vhdl\tspc_utils-p.vhd" vhdl
+3 "C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c_comps-p.vhd" vhdl
+4 "C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-p.vhd" vhdl
+5 "C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block_comps-p.vhd" vhdl
+6 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_types-p.vhd" vhdl
+7 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n_types-p.vhd" vhdl
+8 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s_comps-p.vhd" vhdl
+9 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s_comps-p.vhd" vhdl
+10 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core_types-p.vhd" vhdl
+11 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core_types-p.vhd" vhdl
+12 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-e.vhd" vhdl
+13 "C:\project\PCIe_ECP5_MF\soc\units\adr_decode\vhdl\adr_decode-e.vhd" vhdl
+14 "C:\project\PCIe_ECP5_MF\soc\units\clock_gen\vhdl\clock_gen-e.vhd" vhdl
+15 "C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd" vhdl
+16 "C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd" vhdl
+17 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-e.vhd" vhdl
+18 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_reg\vhdl\tspc_cdc_reg-e.vhd" vhdl
+19 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd" vhdl
+20 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd" vhdl
+21 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3-e.vhd" vhdl
+22 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-e.vhd" vhdl
+23 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-e.vhd" vhdl
+24 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-e.vhd" vhdl
+25 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s-e.vhd" vhdl
+26 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core-e.vhd" vhdl
+27 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_event_latch\vhdl\tspc_event_latch-e.vhd" vhdl
+28 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_reg_pipeline\vhdl\tspc_reg_pipeline-e.vhd" vhdl
+29 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s-e.vhd" vhdl
+30 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s-e.vhd" vhdl
+31 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-e.vhd" vhdl
+32 "C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block-e.vhd" vhdl
+33 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys-e.vhd" vhdl
+34 "C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-e.vhd" vhdl
+35 "C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c_exports-p.vhd" vhdl
+36 "C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5_comps-p.vhd" vhdl
+37 "C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd" vhdl
+38 "C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_utils\vhdl\tspc_utils-pb.vhd" vhdl
+39 "C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-pb.vhd" vhdl
+40 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_types-pb.vhd" vhdl
+41 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_cfi_reg_types-p.vhd" vhdl
+42 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_cfi_reg_types-pb.vhd" vhdl
+43 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_comps-p.vhd" vhdl
+44 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync_comps-p.vhd" vhdl
+45 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s_comps-p.vhd" vhdl
+46 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s_comps-p.vhd" vhdl
+47 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core_types-pb.vhd" vhdl
+48 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys_comps-p.vhd" vhdl
+49 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs_types-p.vhd" vhdl
+50 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs_types-pb.vhd" vhdl
+51 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3_comps-p.vhd" vhdl
+52 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-a_rtl.vhd" vhdl
+53 "C:\project\PCIe_ECP5_MF\soc\units\adr_decode\vhdl\adr_decode-a_rtl.vhd" vhdl
+54 "C:\project\PCIe_ECP5_MF\soc\units\clock_gen\vhdl\clock_gen-a_rtl.vhd" vhdl
+55 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-e.vhd" vhdl
+56 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-a_rtl.vhd" vhdl
+57 "C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd" vhdl
+58 "C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd" vhdl
+59 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-a_rtl.vhd" vhdl
+60 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-e.vhd" vhdl
+61 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd" vhdl
+62 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-e.vhd" vhdl
+63 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd" vhdl
+64 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_reg\vhdl\tspc_cdc_reg-a_rtl.vhd" vhdl
+65 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd" vhdl
+66 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd" vhdl
+67 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd" vhdl
+68 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd" vhdl
+69 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd" vhdl
+70 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-a_rtl.vhd" vhdl
+71 "C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3-a_rtl.vhd" vhdl
+72 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd" vhdl
+73 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-a_rtl.vhd" vhdl
+74 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-a_rtl.vhd" vhdl
+75 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s-a_rtl.vhd" vhdl
+76 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core-a_rtl.vhd" vhdl
+77 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_event_latch\vhdl\tspc_event_latch-a_rtl.vhd" vhdl
+78 "C:\project\PCIe_ECP5_MF\soc\common\units\tspc_reg_pipeline\vhdl\tspc_reg_pipeline-a_rtl.vhd" vhdl
+79 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s-a_rtl.vhd" vhdl
+80 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s-a_rtl.vhd" vhdl
+81 "C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-a_rtl.vhd" vhdl
+82 "C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block-a_rtl.vhd" vhdl
+83 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-e.vhd" vhdl
+84 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd" vhdl
+85 "C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys-a_rtl.vhd" vhdl
+86 "C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-a_rtl.vhd" vhdl
+87 "C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-a_rtl.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 -1
+14 -1
+15 -1
+16 -1
+17 -1
+18 -1
+19 -1
+20 -1
+21 -1
+22 -1
+23 -1
+24 -1
+25 -1
+26 -1
+27 -1
+28 -1
+29 -1
+30 -1
+31 -1
+32 -1
+33 -1
+34 -1
+35 -1
+36 -1
+37 -1
+38 2 
+39 4 
+40 6 
+41 38 2 
+42 41 38 2 
+43 40 6 38 2 
+44 38 2 
+45 38 2 
+46 38 2 
+47 11 
+48 40 6 
+49 40 6 
+50 49 38 2 
+51 42 41 38 2 39 4 
+52 12 
+53 13 
+54 14 
+55 40 6 
+56 55 50 49 40 6 38 2 
+57 15 38 2 39 4 
+58 16 15 38 2 
+59 17 7 38 2 
+60 42 41 
+61 60 42 41 38 2 
+62 39 4 
+63 62 42 41 38 2 
+64 18 38 2 
+65 19 38 2 39 4 
+66 38 2 
+67 66 
+68 20 
+69 38 2 
+70 69 66 20 44 
+71 21 17 60 62 69 18 12 51 42 41 38 2 
+72 22 38 2 
+73 23 22 9 38 2 
+74 24 47 11 38 2 
+75 25 24 69 18 22 45 38 2 
+76 26 10 38 2 
+77 27 
+78 28 
+79 29 26 69 18 27 28 46 10 38 2 
+80 30 23 25 29 8 
+81 31 30 38 2 
+82 32 31 38 2 5 
+83 40 6 
+84 83 69 19 43 40 6 38 2 
+85 33 83 55 16 48 50 49 40 6 
+86 34 1 13 14 32 33 16 21 3 38 2 39 4 
+87 37 34 12 35 36 38 2 
+
+# Dependency Lists (Users Of)
+0 -1
+1 86 
+2 87 86 84 82 81 79 76 75 74 73 72 71 69 66 65 64 63 61 59 58 57 56 51 50 46 45 44 43 42 41 38 
+3 86 
+4 86 65 62 57 51 39 
+5 82 
+6 85 84 83 56 55 49 48 43 40 
+7 59 
+8 80 
+9 73 
+10 79 76 
+11 74 47 
+12 87 71 52 
+13 86 53 
+14 86 54 
+15 58 57 
+16 86 85 58 
+17 71 59 
+18 79 75 71 64 
+19 84 65 
+20 70 68 
+21 86 71 
+22 75 73 72 
+23 80 73 
+24 75 74 
+25 80 75 
+26 79 76 
+27 79 77 
+28 79 78 
+29 80 79 
+30 81 80 
+31 82 81 
+32 86 82 
+33 86 85 
+34 87 86 
+35 87 
+36 87 
+37 87 
+38 87 86 84 82 81 79 76 75 74 73 72 71 69 66 65 64 63 61 59 58 57 56 51 50 46 45 44 43 42 41 
+39 86 65 62 57 51 
+40 85 84 83 56 55 49 48 43 
+41 71 63 61 60 51 42 
+42 71 63 61 60 51 
+43 84 
+44 70 
+45 75 
+46 79 
+47 74 
+48 85 
+49 85 56 50 
+50 85 56 
+51 71 
+52 -1
+53 -1
+54 -1
+55 85 56 
+56 -1
+57 -1
+58 -1
+59 -1
+60 71 61 
+61 -1
+62 71 63 
+63 -1
+64 -1
+65 -1
+66 70 67 
+67 -1
+68 -1
+69 84 79 75 71 70 
+70 -1
+71 -1
+72 -1
+73 -1
+74 -1
+75 -1
+76 -1
+77 -1
+78 -1
+79 -1
+80 -1
+81 -1
+82 -1
+83 85 84 
+84 -1
+85 -1
+86 -1
+87 -1
+
+# Design Unit to File Association
+arch work rx_rsl rx_rsl_arc 0
+module work rx_rsl 0
+arch work pcie_mfx1_top_combo rtl 1
+module work pcie_mfx1_top_combo 1
+module work tspc_cdc_vec 12
+module work adr_decode 13
+module work clock_gen 14
+module work tspc_wb_ebr_ctl 15
+module work tsls_wb_bmram 16
+module work tspc_cfi_spim_pw2n 17
+module work tspc_cdc_reg 18
+module work tspc_dma_chan_ms_ctl 19
+module work tspc_fifo_sync_mem 20
+module work tspc_wb_cfi_jxb3 21
+module work tspc_cdc_ack 22
+module work modem_regs_16550s 23
+module work rx_ser_8250_core 24
+module work rx_16550s 25
+module work tx_ser_8250_core 26
+module work tspc_event_latch 27
+module work tspc_reg_pipeline 28
+module work tx_16550s 29
+module work pcat_16550s 30
+module work wb_16550s 31
+module work uart_block 32
+module work dma_subsys 33
+module work core_mf8c 34
+module work versa_ecp5 37
+arch work tspc_cdc_vec rtl 52
+arch work adr_decode rtl 53
+arch work clock_gen rtl 54
+module work dma_subsys_regs 55
+arch work dma_subsys_regs rtl 56
+arch work tspc_wb_ebr_ctl rtl 57
+arch work tsls_wb_bmram rtl 58
+arch work tspc_cfi_spim_pw2n rtl 59
+module work jxb3_regs_ctrl 60
+arch work jxb3_regs_ctrl rtl 61
+module work jxb3_spi_dma_tgt 62
+arch work jxb3_spi_dma_tgt rtl 63
+arch work tspc_cdc_reg rtl 64
+arch work tspc_dma_chan_ms_ctl rtl 65
+module work tspc_fifo_ctl_sync 66
+arch work tspc_fifo_ctl_sync rtl 67
+arch work tspc_fifo_sync_mem rtl 68
+module work tspc_fifo_sync 69
+arch work tspc_fifo_sync rtl 70
+arch work tspc_wb_cfi_jxb3 rtl 71
+arch work tspc_cdc_ack rtl 72
+arch work modem_regs_16550s rtl 73
+arch work rx_ser_8250_core rtl 74
+arch work rx_16550s rtl 75
+arch work tx_ser_8250_core rtl 76
+arch work tspc_event_latch rtl 77
+arch work tspc_reg_pipeline rtl 78
+arch work tx_16550s rtl 79
+arch work pcat_16550s rtl 80
+arch work wb_16550s rtl 81
+arch work uart_block rtl 82
+module work tspc_dma_chan_ms 83
+arch work tspc_dma_chan_ms rtl 84
+arch work dma_subsys rtl 85
+arch work core_mf8c rtl 86
+arch work versa_ecp5 rtl 87
+
+# Unbound Instances to File Association
+inst work pcie_mfx1_top_combo pcie_mfx1_top 1
+inst work pcie_mfx1_top_combo pcie_refclk 1
+inst work pcie_mfx1_top_combo pcie_x1_top_phy 1
+inst work pcie_mfx1_top_combo pcie_x1_top_core 1
+inst work clock_gen pll_xclk_base 54
+inst work clock_gen pll_xclk_e3 54
+inst work tsls_wb_bmram pmi_ram_dp_true_be 58
+inst work tspc_fifo_sync_mem pmi_ram_dp 68
+inst work tspc_fifo_sync_mem pmi_distributed_dpram 68
+inst work core_mf8c pciemf_subsys 86
+inst work versa_ecp5 usrmclk 87
