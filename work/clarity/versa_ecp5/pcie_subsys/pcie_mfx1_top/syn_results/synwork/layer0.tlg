@@ -1,0 +1,17 @@
+@N: CD231 :"C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top.vhd":3:7:3:19|Synthesizing work.pcie_mfx1_top.rtl.
+@W: CD326 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top.vhd":644:3:644:14|Port ox_ipx_tx_dwen of entity work.pcie_mfdev_subsys_work_pcie_mfx1_top_rtl_0 is unconnected. If a port needs to remain unconnected, use the keyword open.
+Running optimization stage 1 on pcie_mfdev_subsys_work_pcie_mfx1_top_rtl_0 .......
+Finished optimization stage 1 on pcie_mfdev_subsys_work_pcie_mfx1_top_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Post processing for work.pcie_mfx1_top.rtl
+Running optimization stage 1 on pcie_mfx1_top .......
+Finished optimization stage 1 on pcie_mfx1_top (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on pcie_mfdev_subsys_work_pcie_mfx1_top_rtl_0 .......
+Finished optimization stage 2 on pcie_mfdev_subsys_work_pcie_mfx1_top_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 97MB)
+Running optimization stage 2 on pcie_mfx1_top .......
+Finished optimization stage 2 on pcie_mfx1_top (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 97MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\syn_results\synwork\layer0.rt.csv
+

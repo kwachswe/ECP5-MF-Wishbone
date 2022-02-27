@@ -1,0 +1,10 @@
+soc/units/rx_rsl/vhdl/rx_rsl.vhd
+work/clarity/versa_ecp5/pcie_subsys/pcie_subsys.sbx
+work/clarity/versa_ecp5/xclk_subsys/xclk_subsys.sbx
+
+include core_mf8c_files.lst
+
+soc/top/core_mf8c/vhdl/core_mf8c_exports-p.vhd
+soc/top/versa_ecp5/vhdl/versa_ecp5_comps-p.vhd
+soc/top/versa_ecp5/vhdl/versa_ecp5-e.vhd
+soc/top/versa_ecp5/vhdl/versa_ecp5-a_rtl.vhd

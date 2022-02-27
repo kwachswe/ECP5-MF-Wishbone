@@ -1,0 +1,157 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top.vhd":3:7:3:19|Top entity is set to pcie_mfx1_top.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\ecp5um.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top.vhd'.
+@N: CD231 :"C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N:"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top.vhd":3:7:3:19|Top entity is set to pcie_mfx1_top.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\ecp5um.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top.vhd'.
+@N: CD231 :"C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top.vhd":3:7:3:19|Synthesizing work.pcie_mfx1_top.rtl.
+@N: CG364 :"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v":295:7:295:16|Synthesizing module pmi_ram_dp in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":65:7:65:39|Synthesizing module I6B46C5BDF6C2841AE2EEF22D18B3C8B9 in library work.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":131:86:131:118|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":135:48:135:80|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":139:45:139:77|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":144:48:144:80|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":148:45:148:77|Removing redundant assignment.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":465:9:465:41|Synthesizing module IA68D2B0762B11205E05F2AB6538CBB65 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":321:9:321:41|Synthesizing module I792C47F7E7D7705A2329EEB04CA92E91 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2193:9:2193:41|Synthesizing module IC3C2C92E294852CA4AE110FD59776962 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2128:9:2128:41|Synthesizing module ID6D6E4DEEE2F225D2FE2E68AEDBFADC7 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1951:9:1951:41|Synthesizing module IF9CF184FC93B215506F993588C9E7793 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1951:9:1951:41|Synthesizing module IF9CF184FC93B215506F993588C9E7793 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2030:9:2030:41|Synthesizing module IDBAB269DB7AFDA96620B9B09A1C1D253 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2030:9:2030:41|Synthesizing module IDBAB269DB7AFDA96620B9B09A1C1D253 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2070:9:2070:41|Synthesizing module I7649039BBE19689793FEE4FADDDEF1E8 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2562:8:2562:40|Synthesizing module IF44E5E7AB65AFFA1AF3DA949DB91C839 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2589:8:2589:40|Synthesizing module IE63C8C66EC36AC972570F7B8665A4225 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2623:9:2623:41|Synthesizing module I2296FC491415818D18357D6C2D700C14 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2396:8:2396:40|Synthesizing module IB692DAE41499E4B01D446B8B28C804EB in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2775:9:2775:41|Synthesizing module IF8888DF840520FCED3157D151D128B3B in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2313:9:2313:41|Synthesizing module IE37A0AF0C4EF574205CEC4FFC0E18B72 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":212:7:212:39|Synthesizing module IF50ADBFC5F4E76B680AD98E97599279A in library work.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":255:9:255:41|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":258:9:258:41|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":263:9:263:41|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":267:7:267:39|Removing redundant assignment.
+@N: CG364 :"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v":295:7:295:16|Synthesizing module pmi_ram_dp in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":277:7:277:39|Synthesizing module IF4FD65273243DC47A72869EEEA639DCD in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2366:8:2366:40|Synthesizing module IFF5E0986AB6F727F3EEDED75702CE45A in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2889:9:2889:41|Synthesizing module IAC6C4C771C836211892F0FD3F47BC076 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2193:9:2193:41|Synthesizing module IC3C2C92E294852CA4AE110FD59776962 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2128:9:2128:41|Synthesizing module ID6D6E4DEEE2F225D2FE2E68AEDBFADC7 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2623:9:2623:41|Synthesizing module I2296FC491415818D18357D6C2D700C14 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2396:8:2396:40|Synthesizing module IB692DAE41499E4B01D446B8B28C804EB in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2193:9:2193:41|Synthesizing module IC3C2C92E294852CA4AE110FD59776962 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2128:9:2128:41|Synthesizing module ID6D6E4DEEE2F225D2FE2E68AEDBFADC7 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2623:9:2623:41|Synthesizing module I2296FC491415818D18357D6C2D700C14 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2396:8:2396:40|Synthesizing module IB692DAE41499E4B01D446B8B28C804EB in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2193:9:2193:41|Synthesizing module IC3C2C92E294852CA4AE110FD59776962 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2128:9:2128:41|Synthesizing module ID6D6E4DEEE2F225D2FE2E68AEDBFADC7 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2623:9:2623:41|Synthesizing module I2296FC491415818D18357D6C2D700C14 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2396:8:2396:40|Synthesizing module IB692DAE41499E4B01D446B8B28C804EB in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2193:9:2193:41|Synthesizing module IC3C2C92E294852CA4AE110FD59776962 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2623:9:2623:41|Synthesizing module I2296FC491415818D18357D6C2D700C14 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2396:8:2396:40|Synthesizing module IB692DAE41499E4B01D446B8B28C804EB in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2193:9:2193:41|Synthesizing module IC3C2C92E294852CA4AE110FD59776962 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2128:9:2128:41|Synthesizing module ID6D6E4DEEE2F225D2FE2E68AEDBFADC7 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1951:9:1951:41|Synthesizing module IF9CF184FC93B215506F993588C9E7793 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2030:9:2030:41|Synthesizing module IDBAB269DB7AFDA96620B9B09A1C1D253 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2070:9:2070:41|Synthesizing module I7649039BBE19689793FEE4FADDDEF1E8 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2623:9:2623:41|Synthesizing module I2296FC491415818D18357D6C2D700C14 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2396:8:2396:40|Synthesizing module IB692DAE41499E4B01D446B8B28C804EB in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2193:9:2193:41|Synthesizing module IC3C2C92E294852CA4AE110FD59776962 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2128:9:2128:41|Synthesizing module ID6D6E4DEEE2F225D2FE2E68AEDBFADC7 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2623:9:2623:41|Synthesizing module I2296FC491415818D18357D6C2D700C14 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2396:8:2396:40|Synthesizing module IB692DAE41499E4B01D446B8B28C804EB in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2193:9:2193:41|Synthesizing module IC3C2C92E294852CA4AE110FD59776962 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2128:9:2128:41|Synthesizing module ID6D6E4DEEE2F225D2FE2E68AEDBFADC7 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2623:9:2623:41|Synthesizing module I2296FC491415818D18357D6C2D700C14 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2396:8:2396:40|Synthesizing module IB692DAE41499E4B01D446B8B28C804EB in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":4097:9:4097:41|Synthesizing module I1D0F7B4B91A0FA84F3F3816624A1A70F in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":212:7:212:39|Synthesizing module IF50ADBFC5F4E76B680AD98E97599279A in library work.
+@N: CG364 :"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v":295:7:295:16|Synthesizing module pmi_ram_dp in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":277:7:277:39|Synthesizing module IF4FD65273243DC47A72869EEEA639DCD in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":4130:9:4130:41|Synthesizing module ICF327C89C36124513E146F1FF3BCDEEB in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":3636:7:3636:39|Synthesizing module IA8C351750B9DBEE4D8ADA94748C8E5D1 in library work.
+@N: CG364 :"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v":295:7:295:16|Synthesizing module pmi_ram_dp in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":3740:7:3740:39|Synthesizing module I6433000F3EF06E04177C32D16C534889 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":3636:7:3636:39|Synthesizing module IA8C351750B9DBEE4D8ADA94748C8E5D1 in library work.
+@N: CG364 :"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v":295:7:295:16|Synthesizing module pmi_ram_dp in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":3740:7:3740:39|Synthesizing module I6433000F3EF06E04177C32D16C534889 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":4165:7:4165:39|Synthesizing module I7639B3DE6448BF04A6DF404C0FEDBA75 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":3794:9:3794:41|Synthesizing module I8489B3291801D4F3BE8AED05E26C4566 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":16:7:16:19|Synthesizing module credit_config in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":212:7:212:39|Synthesizing module IF50ADBFC5F4E76B680AD98E97599279A in library work.
+@N: CG364 :"C:\lscc\diamond\3.12\cae_library\synthesis\verilog\pmi_def.v":295:7:295:16|Synthesizing module pmi_ram_dp in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1243:8:1243:40|Synthesizing module I4A464F8B941F768B40777E11E08CF0DE in library work.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1376:85:1376:117|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1379:36:1379:68|Removing redundant assignment.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":165:9:165:41|Synthesizing module I2AA06444A0CB39074E17E74C913F2C98 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1382:9:1382:41|Synthesizing module I35D01845B6D15D59E4E7B95EDE6F3368 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1461:8:1461:40|Synthesizing module IC067A254D727EC6E4653DEA8E2C9ED79 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":212:7:212:39|Synthesizing module IF50ADBFC5F4E76B680AD98E97599279A in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":277:7:277:39|Synthesizing module IF4FD65273243DC47A72869EEEA639DCD in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1696:7:1696:39|Synthesizing module I96EF4C28535915F06C7CA4A3F14655BA in library work.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1728:48:1728:80|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1732:45:1732:77|Removing redundant assignment.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1737:7:1737:39|Synthesizing module I1BD3AAA735BEFCAF06645830338869BC in library work.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1789:86:1789:118|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1793:48:1793:80|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1797:45:1797:77|Removing redundant assignment.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1801:47:1801:79|Removing redundant assignment.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1808:7:1808:39|Synthesizing module I7C908B0C1EFA5CDE82E200D3BD5B8C53 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1865:8:1865:40|Synthesizing module ID81B7D29F9F1B2882EE754B639B67517 in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":4314:9:4314:25|Synthesizing module pcie_mfdev_subsys in library work.
+@N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":540:9:540:41|Synthesizing module I4CACC63B64035D749DE3C4BCF79F626C in library work.
+@N: CG179 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":731:52:731:84|Removing redundant assignment.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":695:37:695:42|Trying to extract state machine for register I369C3845EEBC3367BADAF446789A185D.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":695:37:695:42|Trying to extract state machine for register I8AC99AB880823B01C00D137F89AABEF8.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":545:106:545:138|Input IA1F0CBEC8E9EAD83D0098DD96A1EFC32 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":548:11:548:43|Input I93AE636CE82DE94CB11ACCF59F8C2254 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":550:0:550:32|Input I5E84ED10AD623502BC750C5E797D1428 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":550:94:550:126|Input IA067043029572C8598E352E0A66EA337 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":4373:11:4373:25|Input ix_ipx_malf_tlp is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":4374:35:4374:48|Input ix_ipx_rx_dwen is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":4395:82:4395:91|Input ix_wbm_err is unused.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1575:37:1575:42|Trying to extract state machine for register I706E9793A36552E97EF7B1CF0F6162D7.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1469:94:1469:126|Input I3EEFAC16E2400143CD0547F03531871C is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1474:60:1474:92|Input IC93EB5988EC451F72626A919FE396C61 is unused.
+@N: CL135 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":176:83:177:5|Found sequential shift I8CDDE92DE2910086C77F2B20C50D61C7.I1140D78382474719F5279279A4E83ED5 with address depth of 3 words and data bit width of 32.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1309:17:1309:22|Trying to extract state machine for register I15BDB8EF2F82D399EEAB37F26106A134.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1251:58:1251:90|Input I9AF8DD3F367CE82DF45437DB546EAAD3 is unused.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":3854:97:3854:102|Trying to extract state machine for register I569BD691A4BB295D836212F3738D46B4.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":3796:60:3796:92|Input IE4E19EA6F3F828B3B44ED1E4D36558F7 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":3802:0:3802:32|Input I63FDDFAA5AB093F3BB343A8C133F3BAF is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":4172:105:4172:137|Input IFCFFF8448F5E6821B40C6CEE3548693A is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":4173:17:4173:49|Input I5CE5D2469FD5560C1773C754FC1E0C4A is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":4173:64:4173:96|Input ID965E2D89D1047516134A3EED50CB8AE is unused.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2481:14:2481:19|Trying to extract state machine for register IA41ECBBB6BB3AE10CC87C2948197DBF8.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2481:14:2481:19|Trying to extract state machine for register IA41ECBBB6BB3AE10CC87C2948197DBF8.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2481:14:2481:19|Trying to extract state machine for register IA41ECBBB6BB3AE10CC87C2948197DBF8.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2033:65:2033:97|Input I7195780B6CCA660A6833F98360035D81 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1954:54:1954:86|Input I003A2455D9D9F27B56BE4B6A6E330845 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1955:11:1955:43|Input I332C3203B01AAFA54A288D09DDEB7AFB is unused.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2481:14:2481:19|Trying to extract state machine for register IA41ECBBB6BB3AE10CC87C2948197DBF8.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2481:14:2481:19|Trying to extract state machine for register IA41ECBBB6BB3AE10CC87C2948197DBF8.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2481:14:2481:19|Trying to extract state machine for register IA41ECBBB6BB3AE10CC87C2948197DBF8.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2481:14:2481:19|Trying to extract state machine for register IA41ECBBB6BB3AE10CC87C2948197DBF8.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2835:1:2835:6|Trying to extract state machine for register I7E04E8229BE60B48AAE3E1EB6511163A.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2782:11:2782:43|Input I369BA2FFB5D41DF25F9BC3AB126D6607 is unused.
+@N: CL201 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2481:14:2481:19|Trying to extract state machine for register IA41ECBBB6BB3AE10CC87C2948197DBF8.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2033:65:2033:97|Input I7195780B6CCA660A6833F98360035D81 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":2033:65:2033:97|Input I7195780B6CCA660A6833F98360035D81 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1953:65:1953:97|Input I9F8484FBCA62AC2BC8E1CB3333CC09DC is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1954:54:1954:86|Input I003A2455D9D9F27B56BE4B6A6E330845 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1954:101:1954:133|Input I61583F0AD8ACE3D2B571B36EFC23311D is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1955:11:1955:43|Input I332C3203B01AAFA54A288D09DDEB7AFB is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1955:58:1955:90|Input I3D2849BFA4C1331FDDB8A39BF571CD91 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1954:7:1954:39|Input I38F41A809C185C6FC2C37D7677D6013A is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1954:101:1954:133|Input I61583F0AD8ACE3D2B571B36EFC23311D is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":1955:58:1955:90|Input I3D2849BFA4C1331FDDB8A39BF571CD91 is unused.
+@N: CL159 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\src\vlog\pcie_mfdev_v6.v":69:101:69:133|Input I3DAC0A14B4001DD3A76D99313964C3AA is unused.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,514 @@
+<html><body><samp><pre>
+<!@TC:1645973004>
+# Sun Feb 27 15:43:21 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1-1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: L-EQSS42R
+
+Implementation : mf8c
+<a name=mapperReport6></a>Synopsys Lattice Technology Pre-mapping, Version map202103lat, Build 107R, Built Dec 22 2021 00:40:26, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 130MB)
+
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1645973004> | No constraint file specified. 
+Linked File:  <a href="C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c_scck.rpt:@XP_FILE">versa_ecp5_mf8c_scck.rpt</a>
+See clock summary report "C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c_scck.rpt"
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1645973004> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1645973004> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1645973004> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 155MB peak: 155MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 155MB peak: 157MB)
+
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@W:BN132:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance U1_CORE.U5_DMA.U1_DMA_ENGINE.U5_CHN_MST.s_wbm_stb because it is equivalent to instance U1_CORE.U5_DMA.U1_DMA_ENGINE.U5_CHN_MST.s_wbm_cyc. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@W:BN132:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance U1_CORE.U5_DMA.U1_DMA_ENGINE.U6_CHN_SLV.s_wbm_stb because it is equivalent to instance U1_CORE.U5_DMA.U1_DMA_ENGINE.U6_CHN_SLV.s_wbm_cyc. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_pcs_softlogic.v:646:13:646:32:@N:MO111:@XP_MSG">pcie_x1_top_pcs_softlogic.v(646)</a><!@TM:1645973004> | Tristate driver rdo_rx_pcs_rst_c_1 (in view: work.pcie_x1_top_pcsrsl_core_Z2_layer1(verilog)) on net rdo_rx_pcs_rst_c_1 (in view: work.pcie_x1_top_pcsrsl_core_Z2_layer1(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_pcs_softlogic.v:646:13:646:32:@N:MO111:@XP_MSG">pcie_x1_top_pcs_softlogic.v(646)</a><!@TM:1645973004> | Tristate driver rdo_rx_pcs_rst_c_2 (in view: work.pcie_x1_top_pcsrsl_core_Z2_layer1(verilog)) on net rdo_rx_pcs_rst_c_2 (in view: work.pcie_x1_top_pcsrsl_core_Z2_layer1(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_pcs_softlogic.v:646:13:646:32:@N:MO111:@XP_MSG">pcie_x1_top_pcs_softlogic.v(646)</a><!@TM:1645973004> | Tristate driver rdo_rx_pcs_rst_c_3 (in view: work.pcie_x1_top_pcsrsl_core_Z2_layer1(verilog)) on net rdo_rx_pcs_rst_c_3 (in view: work.pcie_x1_top_pcsrsl_core_Z2_layer1(verilog)) has its enable tied to GND.
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@W:MO129:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Sequential instance U1_CORE.U4_UART.U1_UART.0.U_16550.U1_UART.U2_RX.U6_ERR_FRM.s_cwr_flag is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@W:MO129:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Sequential instance U1_CORE.U4_UART.U1_UART.4.U_16550.U1_UART.U2_RX.U6_ERR_FRM.s_cwr_flag is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@W:MO129:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Sequential instance U1_CORE.U4_UART.U1_UART.3.U_16550.U1_UART.U2_RX.U6_ERR_FRM.s_cwr_flag is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@W:MO129:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Sequential instance U1_CORE.U4_UART.U1_UART.2.U_16550.U1_UART.U2_RX.U6_ERR_FRM.s_cwr_flag is reduced to a combinational gate by constant propagation.</font>
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@W:MO129:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Sequential instance U1_CORE.U4_UART.U1_UART.1.U_16550.U1_UART.U2_RX.U6_ERR_FRM.s_cwr_flag is reduced to a combinational gate by constant propagation.</font>
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd:416:6:416:8:@N:BN362:@XP_MSG">jxb3_spi_dma_tgt-a_rtl.vhd(416)</a><!@TM:1645973004> | Removing sequential instance s_reg_xfer_buf[31:0] (in view: work.jxb3_spi_dma_tgt_24(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_ctc.v:176:0:176:6:@N:BN362:@XP_MSG">pcie_x1_top_ctc.v(176)</a><!@TM:1645973004> | Removing sequential instance ctc_skip_removed (in view: work.pcie_x1_top_ctc(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_ctc.v:320:0:320:6:@N:BN362:@XP_MSG">pcie_x1_top_ctc.v(320)</a><!@TM:1645973004> | Removing sequential instance under_flow (in view: work.pcie_x1_top_ctc(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN115:@XP_HELP">BN115</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_ctc.v:308:24:308:33:@N:BN115:@XP_MSG">pcie_x1_top_ctc.v(308)</a><!@TM:1645973004> | Removing instance u1_sync1s (in view: work.pcie_x1_top_ctc(verilog)) of type view:work.pcie_x1_top_sync1s_1s(verilog) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_phy.v:1001:3:1001:9:@N:BN362:@XP_MSG">pcie_x1_top_phy.v(1001)</a><!@TM:1645973004> | Removing sequential instance rlol_r2 (in view: work.pcie_x1_top_phy(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_ready (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_ready (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_ready (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_ready (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_ready (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_4(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@N:BN362:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance s_dma_adr_pop (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@N:BN362:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance s_int_period_ev (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@N:BN362:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance s_int_xfer_ev (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@N:BN362:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance s_lseq_start_ev (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@N:BN362:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance s_int_period_ev (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_1layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_xfer_count_eq0 (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_buf_dout[7:0] (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_buf_pop (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_buf_push (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_reg_cfi_adr_push (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_reg_cfi_cmd_push (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_reg_ctrl_sta\.ctrl\.int_ack (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_reg_ctrl_sta\.ctrl\.spi_trig (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_int_req (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_xfer_count_eq1 (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_spi_has_pload (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd:416:6:416:8:@N:BN362:@XP_MSG">jxb3_spi_dma_tgt-a_rtl.vhd(416)</a><!@TM:1645973004> | Removing sequential instance s_dma_idle (in view: work.jxb3_spi_dma_tgt_24(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_ctc.v:294:0:294:6:@N:BN362:@XP_MSG">pcie_x1_top_ctc.v(294)</a><!@TM:1645973004> | Removing sequential instance over_flow (in view: work.pcie_x1_top_ctc(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_phy.v:1001:3:1001:9:@N:BN362:@XP_MSG">pcie_x1_top_phy.v(1001)</a><!@TM:1645973004> | Removing sequential instance rlol_r1 (in view: work.pcie_x1_top_phy(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-a_rtl.vhd:197:6:197:8:@N:BN362:@XP_MSG">tspc_cfi_spim_pw2n-a_rtl.vhd(197)</a><!@TM:1645973004> | Removing sequential instance s_spi_sclk_en (in view: work.tspc_cfi_spim_pw2n_work_versa_ecp5_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rd_flag (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rd_flag (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rd_flag (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rd_flag (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rd_flag (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_4(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rd_flag_sync (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rd_flag_sync (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rd_flag_sync (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rd_flag_sync (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rd_flag_sync (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_4(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@N:BN362:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance s_dma_xfer_int_done (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rst (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_0(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rst (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_1(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rst (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_2(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rst (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_3(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rst (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_4(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_buf_empty (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rst_sync (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_0(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rst_sync (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_1(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rst_sync (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_2(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rst_sync (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_3(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd:103:6:103:8:@N:BN362:@XP_MSG">tspc_cdc_ack-a_rtl.vhd(103)</a><!@TM:1645973004> | Removing sequential instance s_cwr_rst_sync (in view: work.tspc_cdc_ack_work_versa_ecp5_rtl_0layer0_5_4(rtl)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:298:9:298:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(298)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_2_2048_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:298:9:298:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(298)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_2_2048_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_xfer_count[15:0] (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd:326:6:326:8:@N:BN362:@XP_MSG">jxb3_regs_ctrl-a_rtl.vhd(326)</a><!@TM:1645973004> | Removing sequential instance s_ev_spi_start (in view: work.jxb3_regs_ctrl(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@N:BN362:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance s_mbuf_pos[31:0] (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_1layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@N:BN362:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance s_int_period_count[27:0] (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_1layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@N:BN362:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance s_mbuf_pos_max[31:0] (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_1layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd:291:6:291:8:@N:BN362:@XP_MSG">tspc_dma_chan_ms_ctl-a_rtl.vhd(291)</a><!@TM:1645973004> | Removing sequential instance s_int_period_count[27:0] (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:298:9:298:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(298)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_2_4_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:298:9:298:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(298)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_2_4_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:298:9:298:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(298)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_2_1_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:298:9:298:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(298)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_2_1_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:298:9:298:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(298)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_2_1_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:298:9:298:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(298)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_2_1_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:298:9:298:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(298)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_2_1_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:298:9:298:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(298)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_2_1_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_1_1_6(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_1_1_6(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_1_0_4(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_1_0_4(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_1_1_5(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_1_1_5(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_1_0_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_1_0_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_1_1_4(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_1_1_4(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_1_0_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_1_0_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_1_1_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_1_1_3(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_1_0_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_1_0_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_1_1_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_1_1_2(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_wr_afull (in view: work.tspc_fifo_ctl_sync_1_1_1_0_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:126:9:126:11:@N:BN362:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(126)</a><!@TM:1645973004> | Removing sequential instance s_rd_aempty (in view: work.tspc_fifo_ctl_sync_1_1_1_0_0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_pcs_softlogic.v:480:3:480:9:@N:BN362:@XP_MSG">pcie_x1_top_pcs_softlogic.v(480)</a><!@TM:1645973004> | Removing sequential instance genblk1\.genblk2\.txr_wt_cnt[11:0] (in view: work.pcie_x1_top_pcsrsl_core_Z2_layer1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_pcs_softlogic.v:462:6:462:12:@N:BN362:@XP_MSG">pcie_x1_top_pcs_softlogic.v(462)</a><!@TM:1645973004> | Removing sequential instance genblk1\.genblk2\.mfor\[0\]\.txpr_appd[0] (in view: work.pcie_x1_top_pcsrsl_core_Z2_layer1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_pcs_softlogic.v:490:3:490:9:@N:BN362:@XP_MSG">pcie_x1_top_pcs_softlogic.v(490)</a><!@TM:1645973004> | Removing sequential instance genblk1\.genblk2\.ruo_tx_rdyr (in view: work.pcie_x1_top_pcsrsl_core_Z2_layer1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_pcs_softlogic.v:472:3:472:9:@N:BN362:@XP_MSG">pcie_x1_top_pcs_softlogic.v(472)</a><!@TM:1645973004> | Removing sequential instance genblk1\.genblk2\.txr_wt_en (in view: work.pcie_x1_top_pcsrsl_core_Z2_layer1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_pcs_softlogic.v:451:3:451:9:@N:BN362:@XP_MSG">pcie_x1_top_pcs_softlogic.v(451)</a><!@TM:1645973004> | Removing sequential instance genblk1\.genblk2\.txdpr_appd (in view: work.pcie_x1_top_pcsrsl_core_Z2_layer1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+Encoding state machine sll_state[2:0] (in view: work.pcie_x1_top_pcssll_core_Z3_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+Encoding state machine cs_reqdet_sm[3:0] (in view: work.pcie_x1_top_phy(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N:<a href="@N:MO225:@XP_HELP">MO225</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_phy.v:797:0:797:6:@N:MO225:@XP_MSG">pcie_x1_top_phy.v(797)</a><!@TM:1645973004> | There are no possible illegal states for state machine cs_reqdet_sm[3:0] (in view: work.pcie_x1_top_phy(verilog)); safe FSM implementation is not required.
+Encoding state machine s_fsm_rx[0:5] (in view: work.rx_ser_8250_core_0(rtl))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine s_fsm_tx[0:5] (in view: work.tx_ser_8250_core_0(rtl))
+original code -> new code
+   0000001 -> 000001
+   0000100 -> 000010
+   0001000 -> 000100
+   0010000 -> 001000
+   0100000 -> 010000
+   1000000 -> 100000
+Encoding state machine s_fsm_rx[0:5] (in view: work.rx_ser_8250_core_1(rtl))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine s_fsm_tx[0:5] (in view: work.tx_ser_8250_core_1(rtl))
+original code -> new code
+   0000001 -> 000001
+   0000100 -> 000010
+   0001000 -> 000100
+   0010000 -> 001000
+   0100000 -> 010000
+   1000000 -> 100000
+Encoding state machine s_fsm_rx[0:5] (in view: work.rx_ser_8250_core_2(rtl))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine s_fsm_tx[0:5] (in view: work.tx_ser_8250_core_2(rtl))
+original code -> new code
+   0000001 -> 000001
+   0000100 -> 000010
+   0001000 -> 000100
+   0010000 -> 001000
+   0100000 -> 010000
+   1000000 -> 100000
+Encoding state machine s_fsm_rx[0:5] (in view: work.rx_ser_8250_core_3(rtl))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine s_fsm_tx[0:5] (in view: work.tx_ser_8250_core_3(rtl))
+original code -> new code
+   0000001 -> 000001
+   0000100 -> 000010
+   0001000 -> 000100
+   0010000 -> 001000
+   0100000 -> 010000
+   1000000 -> 100000
+Encoding state machine s_fsm_rx[0:5] (in view: work.rx_ser_8250_core_4(rtl))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine s_fsm_tx[0:5] (in view: work.tx_ser_8250_core_4(rtl))
+original code -> new code
+   0000001 -> 000001
+   0000100 -> 000010
+   0001000 -> 000100
+   0010000 -> 001000
+   0100000 -> 010000
+   1000000 -> 100000
+Encoding state machine s_egr_pipe[0:3] (in view: work.tspc_fifo_ctl_sync_1_1_2_4_1(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N:<a href="@N:MO225:@XP_HELP">MO225</a> : <a href="c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd:298:9:298:11:@N:MO225:@XP_MSG">tspc_fifo_ctl_sync-a_rtl.vhd(298)</a><!@TM:1645973004> | There are no possible illegal states for state machine s_egr_pipe[0:3] (in view: work.tspc_fifo_ctl_sync_1_1_2_4_1(rtl)); safe FSM implementation is not required.
+Encoding state machine s_dma_chan_fsm[0:20] (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0(rtl))
+original code -> new code
+   0000000000000000000001 -> 000000000000000000001
+   0000000000000000000010 -> 000000000000000000010
+   0000000000000000000100 -> 000000000000000000100
+   0000000000000000001000 -> 000000000000000001000
+   0000000000000000010000 -> 000000000000000010000
+   0000000000000000100000 -> 000000000000000100000
+   0000000000000001000000 -> 000000000000001000000
+   0000000000000010000000 -> 000000000000010000000
+   0000000000000100000000 -> 000000000000100000000
+   0000000000001000000000 -> 000000000001000000000
+   0000000000010000000000 -> 000000000010000000000
+   0000000000100000000000 -> 000000000100000000000
+   0000000001000000000000 -> 000000001000000000000
+   0000000010000000000000 -> 000000010000000000000
+   0000000100000000000000 -> 000000100000000000000
+   0000001000000000000000 -> 000001000000000000000
+   0000010000000000000000 -> 000010000000000000000
+   0000100000000000000000 -> 000100000000000000000
+   0001000000000000000000 -> 001000000000000000000
+   0010000000000000000000 -> 010000000000000000000
+   1000000000000000000000 -> 100000000000000000000
+Encoding state machine s_dma_chan_fsm[0:17] (in view: work.tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_1layer0(rtl))
+original code -> new code
+   0000000000000000000001 -> 000000000000000001
+   0000000000000000000010 -> 000000000000000010
+   0000000000000000000100 -> 000000000000000100
+   0000000000000000001000 -> 000000000000001000
+   0000000000000000010000 -> 000000000000010000
+   0000000000000000100000 -> 000000000000100000
+   0000000000000001000000 -> 000000000001000000
+   0000000000001000000000 -> 000000000010000000
+   0000000000010000000000 -> 000000000100000000
+   0000000000100000000000 -> 000000001000000000
+   0000000001000000000000 -> 000000010000000000
+   0000000010000000000000 -> 000000100000000000
+   0000000100000000000000 -> 000001000000000000
+   0000001000000000000000 -> 000010000000000000
+   0000010000000000000000 -> 000100000000000000
+   0000100000000000000000 -> 001000000000000000
+   0010000000000000000000 -> 010000000000000000
+   0100000000000000000000 -> 100000000000000000
+Encoding state machine s_wb_fsm[0:4] (in view: work.tspc_wb_ebr_ctl_work_versa_ecp5_rtl_1layer0(rtl))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine s_wb_fsm[0:4] (in view: work.tspc_wb_ebr_ctl_work_versa_ecp5_rtl_0layer0(rtl))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine s_cfi_fsm[0:11] (in view: work.tspc_cfi_spim_pw2n_work_versa_ecp5_rtl_0layer0(rtl))
+original code -> new code
+   0000000000001 -> 000000000001
+   0000000000010 -> 000000000010
+   0000000000100 -> 000000000100
+   0000000001000 -> 000000001000
+   0000000100000 -> 000000010000
+   0000001000000 -> 000000100000
+   0000010000000 -> 000001000000
+   0000100000000 -> 000010000000
+   0001000000000 -> 000100000000
+   0010000000000 -> 001000000000
+   0100000000000 -> 010000000000
+   1000000000000 -> 100000000000
+Encoding state machine s_fsm_buf_wr[0:6] (in view: work.jxb3_regs_ctrl(rtl))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+Encoding state machine s_fsm_buf_rd[0:6] (in view: work.jxb3_regs_ctrl(rtl))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+Encoding state machine s_fsm_dma_wr[0:8] (in view: work.jxb3_spi_dma_tgt_24(rtl))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine s_fsm_buf_wr[0:8] (in view: work.jxb3_spi_dma_tgt_24(rtl))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine s_fsm_buf_rd[0:8] (in view: work.jxb3_spi_dma_tgt_24(rtl))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine s_fsm_dma_rd[0:6] (in view: work.jxb3_spi_dma_tgt_24(rtl))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 210MB)
+
+<font color=#A52A2A>@W:<a href="@W:MO197:@XP_HELP">MO197</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd:416:6:416:8:@W:MO197:@XP_MSG">jxb3_spi_dma_tgt-a_rtl.vhd(416)</a><!@TM:1645973004> | Removing FSM register s_fsm_dma_rd[5] (in view view:work.jxb3_spi_dma_tgt_24(rtl)) because its output is a constant.</font>
+<font color=#A52A2A>@W:<a href="@W:MO197:@XP_HELP">MO197</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd:416:6:416:8:@W:MO197:@XP_MSG">jxb3_spi_dma_tgt-a_rtl.vhd(416)</a><!@TM:1645973004> | Removing FSM register s_fsm_dma_wr[7] (in view view:work.jxb3_spi_dma_tgt_24(rtl)) because its output is a constant.</font>
+@N:<a href="@N:MF578:@XP_HELP">MF578</a> : <!@TM:1645973004> | Incompatible asynchronous control logic preventing generated clock conversion. 
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 211MB peak: 212MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 211MB peak: 212MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 211MB peak: 212MB)
+
+@N:<a href="@N:FX1184:@XP_HELP">FX1184</a> : <!@TM:1645973004> | Applying syn_allowed_resources blockrams=108 on top level netlist versa_ecp5  
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 211MB peak: 212MB)
+
+
+
+<a name=mapperReport7></a>Clock Summary</a>
+******************
+
+          Start                                             Requested     Requested     Clock                                                            Clock                   Clock
+Level     Clock                                             Frequency     Period        Type                                                             Group                   Load 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                            280.0 MHz     3.571         system                                                           system_clkgroup         0    
+                                                                                                                                                                                      
+0 -       pcie_x1_top_phy|PCLK_by_2_inferred_clock          280.0 MHz     3.571         inferred                                                         Inferred_clkgroup_0     3395 
+                                                                                                                                                                                      
+0 -       clock_gen_ECP5UM|o_clk_pll_out_inferred_clock     280.0 MHz     3.571         inferred                                                         Inferred_clkgroup_2     1    
+1 .         clock_gen_ECP5UM|s_rtl_xclk_derived_clock       280.0 MHz     3.571         derived (from clock_gen_ECP5UM|o_clk_pll_out_inferred_clock)     Inferred_clkgroup_2     855  
+                                                                                                                                                                                      
+0 -       pcie_refclk|refclko_inferred_clock                280.0 MHz     3.571         inferred                                                         Inferred_clkgroup_4     179  
+                                                                                                                                                                                      
+0 -       pcie_x1_top_phy|PCLK_inferred_clock               280.0 MHz     3.571         inferred                                                         Inferred_clkgroup_3     108  
+                                                                                                                                                                                      
+0 -       clock_gen_ECP5UM|o_clk_spi_inferred_clock         280.0 MHz     3.571         inferred                                                         Inferred_clkgroup_1     95   
+                                                                                                                                                                                      
+0 -       pcie_x1_top_pcs|rx_pclk_inferred_clock            280.0 MHz     3.571         inferred                                                         Inferred_clkgroup_6     84   
+                                                                                                                                                                                      
+0 -       pcie_x1_top_pcs|tx_pclk_inferred_clock            280.0 MHz     3.571         inferred                                                         Inferred_clkgroup_5     52   
+======================================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                  Clock     Source                                                                     Clock Pin                                                                     Non-clock Pin     Non-clock Pin                                           
+Clock                                             Load      Pin                                                                        Seq Example                                                                   Seq Example       Comb Example                                            
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                            0         -                                                                          -                                                                             -                 -                                                       
+                                                                                                                                                                                                                                                                                               
+pcie_x1_top_phy|PCLK_by_2_inferred_clock          3395      U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_clkdiv.CDIVX(PCSCLKDIV)                  U3_SYNC.s_rst_done[1:0].C                                                     -                 -                                                       
+                                                                                                                                                                                                                                                                                               
+clock_gen_ECP5UM|o_clk_pll_out_inferred_clock     1         U1_CORE.U3_CLK.U1_PLL\.PLL_E5.CLKOS(pll_xclk_base)                         U1_CORE.U3_CLK.s_rtl_xclk.C                                                   -                 -                                                       
+clock_gen_ECP5UM|s_rtl_xclk_derived_clock         855       U1_CORE.U3_CLK.s_rtl_xclk.Q[0](dffr)                                       U1_CORE.U4_UART.U1_UART\.1\.U_16550.U1_UART.U3_TX.U3_THR.s_crd_rst_sync.C     -                 -                                                       
+                                                                                                                                                                                                                                                                                               
+pcie_refclk|refclko_inferred_clock                179       U1_CORE.U1_PCIE\.U1_E5.U3_REFCLK.EXTREF0_inst.REFCLKO(EXTREFB)             U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.rx_rsl_inst.lsm_s.C                   -                 -                                                       
+                                                                                                                                                                                                                                                                                               
+pcie_x1_top_phy|PCLK_inferred_clock               108       U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_clkdiv.CDIV1(PCSCLKDIV)                  U1_CORE.U1_PCIE\.U1_E5.U2_PHY.detect_req_del.C                                -                 -                                                       
+                                                                                                                                                                                                                                                                                               
+clock_gen_ECP5UM|o_clk_spi_inferred_clock         95        U1_CORE.U3_CLK.U1_PLL\.PLL_E5.CLKOS2(pll_xclk_base)                        U1_CORE.U7_CFI.U7_CDC_CTL.s_rst_done[1:0].C                                   -                 -                                                       
+                                                                                                                                                                                                                                                                                               
+pcie_x1_top_pcs|rx_pclk_inferred_clock            84        U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.DCU0_inst.CH0_FF_RX_PCLK(DCUA)     U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pipe_top_0.pcs_wait_done_chx.C                  -                 U1_CORE.U1_PCIE\.U1_E5.U2_PHY.ff_rx_fclk_0.I[0](keepbuf)
+                                                                                                                                                                                                                                                                                               
+pcie_x1_top_pcs|tx_pclk_inferred_clock            52        U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.DCU0_inst.CH0_FF_TX_PCLK(DCUA)     U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.sll_inst.ppul_sync.C                  -                 -                                                       
+===============================================================================================================================================================================================================================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_phy.v:408:0:408:6:@W:MT529:@XP_MSG">pcie_x1_top_phy.v(408)</a><!@TM:1645973004> | Found inferred clock pcie_x1_top_phy|PCLK_by_2_inferred_clock which controls 3395 sequential elements including U1_CORE.U1_PCIE\.U1_E5.U2_PHY.count_ms[16:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-a_rtl.vhd:197:6:197:8:@W:MT529:@XP_MSG">tspc_cfi_spim_pw2n-a_rtl.vhd(197)</a><!@TM:1645973004> | Found inferred clock clock_gen_ECP5UM|o_clk_spi_inferred_clock which controls 95 sequential elements including U1_CORE.U7_CFI.U1_SPI.s_cfi_fsm[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\project\pcie_ecp5_mf\soc\units\clock_gen\vhdl\clock_gen-a_rtl.vhd:113:6:113:8:@W:MT529:@XP_MSG">clock_gen-a_rtl.vhd(113)</a><!@TM:1645973004> | Found inferred clock clock_gen_ECP5UM|o_clk_pll_out_inferred_clock which controls 1 sequential elements including U1_CORE.U3_CLK.s_rtl_xclk. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_ctc.v:239:0:239:6:@W:MT529:@XP_MSG">pcie_x1_top_ctc.v(239)</a><!@TM:1645973004> | Found inferred clock pcie_x1_top_phy|PCLK_inferred_clock which controls 108 sequential elements including U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pipe_top_0.u0_ctc.ctc_status_out[2:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_pcs_softlogic.v:551:3:551:9:@W:MT529:@XP_MSG">pcie_x1_top_pcs_softlogic.v(551)</a><!@TM:1645973004> | Found inferred clock pcie_refclk|refclko_inferred_clock which controls 179 sequential elements including U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.rsl_inst.genblk2\.rlol1_cnt[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_pcs_softlogic.v:1132:0:1132:6:@W:MT529:@XP_MSG">pcie_x1_top_pcs_softlogic.v(1132)</a><!@TM:1645973004> | Found inferred clock pcie_x1_top_pcs|tx_pclk_inferred_clock which controls 52 sequential elements including U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.sll_inst.pcount_diff[21:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+<font color=#A52A2A>@W:<a href="@W:MT529:@XP_HELP">MT529</a> : <a href="c:\project\pcie_ecp5_mf\work\clarity\versa_ecp5\pcie_subsys\pcie_x1_top\pcie_eval\models\ecp5um\pcie_x1_top_ctc.v:131:0:131:6:@W:MT529:@XP_MSG">pcie_x1_top_ctc.v(131)</a><!@TM:1645973004> | Found inferred clock pcie_x1_top_pcs|rx_pclk_inferred_clock which controls 84 sequential elements including U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pipe_top_0.u0_ctc.in_det_BC_1C. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </font>
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+For details review file gcc_ICG_report.rpt
+
+
+@S |Clock Optimization Summary
+
+
+
+<a name=clockReport8></a>#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[</a>
+
+7 non-gated/non-generated clock tree(s) driving 3914 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 855 clock pin(s) of sequential element(s)
+0 instances converted, 855 sequential instances remain driven by gated/generated clocks
+
+============================================================================= Non-Gated/Non-Generated Clocks ==============================================================================
+Clock Tree ID     Driving Element                                                      Drive Element Type     Fanout     Sample Instance                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<a href="@|L:C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\versa_ecp5_mf8c_prem.srm@|S:U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_clkdiv.CDIVX@|E:U1_CORE.U1_PCIE\.U1_E5.U2_PHY.count_ms[16:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0 @XP_NAMES_BY_PROP">ClockId_0_0</a>       U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_clkdiv.CDIVX                       PCSCLKDIV              3395       U1_CORE.U1_PCIE\.U1_E5.U2_PHY.count_ms[16:0]                      
+<a href="@|L:C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\versa_ecp5_mf8c_prem.srm@|S:U1_CORE.U3_CLK.U1_PLL\.PLL_E5.CLKOS2@|E:U1_CORE.U7_CFI.U7_CDC_CTL.s_cdc_sync[7:0]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1 @XP_NAMES_BY_PROP">ClockId_0_1</a>       U1_CORE.U3_CLK.U1_PLL\.PLL_E5.CLKOS2                                 pll_xclk_base          95         U1_CORE.U7_CFI.U7_CDC_CTL.s_cdc_sync[7:0]                         
+<a href="@|L:C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\versa_ecp5_mf8c_prem.srm@|S:U1_CORE.U3_CLK.U1_PLL\.PLL_E5.CLKOS@|E:U1_CORE.U3_CLK.s_rtl_xclk@|F:@syn_dgcc_clockid0_5==1@|M:ClockId_0_5 @XP_NAMES_BY_PROP">ClockId_0_5</a>       U1_CORE.U3_CLK.U1_PLL\.PLL_E5.CLKOS                                  pll_xclk_base          1          U1_CORE.U3_CLK.s_rtl_xclk                                         
+<a href="@|L:C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\versa_ecp5_mf8c_prem.srm@|S:U1_CORE.U1_PCIE\.U1_E5.U3_REFCLK.EXTREF0_inst.REFCLKO@|E:U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.rx_rsl_inst.cnt[31:0]@|F:@syn_dgcc_clockid0_6==1@|M:ClockId_0_6 @XP_NAMES_BY_PROP">ClockId_0_6</a>       U1_CORE.U1_PCIE\.U1_E5.U3_REFCLK.EXTREF0_inst.REFCLKO                EXTREFB                179        U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.rx_rsl_inst.cnt[31:0]     
+<a href="@|L:C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\versa_ecp5_mf8c_prem.srm@|S:U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.DCU0_inst.CH0_FF_TX_PCLK@|E:U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.sll_inst.pcount_diff[21:0]@|F:@syn_dgcc_clockid0_7==1@|M:ClockId_0_7 @XP_NAMES_BY_PROP">ClockId_0_7</a>       U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.DCU0_inst.CH0_FF_TX_PCLK     DCUA                   52         U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.sll_inst.pcount_diff[21:0]
+<a href="@|L:C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\versa_ecp5_mf8c_prem.srm@|S:U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_clkdiv.CDIV1@|E:U1_CORE.U1_PCIE\.U1_E5.U2_PHY.cs_reqdet_sm[1]@|F:@syn_dgcc_clockid0_8==1@|M:ClockId_0_8 @XP_NAMES_BY_PROP">ClockId_0_8</a>       U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_clkdiv.CDIV1                       PCSCLKDIV              108        U1_CORE.U1_PCIE\.U1_E5.U2_PHY.cs_reqdet_sm[1]                     
+<a href="@|L:C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\versa_ecp5_mf8c_prem.srm@|S:U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.rx_pclk@|E:U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pipe_top_0.RxValid_chx_reg@|F:@syn_dgcc_clockid0_9==1@|M:ClockId_0_9 @XP_NAMES_BY_PROP">ClockId_0_9</a>       U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pcs_top_0.rx_pclk                      pcie_x1_top_pcs        84         U1_CORE.U1_PCIE\.U1_E5.U2_PHY.pipe_top_0.RxValid_chx_reg          
+===========================================================================================================================================================================================
+============================================================================================= Gated/Generated Clocks ==============================================================================================
+Clock Tree ID     Driving Element                    Drive Element Type     Unconverted Fanout     Sample Instance                                                       Explanation                               
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<a href="@|L:C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\versa_ecp5_mf8c_prem.srm@|S:U1_CORE.U3_CLK.s_rtl_xclk.Q[0]@|E:U1_CORE.U4_UART.U1_UART\.1\.U_16550.U1_UART.U2_RX.s_rx_timer[5:0]@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3 @XP_NAMES_BY_PROP">ClockId_0_3</a>       U1_CORE.U3_CLK.s_rtl_xclk.Q[0]     dffr                   855                    U1_CORE.U4_UART.U1_UART\.1\.U_16550.U1_UART.U2_RX.s_rx_timer[5:0]     Derived clock on input (not legal for GCC)
+===================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N:<a href="@N:FX1143:@XP_HELP">FX1143</a> : <!@TM:1645973004> | Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized. 
+@N:<a href="@N:MF203:@XP_HELP">MF203</a> : <!@TM:1645973004> | Set autoconstraint_io  
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 206MB peak: 212MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 209MB peak: 212MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 212MB peak: 212MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 119MB peak: 213MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sun Feb 27 15:43:24 2022
+
+###########################################################]
+
+</pre></samp></body></html>

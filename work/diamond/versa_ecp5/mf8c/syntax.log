@@ -1,0 +1,122 @@
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03L-SP1-1
+Install: C:\lscc\diamond\3.12\synpbase
+OS: Windows 6.2
+
+Hostname: L-EQSS42R
+
+Implementation : mf8c
+Synopsys VHDL Compiler, Version comp202103synp2, Build 222R, Built Dec 22 2021 00:18:12, @
+
+@N|Running in 64-bit mode
+@N:"C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd":23:7:23:16|Top entity is set to versa_ecp5.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/rx_rsl/vhdl/rx_rsl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/work/clarity/versa_ecp5/pcie_subsys/pcie_mfx1_top/pcie_mfx1_top_combo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/packages/tspc_utils/vhdl/tspc_utils-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/top/core_mf8c/vhdl/core_mf8c_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/packages/tspc_wbone_types/vhdl/tspc_wbone_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/uart_block/vhdl/uart_block_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/units/tspc_dma_chan_ms/top/vhdl/tspc_dma_chan_ms_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/units/tspc_cfi_spim_pw2n/vhdl/tspc_cfi_spim_pw2n_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/pcat_16550s/vhdl/pcat_16550s_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/modem_regs_16550s/vhdl/modem_regs_16550s_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/tx_ser_8250/vhdl/tx_ser_8250_core_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/rx_ser_8250/vhdl/rx_ser_8250_core_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_cdc_vec/vhdl/tspc_cdc_vec-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/adr_decode/vhdl/adr_decode-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/clock_gen/vhdl/clock_gen-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tsls_wb_bmram/units/tspc_wb_ebr_ctl/vhdl/tspc_wb_ebr_ctl-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tsls_wb_bmram/top/vhdl/tsls_wb_bmram-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/units/tspc_cfi_spim_pw2n/vhdl/tspc_cfi_spim_pw2n-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_cdc_reg/vhdl/tspc_cdc_reg-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/units/tspc_dma_chan_ms/units/vhdl/tspc_dma_chan_ms_ctl-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_fifo_sync/tech/vhdl/tspc_fifo_sync_mem-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/top/vhdl/tspc_wb_cfi_jxb3-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_cdc_ack/vhdl/tspc_cdc_ack-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/modem_regs_16550s/vhdl/modem_regs_16550s-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/rx_ser_8250/vhdl/rx_ser_8250_core-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/rx_16550s/vhdl/rx_16550s-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/tx_ser_8250/vhdl/tx_ser_8250_core-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_event_latch/vhdl/tspc_event_latch-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_reg_pipeline/vhdl/tspc_reg_pipeline-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/tx_16550s/vhdl/tx_16550s-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/pcat_16550s/vhdl/pcat_16550s-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/top/vhdl/wb_16550s-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/uart_block/vhdl/uart_block-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/top/vhdl/dma_subsys-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/top/core_mf8c/vhdl/core_mf8c-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/top/core_mf8c/vhdl/core_mf8c_exports-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/top/versa_ecp5/vhdl/versa_ecp5_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/top/versa_ecp5/vhdl/versa_ecp5-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/packages/tspc_utils/vhdl/tspc_utils-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/packages/tspc_wbone_types/vhdl/tspc_wbone_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/units/tspc_dma_chan_ms/top/vhdl/tspc_dma_chan_ms_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/units/others/vhdl/jxb3_cfi_reg_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/units/others/vhdl/jxb3_cfi_reg_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/units/tspc_dma_chan_ms/top/vhdl/tspc_dma_chan_ms_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_fifo_sync/top/vhdl/tspc_fifo_sync_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/rx_16550s/vhdl/rx_16550s_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/tx_16550s/vhdl/tx_16550s_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/rx_ser_8250/vhdl/rx_ser_8250_core_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/top/vhdl/dma_subsys_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/units/dma_subsys_regs/vhdl/dma_subsys_regs_types-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/units/dma_subsys_regs/vhdl/dma_subsys_regs_types-pb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/top/vhdl/tspc_wb_cfi_jxb3_comps-p.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_cdc_vec/vhdl/tspc_cdc_vec-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/adr_decode/vhdl/adr_decode-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/clock_gen/vhdl/clock_gen-a_rtl.vhd'.
+@W: CD645 :"C:/project/PCIe_ECP5_MF/soc/units/clock_gen/vhdl/clock_gen-a_rtl.vhd":13:8:13:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:/project/PCIe_ECP5_MF/soc/units/clock_gen/vhdl/clock_gen-a_rtl.vhd":14:16:14:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/units/dma_subsys_regs/vhdl/dma_subsys_regs-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/units/dma_subsys_regs/vhdl/dma_subsys_regs-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tsls_wb_bmram/units/tspc_wb_ebr_ctl/vhdl/tspc_wb_ebr_ctl-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tsls_wb_bmram/top/vhdl/tsls_wb_bmram-a_rtl.vhd'.
+@W: CD645 :"C:/project/PCIe_ECP5_MF/soc/units/tsls_wb_bmram/top/vhdl/tsls_wb_bmram-a_rtl.vhd":26:8:26:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:/project/PCIe_ECP5_MF/soc/units/tsls_wb_bmram/top/vhdl/tsls_wb_bmram-a_rtl.vhd":28:16:28:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/units/tspc_cfi_spim_pw2n/vhdl/tspc_cfi_spim_pw2n-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/units/others/vhdl/jxb3_regs_ctrl-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/units/others/vhdl/jxb3_regs_ctrl-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/units/others/vhdl/jxb3_spi_dma_tgt-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/units/others/vhdl/jxb3_spi_dma_tgt-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_cdc_reg/vhdl/tspc_cdc_reg-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/units/tspc_dma_chan_ms/units/vhdl/tspc_dma_chan_ms_ctl-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_fifo_ctl_sync/vhdl/tspc_fifo_ctl_sync-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_fifo_ctl_sync/vhdl/tspc_fifo_ctl_sync-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_fifo_sync/tech/vhdl/tspc_fifo_sync_mem-a_rtl.vhd'.
+@W: CD645 :"C:/project/PCIe_ECP5_MF/soc/common/units/tspc_fifo_sync/tech/vhdl/tspc_fifo_sync_mem-a_rtl.vhd":27:8:27:15|Ignoring undefined library pmi_work
+@W: CD642 :"C:/project/PCIe_ECP5_MF/soc/common/units/tspc_fifo_sync/tech/vhdl/tspc_fifo_sync_mem-a_rtl.vhd":30:16:30:16|Ignoring use clause - library pmi_work not found ...
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_fifo_sync/top/vhdl/tspc_fifo_sync-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_fifo_sync/top/vhdl/tspc_fifo_sync-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/tspc_wb_cfi_jxb3/top/vhdl/tspc_wb_cfi_jxb3-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_cdc_ack/vhdl/tspc_cdc_ack-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/modem_regs_16550s/vhdl/modem_regs_16550s-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/rx_ser_8250/vhdl/rx_ser_8250_core-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/rx_16550s/vhdl/rx_16550s-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/tx_ser_8250/vhdl/tx_ser_8250_core-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_event_latch/vhdl/tspc_event_latch-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/common/units/tspc_reg_pipeline/vhdl/tspc_reg_pipeline-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/tx_16550s/vhdl/tx_16550s-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/units/pcat_16550s/vhdl/pcat_16550s-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/wb_16550s/top/vhdl/wb_16550s-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/uart_block/vhdl/uart_block-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/units/tspc_dma_chan_ms/top/vhdl/tspc_dma_chan_ms-e.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/units/tspc_dma_chan_ms/top/vhdl/tspc_dma_chan_ms-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/units/dma_subsys/top/vhdl/dma_subsys-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/top/core_mf8c/vhdl/core_mf8c-a_rtl.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:/project/PCIe_ECP5_MF/soc/top/versa_ecp5/vhdl/versa_ecp5-a_rtl.vhd'.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun Feb 27 15:53:50 2022
+
+###########################################################]
