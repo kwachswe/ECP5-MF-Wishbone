@@ -13,7 +13,7 @@ Running in Lattice mode
 Starting:    C:\lscc\diamond\3.12\synpbase\bin64\mbin\synbatch.exe
 Install:     C:\lscc\diamond\3.12\synpbase
 Hostname:    L-EQSS42R
-Date:        Sun Feb 27 15:46:26 2022
+Date:        Sun Feb 27 15:53:49 2022
 Version:     R-2021.03L-SP1-1
 
 Arguments:   -product synplify_pro -batch versa_ecp5_mf8c_synplify.tcl
@@ -29,49 +29,68 @@ Generating HDL info...
 Copied C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c.srr to C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c.srf
 
 hdl_info_gen completed
-# Sun Feb 27 15:46:27 2022
+# Sun Feb 27 15:53:50 2022
 
 Return Code: 0
-Run Time:00h:00m:01s
+Run Time:00h:00m:00s
 log file: "C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c.srr"
 Running: mf8c in foreground
 
 Running proj_1|mf8c
 
 Running Flow: compile (Compile) on proj_1|mf8c
-# Sun Feb 27 15:46:27 2022
+# Sun Feb 27 15:53:50 2022
 
 Running Flow: compile_flow (Compile Process) on proj_1|mf8c
-# Sun Feb 27 15:46:27 2022
+# Sun Feb 27 15:53:50 2022
 
 Running: compiler (Compile Input) on proj_1|mf8c
-# Sun Feb 27 15:46:27 2022
+# Sun Feb 27 15:53:50 2022
+Copied C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\versa_ecp5_mf8c_comp.srs to C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c.srs
 
 compiler completed
-# Sun Feb 27 15:46:29 2022
+# Sun Feb 27 15:53:59 2022
 
 Return Code: 0
-Run Time:00h:00m:02s
+Run Time:00h:00m:09s
 
 Running: multi_srs_gen (Multi-srs Generator) on proj_1|mf8c
-# Sun Feb 27 15:46:29 2022
-Up-To-Date: multi_srs_gen. No run necessary
+# Sun Feb 27 15:53:59 2022
+
+multi_srs_gen completed
+# Sun Feb 27 15:53:59 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\versa_ecp5_mf8c_mult.srs to C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c.srs
 Copied C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c.srr to C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c.srf
 Complete: Compile Process on proj_1|mf8c
 
 Running: premap (Premap) on proj_1|mf8c
-# Sun Feb 27 15:46:29 2022
-Up-To-Date: premap. No run necessary
+# Sun Feb 27 15:53:59 2022
+
+premap completed with warnings
+# Sun Feb 27 15:54:03 2022
+
+Return Code: 1
+Run Time:00h:00m:04s
 Complete: Compile on proj_1|mf8c
 
 Running Flow: map (Map) on proj_1|mf8c
-# Sun Feb 27 15:46:29 2022
+# Sun Feb 27 15:54:03 2022
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on proj_1|mf8c
-# Sun Feb 27 15:46:29 2022
-Up-To-Date: fpga_mapper. No run necessary
+# Sun Feb 27 15:54:03 2022
+Copied C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\versa_ecp5_mf8c_m.srm to C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c.srm
+
+fpga_mapper completed with warnings
+# Sun Feb 27 15:54:37 2022
+
+Return Code: 1
+Run Time:00h:00m:34s
 Complete: Map on proj_1|mf8c
+Copied C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c.srr to C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\versa_ecp5_mf8c.srf
 Complete: Logic Synthesis on proj_1|mf8c
 TCL script complete: "versa_ecp5_mf8c_synplify.tcl"
 exit status=0

@@ -127,12 +127,100 @@ Synopsys VHDL Compiler, Version comp202103synp2, Build 222R, Built Dec 22 2021 0
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-a_rtl.vhd'.
 VHDL syntax check successful!
 @N: CD231 :"C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+File C:\project\PCIe_ECP5_MF\soc\units\rx_rsl\vhdl\rx_rsl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top_combo.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_utils\vhdl\tspc_utils-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\adr_decode\vhdl\adr_decode-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\clock_gen\vhdl\clock_gen-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_reg\vhdl\tspc_cdc_reg-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_event_latch\vhdl\tspc_event_latch-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_reg_pipeline\vhdl\tspc_reg_pipeline-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c_exports-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_utils\vhdl\tspc_utils-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_types-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_cfi_reg_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_cfi_reg_types-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core_types-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs_types-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\adr_decode\vhdl\adr_decode-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\clock_gen\vhdl\clock_gen-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_reg\vhdl\tspc_cdc_reg-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_event_latch\vhdl\tspc_event_latch-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_reg_pipeline\vhdl\tspc_reg_pipeline-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-a_rtl.vhd changed - recompiling
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 102MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 103MB)
 
 
 Process completed successfully.
-# Sun Feb 27 15:53:51 2022
+# Fri Mar  4 20:12:05 2022
 
 ###########################################################]
 ###########################################################[
@@ -204,11 +292,50 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 
 
 Process completed successfully.
-# Sun Feb 27 15:53:51 2022
+# Fri Mar  4 20:12:06 2022
 
 ###########################################################]
 ###########################################################[
 @N:"C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd":23:7:23:16|Top entity is set to versa_ecp5.
+File C:\project\PCIe_ECP5_MF\soc\units\rx_rsl\vhdl\rx_rsl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top_combo.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_utils\vhdl\tspc_utils-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\adr_decode\vhdl\adr_decode-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\clock_gen\vhdl\clock_gen-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_reg\vhdl\tspc_cdc_reg-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_event_latch\vhdl\tspc_event_latch-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_reg_pipeline\vhdl\tspc_reg_pipeline-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c_exports-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_utils\vhdl\tspc_utils-pb.vhd changed - recompiling
 File C:\lscc\diamond\3.12\synpbase\lib\vhd\math_real.vhd changed - recompiling
 File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-pb.vhd changed - recompiling
 File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_types-pb.vhd changed - recompiling
@@ -355,6 +482,94 @@ File C:\lscc\diamond\3.12\synpbase\lib\lucent\ecp5um.vhd changed - recompiling
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-a_rtl.vhd'.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-a_rtl.vhd'.
 VHDL syntax check successful!
+File C:\project\PCIe_ECP5_MF\soc\units\rx_rsl\vhdl\rx_rsl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top_combo.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_utils\vhdl\tspc_utils-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\adr_decode\vhdl\adr_decode-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\clock_gen\vhdl\clock_gen-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_reg\vhdl\tspc_cdc_reg-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_event_latch\vhdl\tspc_event_latch-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_reg_pipeline\vhdl\tspc_reg_pipeline-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c_exports-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_utils\vhdl\tspc_utils-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_types-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_cfi_reg_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_cfi_reg_types-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core_types-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs_types-pb.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\adr_decode\vhdl\adr_decode-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\clock_gen\vhdl\clock_gen-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_spi_dma_tgt-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_reg\vhdl\tspc_cdc_reg-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\top\vhdl\tspc_fifo_sync-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_event_latch\vhdl\tspc_event_latch-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_reg_pipeline\vhdl\tspc_reg_pipeline-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-a_rtl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-a_rtl.vhd changed - recompiling
 @N: CD231 :"C:\lscc\diamond\3.12\synpbase\lib\vhd2008\std1164.vhd":888:16:888:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd":23:7:23:16|Synthesizing work.versa_ecp5.rtl.
 @N: CD630 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-e.vhd":19:7:19:18|Synthesizing work.tspc_cdc_vec.rtl.
@@ -845,15 +1060,15 @@ Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_1layer0 (CPU
 Running optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_512_1 .......
 @N: CL201 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":298:9:298:10|Trying to extract state machine for register s_egr_pipe.
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
-Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_512_1 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 136MB)
+Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_512_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 137MB)
 Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_2 .......
-Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_2 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 136MB)
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_2 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 137MB)
 Running optimization stage 2 on tspc_fifo_sync_mem_work_versa_ecp5_rtl_0layer0 .......
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
-Finished optimization stage 2 on tspc_fifo_sync_mem_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 136MB)
+Finished optimization stage 2 on tspc_fifo_sync_mem_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 137MB)
 Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_2layer0 .......
-Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_2layer0 (CPU Time 0h:00m:00s, Memory Used current: 131MB peak: 136MB)
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_2layer0 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 137MB)
 Running optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_4_1 .......
 @N: CL201 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-a_rtl.vhd":298:9:298:10|Trying to extract state machine for register s_egr_pipe.
 Extracted state machine for register s_egr_pipe
@@ -863,15 +1078,15 @@ State machine has 4 reachable states with original encodings of:
    10
    11
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_ctl_sync\vhdl\tspc_fifo_ctl_sync-e.vhd":45:6:45:13|Input i_clk_en is unused.
-Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_4_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 136MB)
+Finished optimization stage 2 on tspc_fifo_ctl_sync_1_1_2_4_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 137MB)
 Running optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_1 .......
-Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 136MB)
+Finished optimization stage 2 on pmi_ram_dp_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 137MB)
 Running optimization stage 2 on tspc_fifo_sync_mem_false_4_2_ECP5UM_ANY_1 .......
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":41:6:41:10|Input i_clr is unused.
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd":45:6:45:16|Input i_rd_reg_en is unused.
-Finished optimization stage 2 on tspc_fifo_sync_mem_false_4_2_ECP5UM_ANY_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 136MB)
+Finished optimization stage 2 on tspc_fifo_sync_mem_false_4_2_ECP5UM_ANY_1 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 137MB)
 Running optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_3layer0 .......
-Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_3layer0 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 136MB)
+Finished optimization stage 2 on tspc_fifo_sync_work_versa_ecp5_rtl_3layer0 (CPU Time 0h:00m:00s, Memory Used current: 132MB peak: 137MB)
 Running optimization stage 2 on tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0 .......
 @W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_period_count(31) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning register bit 31 of s_int_period_count(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
@@ -907,7 +1122,7 @@ State machine has 21 reachable states with original encodings of:
 @W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_period_count(28) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning register bit 28 of s_int_period_count(28 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd":43:6:43:21|Input i_dma_int_period is unused.
-Finished optimization stage 2 on tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 158MB)
+Finished optimization stage 2 on tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 136MB peak: 158MB)
 Running optimization stage 2 on tspc_dma_chan_ms_ctl_work_versa_ecp5_rtl_1layer0 .......
 @W: CL190 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Optimizing register bit s_int_period_count(31) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL260 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-a_rtl.vhd":291:6:291:7|Pruning register bit 31 of s_int_period_count(31 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
@@ -990,7 +1205,7 @@ Running optimization stage 2 on dma_subsys_regs .......
 @W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-e.vhd":34:6:34:19|Input port bits 31 to 23 of i_dma_xfer_pos(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
 @W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-e.vhd":35:6:35:13|Input port bits 15 to 8 of i_wb_adr(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
 @W: CL246 :"C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\dma_subsys_regs\vhdl\dma_subsys_regs-e.vhd":35:6:35:13|Input port bits 1 to 0 of i_wb_adr(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
-Finished optimization stage 2 on dma_subsys_regs (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Finished optimization stage 2 on dma_subsys_regs (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 158MB)
 Running optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_1layer0 .......
 @N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":170:6:170:7|Trying to extract state machine for register s_wb_fsm.
 Extracted state machine for register s_wb_fsm
@@ -1007,13 +1222,13 @@ State machine has 5 reachable states with original encodings of:
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":44:6:44:15|Input i_ram_wait is unused.
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":46:6:46:13|Input i_wb_bte is unused.
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":50:6:50:14|Input i_wb_lock is unused.
-Finished optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Finished optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 158MB)
 Running optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_1 .......
-Finished optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Finished optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_1 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 158MB)
 Running optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_1layer0 .......
-Finished optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Finished optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_1layer0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 158MB)
 Running optimization stage 2 on dma_subsys_ECP5UM .......
-Finished optimization stage 2 on dma_subsys_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Finished optimization stage 2 on dma_subsys_ECP5UM (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 158MB)
 Running optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_0layer0 .......
 @N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-a_rtl.vhd":170:6:170:7|Trying to extract state machine for register s_wb_fsm.
 Extracted state machine for register s_wb_fsm
@@ -1030,11 +1245,11 @@ State machine has 5 reachable states with original encodings of:
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":44:6:44:15|Input i_ram_wait is unused.
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":46:6:46:13|Input i_wb_bte is unused.
 @N: CL159 :"C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd":50:6:50:14|Input i_wb_lock is unused.
-Finished optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Finished optimization stage 2 on tspc_wb_ebr_ctl_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 158MB)
 Running optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 .......
-Finished optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Finished optimization stage 2 on pmi_ram_dp_true_be_work_versa_ecp5_rtl_0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 158MB)
 Running optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_0layer0 .......
-Finished optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Finished optimization stage 2 on tsls_wb_bmram_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 158MB)
 Running optimization stage 2 on tspc_cfi_spim_pw2n_work_versa_ecp5_rtl_0layer0 .......
 @N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-a_rtl.vhd":197:6:197:7|Trying to extract state machine for register s_cfi_fsm.
 Extracted state machine for register s_cfi_fsm
@@ -1051,7 +1266,7 @@ State machine has 12 reachable states with original encodings of:
    0010000000000
    0100000000000
    1000000000000
-Finished optimization stage 2 on tspc_cfi_spim_pw2n_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 140MB peak: 158MB)
+Finished optimization stage 2 on tspc_cfi_spim_pw2n_work_versa_ecp5_rtl_0layer0 (CPU Time 0h:00m:00s, Memory Used current: 141MB peak: 158MB)
 Running optimization stage 2 on jxb3_regs_ctrl .......
 @N: CL201 :"C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\others\vhdl\jxb3_regs_ctrl-a_rtl.vhd":326:6:326:7|Trying to extract state machine for register s_fsm_buf_wr.
 Extracted state machine for register s_fsm_buf_wr
@@ -1164,11 +1379,11 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\layer0.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:23s; Memory used current: 139MB peak: 158MB)
 
 
 Process completed successfully.
-# Sun Feb 27 15:53:51 2022
+# Fri Mar  4 20:12:30 2022
 
 ###########################################################]
 ###########################################################[
@@ -1218,7 +1433,6 @@ Process completed successfully.
 @W: CG274 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_subsys.v":5:0:5:21|Not overridding macro passed from the project (Macro: SBP_SYNTHESIS) - the macro value specified in the project will be used
 @I::"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\xclk_subsys\pll_xclk_base\pll_xclk_base.v" (library work)
 Verilog syntax check successful!
-Options changed - recompiling
 @N: CG364 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top_bb.v":1:7:1:19|Synthesizing module pcie_mfx1_top in library work.
 @W: CG146 :"C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top_bb.v":1:7:1:19|Creating black box for empty module pcie_mfx1_top
 
@@ -1550,15 +1764,54 @@ For a summary of runtime and memory usage per design unit, please see file:
 @L: C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\layer1.rt.csv
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 98MB peak: 104MB)
+At c_ver Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 100MB peak: 104MB)
 
 
 Process completed successfully.
-# Sun Feb 27 15:53:57 2022
+# Fri Mar  4 20:12:36 2022
 
 ###########################################################]
 ###########################################################[
 @N:"C:\project\PCIe_ECP5_MF\soc\units\rx_rsl\vhdl\rx_rsl.vhd":32:8:32:13|Top entity is set to rx_rsl.
+File C:\project\PCIe_ECP5_MF\soc\units\rx_rsl\vhdl\rx_rsl.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\work\clarity\versa_ecp5\pcie_subsys\pcie_mfx1_top\pcie_mfx1_top_combo.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_utils\vhdl\tspc_utils-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core_types-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_vec\vhdl\tspc_cdc_vec-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\adr_decode\vhdl\adr_decode-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\clock_gen\vhdl\clock_gen-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\units\tspc_wb_ebr_ctl\vhdl\tspc_wb_ebr_ctl-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tsls_wb_bmram\top\vhdl\tsls_wb_bmram-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\units\tspc_cfi_spim_pw2n\vhdl\tspc_cfi_spim_pw2n-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_reg\vhdl\tspc_cdc_reg-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\units\vhdl\tspc_dma_chan_ms_ctl-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\tspc_wb_cfi_jxb3\top\vhdl\tspc_wb_cfi_jxb3-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_cdc_ack\vhdl\tspc_cdc_ack-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\modem_regs_16550s\vhdl\modem_regs_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_ser_8250\vhdl\rx_ser_8250_core-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\rx_16550s\vhdl\rx_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_ser_8250\vhdl\tx_ser_8250_core-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_event_latch\vhdl\tspc_event_latch-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\units\tspc_reg_pipeline\vhdl\tspc_reg_pipeline-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\tx_16550s\vhdl\tx_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\units\pcat_16550s\vhdl\pcat_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\wb_16550s\top\vhdl\wb_16550s-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\uart_block\vhdl\uart_block-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\top\vhdl\dma_subsys-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\core_mf8c\vhdl\core_mf8c_exports-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5_comps-p.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\top\versa_ecp5\vhdl\versa_ecp5-e.vhd changed - recompiling
+File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_utils\vhdl\tspc_utils-pb.vhd changed - recompiling
 File C:\lscc\diamond\3.12\synpbase\lib\vhd\math_real.vhd changed - recompiling
 File C:\project\PCIe_ECP5_MF\soc\common\packages\tspc_wbone_types\vhdl\tspc_wbone_types-pb.vhd changed - recompiling
 File C:\project\PCIe_ECP5_MF\soc\units\dma_subsys\units\tspc_dma_chan_ms\top\vhdl\tspc_dma_chan_ms_types-pb.vhd changed - recompiling
@@ -1712,18 +1965,18 @@ Post processing for work.rx_rsl.rx_rsl_arc
 Running optimization stage 1 on rx_rsl .......
 Finished optimization stage 1 on rx_rsl (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 Running optimization stage 2 on rx_rsl .......
-Finished optimization stage 2 on rx_rsl (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 108MB)
+Finished optimization stage 2 on rx_rsl (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 107MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
 @L: C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\layer2.rt.csv
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 108MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 107MB)
 
 
 Process completed successfully.
-# Sun Feb 27 15:53:58 2022
+# Fri Mar  4 20:12:36 2022
 
 ###########################################################]
 ###########################################################[
@@ -1744,6 +1997,7 @@ Implementation : mf8c
 Synopsys Synopsys Netlist Linker, Version comp202103synp2, Build 222R, Built Dec 22 2021 00:18:12, @
 
 @N|Running in 64-bit mode
+File C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\layer0.srs changed - recompiling
 File C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\layer1.srs changed - recompiling
 File C:\project\PCIe_ECP5_MF\work\diamond\versa_ecp5\mf8c\synwork\layer2.srs changed - recompiling
 @W: Z198 :"c:\project\pcie_ecp5_mf\soc\common\units\tspc_fifo_sync\tech\vhdl\tspc_fifo_sync_mem-a_rtl.vhd":131:9:131:13|Unbound component pmi_ram_dp_work_versa_ecp5_rtl_5 of instance LAT_EQ1\.U1_BMRAM\.U_RAM 
@@ -1766,7 +2020,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Feb 27 15:53:58 2022
+# Fri Mar  4 20:12:37 2022
 
 ###########################################################]
 
@@ -1776,11 +2030,11 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 23MB peak: 24MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 23MB peak: 24MB)
 
-Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+Process took 0h:00m:32s realtime, 0h:00m:31s cputime
 
 Process completed successfully.
-# Sun Feb 27 15:53:58 2022
+# Fri Mar  4 20:12:37 2022
 
 ###########################################################]

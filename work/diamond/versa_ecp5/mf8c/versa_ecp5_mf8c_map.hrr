@@ -37,8 +37,8 @@ Report for cell core_mf8c_5_ECP5UM
                                    EBR	         72        100.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-tspc_wb_cfi_jxb3_work_versa_ecp5_rtl_0layer0	          1         3.4
                    uart_block_5_ECP5UM	          1        19.5
+tspc_wb_cfi_jxb3_work_versa_ecp5_rtl_0layer0	          1         3.4
 tsls_wb_bmram_work_versa_ecp5_rtl_0layer0	          1         1.0
                    pcie_mfx1_top_combo	          1        63.5
                      dma_subsys_ECP5UM	          1        12.4
@@ -480,8 +480,8 @@ Report for cell tx_16550s_false_16_ECP5UM_4_3
                                    EBR	          1         1.4
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-tspc_fifo_sync_work_versa_ecp5_rtl_4layer0_4_3	          1         0.3
 tspc_reg_pipeline_work_versa_ecp5_rtl_0layer0_3	          1         0.0
+tspc_fifo_sync_work_versa_ecp5_rtl_4layer0_4_3	          1         0.3
                   tx_ser_8250_core_4_3	          1         0.3
                     tspc_event_latch_3	          1         0.0
 tspc_cdc_reg_work_versa_ecp5_rtl_1layer0_4	          1         0.1
@@ -746,9 +746,9 @@ Report for cell tx_16550s_false_16_ECP5UM_4_2
                                    EBR	          1         1.4
 SUB MODULES
                                   cell	      count    SLC Usage(%)
+                  tx_ser_8250_core_4_2	          1         0.3
 tspc_reg_pipeline_work_versa_ecp5_rtl_0layer0_2	          1         0.0
 tspc_fifo_sync_work_versa_ecp5_rtl_4layer0_4_2	          1         0.3
-                  tx_ser_8250_core_4_2	          1         0.3
                     tspc_event_latch_2	          1         0.0
 tspc_cdc_reg_work_versa_ecp5_rtl_1layer0_3	          1         0.1
 ---------------------------------------------------
@@ -1934,8 +1934,8 @@ Report for cell pcie_mfdev_subsys_Z55_layer1
 SUB MODULES
                                   cell	      count    SLC Usage(%)
 ID81B7D29F9F1B2882EE754B639B67517_32s_512s_512s_32s_48s_ECP5UM_1s_33s	          1         3.7
-IA68D2B0762B11205E05F2AB6538CBB65_0s_1024s_16s_ECP5UM_32s_10s_34s_34s_32s_11s_3_layer1	          1         1.1
 IAC6C4C771C836211892F0FD3F47BC076_Z13_layer1	          1        19.4
+IA68D2B0762B11205E05F2AB6538CBB65_0s_1024s_16s_ECP5UM_32s_10s_34s_34s_32s_11s_3_layer1	          1         1.1
 I7639B3DE6448BF04A6DF404C0FEDBA75_Z49_layer1	          1         3.4
 I4CACC63B64035D749DE3C4BCF79F626C_Z56_layer1	          1         3.5
 I35D01845B6D15D59E4E7B95EDE6F3368_32s_512s_8s_ECP5UM_16s_9s_10s_32s	          1         2.9
@@ -2286,8 +2286,8 @@ Report for cell IAC6C4C771C836211892F0FD3F47BC076_Z13_layer1
                                    EBR	          1         1.4
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-IFF5E0986AB6F727F3EEDED75702CE45A_512s_9s_ECP5UM	          1         0.7
 IF8888DF840520FCED3157D151D128B3B_Z11_layer1	          1         0.4
+IFF5E0986AB6F727F3EEDED75702CE45A_512s_9s_ECP5UM	          1         0.7
 I2296FC491415818D18357D6C2D700C14_Z32_layer1	          1         2.3
 I2296FC491415818D18357D6C2D700C14_Z40_layer1	          1         2.1
 I2296FC491415818D18357D6C2D700C14_Z9_layer1	          1         2.6
@@ -3178,8 +3178,8 @@ Report for cell trnc_3s_16s_0_1_2
                                 RIPPLE	        168        10.0
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-              txintf_x1_3s_16s_0_1_2_3	          1         0.6
                                   txfc	          1         1.7
+              txintf_x1_3s_16s_0_1_2_3	          1         0.6
                              tlpdec_x1	          1         0.6
                              rxintf_x1	          1         0.3
                                   rxfc	          1         1.2
@@ -3408,10 +3408,10 @@ Report for cell txtp_3s_16s
                                    EBR	          2         2.8
 SUB MODULES
                                   cell	      count    SLC Usage(%)
-                   txtp_mux_16s_3s_16s	          1         0.3
-                         txtp_cins_16s	          1         0.9
                    txtp_seq_16s_0_2048	          1         0.3
 txtp_rtry_16s_260s_1024s_10s_20s_8s_146s	          1         2.3
+                   txtp_mux_16s_3s_16s	          1         0.3
+                         txtp_cins_16s	          1         0.9
 ---------------------------------------------------
 Report for cell txtp_cins_16s
    Instance path: versa_ecp5/U1_CORE/U1_PCIE.U1_E5/U1_CORE/u1_dut/u1_dut/u1_dll/u1_txtp/u1_txtp_cins
@@ -3552,8 +3552,8 @@ Report for cell ltssm
 SUB MODULES
                                   cell	      count    SLC Usage(%)
                               rcvry_sm	          1         0.2
-                                 osenc	          1         1.2
                                 pol_sm	          1         0.4
+                                 osenc	          1         1.2
                                  osdec	          1         2.4
                                main_sm	          1         0.3
                                 lbk_sm	          1         0.2
@@ -3562,8 +3562,8 @@ SUB MODULES
                              l0s_tx_sm	          1         0.1
                                  l0_sm	          1         0.2
                                hrst_sm	          1         0.1
-                                dis_sm	          1         0.1
                                 det_sm	          1         0.1
+                                dis_sm	          1         0.1
                              cfg_up_sm	          1         0.7
 ---------------------------------------------------
 Report for cell hrst_sm

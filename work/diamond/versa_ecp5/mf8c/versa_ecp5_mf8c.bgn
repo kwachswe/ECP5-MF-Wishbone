@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
-Sun Feb 27 16:09:56 2022
+Fri Mar 04 20:35:25 2022
 
 
 Command: bitgen -w -g CfgMode:Disable -g RamCfg:Reset -g DisableUES:FALSE -g ES:No -e -s C:/project/PCIe_ECP5_MF/work/diamond/versa_ecp5/versa_ecp5.sec -k C:/project/PCIe_ECP5_MF/work/diamond/versa_ecp5/versa_ecp5.bek -gui -msgset C:/project/PCIe_ECP5_MF/work/diamond/versa_ecp5/promote.xml versa_ecp5_mf8c.ncd versa_ecp5_mf8c.prf 
@@ -76,5 +76,5 @@ Bitstream Status: Final           Version 10.27.
  
 Saving bit stream in "versa_ecp5_mf8c.bit".
 Total CPU Time: 11 secs 
-Total REAL Time: 11 secs 
+Total REAL Time: 12 secs 
 Peak Memory Usage: 473 MB

@@ -1,4 +1,4 @@
-# Sun Feb 27 15:53:59 2022
+# Fri Mar  4 20:12:40 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -386,11 +386,11 @@ Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapse
 Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 211MB peak: 212MB)
 
 
-Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 211MB peak: 212MB)
+Finished clock optimization report phase (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 211MB peak: 212MB)
 
 @N: FX1184 |Applying syn_allowed_resources blockrams=108 on top level netlist versa_ecp5 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 211MB peak: 212MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 211MB peak: 212MB)
 
 
 
@@ -498,13 +498,13 @@ Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 209MB peak: 212MB)
 
 
-Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 213MB peak: 213MB)
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 213MB peak: 213MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 119MB peak: 214MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 119MB peak: 214MB)
 
 Process took 0h:00m:03s realtime, 0h:00m:03s cputime
-# Sun Feb 27 15:54:03 2022
+# Fri Mar  4 20:12:43 2022
 
 ###########################################################]

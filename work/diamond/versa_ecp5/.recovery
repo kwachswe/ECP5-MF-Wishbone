@@ -275,6 +275,9 @@
         <Source name="../../../scripts/diamond/versa_ecp5.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>
+        <Source name="mf8c/mf8c.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
         <Source name="versa_ecp5.lpf" type="Logic Preference" type_short="LPF" excluded="TRUE">
             <Options/>
         </Source>

@@ -13,7 +13,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454
-Sun Feb 27 16:09:48 2022
+Fri Mar 04 20:35:17 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -1344,59 +1344,6 @@ Passed: The following path meets requirements by 4.147ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[31]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
-
-   Delay:               6.063ns  (23.4% logic, 76.6% route), 6 logic levels.
-
- Constraint Details:
-
-      6.063ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510 meets
-     10.000ns delay constraint less
-      0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.147ns
-
- Physical Path Details:
-
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.393    R51C65A.CLK to     R51C65A.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-ROUTE         4     0.780     R51C65A.Q1 to     R49C64A.C0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]
-CTOF_DEL    ---     0.180     R49C64A.C0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
-ROUTE         2     0.775     R49C64A.F0 to     R48C63B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_12_0
-CTOF_DEL    ---     0.180     R48C63B.B1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
-ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
-CTOF_DEL    ---     0.180     R49C62B.A1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
-ROUTE         1     0.577     R49C62B.F1 to     R49C61A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2
-CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
-ROUTE        38     1.624     R49C61A.F1 to     R49C66A.D1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
-CTOOFX_DEL  ---     0.306     R49C66A.D1 to   R49C66A.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510
-ROUTE         1     0.000   R49C66A.OFX0 to    R49C66A.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[31] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-                  --------
-                    6.063   (23.4% logic, 76.6% route), 6 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C65A.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
-                  --------
-                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C66A.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
-                  --------
-                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 4.147ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[25]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
 
    Delay:               6.063ns  (23.4% logic, 76.6% route), 6 logic levels.
@@ -1445,30 +1392,30 @@ ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C66B.CLK U1_CORE/U1_PCIE.U1_E
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 4.152ns
+Passed: The following path meets requirements by 4.147ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[31]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
 
-   Delay:               6.058ns  (23.4% logic, 76.6% route), 6 logic levels.
+   Delay:               6.063ns  (23.4% logic, 76.6% route), 6 logic levels.
 
  Constraint Details:
 
-      6.058ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510 meets
+      6.063ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510 meets
      10.000ns delay constraint less
       0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.152ns
+     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.147ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.393    R51C64B.CLK to     R51C64B.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-ROUTE         4     0.775     R51C64B.Q1 to     R49C64A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]
-CTOF_DEL    ---     0.180     R49C64A.B0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
+REG_DEL     ---     0.393    R51C65A.CLK to     R51C65A.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+ROUTE         4     0.780     R51C65A.Q1 to     R49C64A.C0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]
+CTOF_DEL    ---     0.180     R49C64A.C0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
 ROUTE         2     0.775     R49C64A.F0 to     R48C63B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_12_0
 CTOF_DEL    ---     0.180     R48C63B.B1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
 ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
@@ -1479,14 +1426,14 @@ ROUTE        38     1.624     R49C61A.F1 to     R49C66A.D1 U1_CORE/U1_PCIE.U1_E5
 CTOOFX_DEL  ---     0.306     R49C66A.D1 to   R49C66A.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510
 ROUTE         1     0.000   R49C66A.OFX0 to    R49C66A.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[31] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
                   --------
-                    6.058   (23.4% logic, 76.6% route), 6 logic levels.
+                    6.063   (23.4% logic, 76.6% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494:
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C64B.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C65A.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -1551,32 +1498,32 @@ ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C66B.CLK U1_CORE/U1_PCIE.U1_E
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 4.176ns
+Passed: The following path meets requirements by 4.152ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[18]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[31]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
 
-   Delay:               6.034ns  (23.5% logic, 76.5% route), 6 logic levels.
+   Delay:               6.058ns  (23.4% logic, 76.6% route), 6 logic levels.
 
  Constraint Details:
 
-      6.034ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510 meets
+      6.058ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510 meets
      10.000ns delay constraint less
       0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.176ns
+     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.152ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.395    R49C65D.CLK to     R49C65D.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-ROUTE         4     0.924     R49C65D.Q0 to     R48C63B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[18]
-CTOF_DEL    ---     0.180     R48C63B.B0 to     R48C63B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
-ROUTE         2     0.600     R48C63B.F0 to     R48C63B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_11
-CTOF_DEL    ---     0.180     R48C63B.A1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
+REG_DEL     ---     0.393    R51C64B.CLK to     R51C64B.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+ROUTE         4     0.775     R51C64B.Q1 to     R49C64A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]
+CTOF_DEL    ---     0.180     R49C64A.B0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
+ROUTE         2     0.775     R49C64A.F0 to     R48C63B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_12_0
+CTOF_DEL    ---     0.180     R48C63B.B1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
 ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
 CTOF_DEL    ---     0.180     R49C62B.A1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
 ROUTE         1     0.577     R49C62B.F1 to     R49C61A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2
@@ -1585,14 +1532,14 @@ ROUTE        38     1.624     R49C61A.F1 to     R49C66A.D1 U1_CORE/U1_PCIE.U1_E5
 CTOOFX_DEL  ---     0.306     R49C66A.D1 to   R49C66A.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510
 ROUTE         1     0.000   R49C66A.OFX0 to    R49C66A.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[31] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
                   --------
-                    6.034   (23.5% logic, 76.5% route), 6 logic levels.
+                    6.058   (23.4% logic, 76.6% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502:
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C65D.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C64B.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -1657,55 +1604,55 @@ ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C66B.CLK U1_CORE/U1_PCIE.U1_E
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 4.245ns
+Passed: The following path meets requirements by 4.176ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[16]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[18]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[31]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
 
-   Delay:               5.965ns  (21.7% logic, 78.3% route), 6 logic levels.
+   Delay:               6.034ns  (23.5% logic, 76.5% route), 6 logic levels.
 
  Constraint Details:
 
-      5.965ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500 meets
+      6.034ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510 meets
      10.000ns delay constraint less
       0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.245ns
+     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.176ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.393    R51C65A.CLK to     R51C65A.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-ROUTE         4     0.780     R51C65A.Q1 to     R49C64A.C0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]
-CTOF_DEL    ---     0.180     R49C64A.C0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
-ROUTE         2     0.775     R49C64A.F0 to     R48C63B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_12_0
-CTOF_DEL    ---     0.180     R48C63B.B1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
+REG_DEL     ---     0.395    R49C65D.CLK to     R49C65D.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+ROUTE         4     0.924     R49C65D.Q0 to     R48C63B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[18]
+CTOF_DEL    ---     0.180     R48C63B.B0 to     R48C63B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
+ROUTE         2     0.600     R48C63B.F0 to     R48C63B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_11
+CTOF_DEL    ---     0.180     R48C63B.A1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
 ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
 CTOF_DEL    ---     0.180     R49C62B.A1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
 ROUTE         1     0.577     R49C62B.F1 to     R49C61A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2
 CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
-ROUTE        38     1.652     R49C61A.F1 to     R48C65D.D1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
-CTOF_DEL    ---     0.180     R48C65D.D1 to     R48C65D.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500
-ROUTE         1     0.000     R48C65D.F1 to    R48C65D.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[16] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+ROUTE        38     1.624     R49C61A.F1 to     R49C66A.D1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
+CTOOFX_DEL  ---     0.306     R49C66A.D1 to   R49C66A.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510
+ROUTE         1     0.000   R49C66A.OFX0 to    R49C66A.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[31] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
                   --------
-                    5.965   (21.7% logic, 78.3% route), 6 logic levels.
+                    6.034   (23.5% logic, 76.5% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503:
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C65A.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C65D.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3510:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R48C65D.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C66A.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -1743,6 +1690,59 @@ CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5
 ROUTE        38     1.652     R49C61A.F1 to     R48C65D.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
 CTOF_DEL    ---     0.180     R48C65D.D0 to     R48C65D.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500
 ROUTE         1     0.000     R48C65D.F0 to    R48C65D.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[15] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+                  --------
+                    5.965   (21.7% logic, 78.3% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C65A.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+                  --------
+                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R48C65D.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+                  --------
+                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 4.245ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[16]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+
+   Delay:               5.965ns  (21.7% logic, 78.3% route), 6 logic levels.
+
+ Constraint Details:
+
+      5.965ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500 meets
+     10.000ns delay constraint less
+      0.000ns skew and
+     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.245ns
+
+ Physical Path Details:
+
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.393    R51C65A.CLK to     R51C65A.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+ROUTE         4     0.780     R51C65A.Q1 to     R49C64A.C0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]
+CTOF_DEL    ---     0.180     R49C64A.C0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
+ROUTE         2     0.775     R49C64A.F0 to     R48C63B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_12_0
+CTOF_DEL    ---     0.180     R48C63B.B1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
+ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
+CTOF_DEL    ---     0.180     R49C62B.A1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
+ROUTE         1     0.577     R49C62B.F1 to     R49C61A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2
+CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
+ROUTE        38     1.652     R49C61A.F1 to     R48C65D.D1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
+CTOF_DEL    ---     0.180     R48C65D.D1 to     R48C65D.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500
+ROUTE         1     0.000     R48C65D.F1 to    R48C65D.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[16] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
                   --------
                     5.965   (21.7% logic, 78.3% route), 6 logic levels.
 
@@ -1823,59 +1823,6 @@ Passed: The following path meets requirements by 4.250ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[15]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
-
-   Delay:               5.960ns  (21.7% logic, 78.3% route), 6 logic levels.
-
- Constraint Details:
-
-      5.960ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500 meets
-     10.000ns delay constraint less
-      0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.250ns
-
- Physical Path Details:
-
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.393    R51C64B.CLK to     R51C64B.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-ROUTE         4     0.775     R51C64B.Q1 to     R49C64A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]
-CTOF_DEL    ---     0.180     R49C64A.B0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
-ROUTE         2     0.775     R49C64A.F0 to     R48C63B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_12_0
-CTOF_DEL    ---     0.180     R48C63B.B1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
-ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
-CTOF_DEL    ---     0.180     R49C62B.A1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
-ROUTE         1     0.577     R49C62B.F1 to     R49C61A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2
-CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
-ROUTE        38     1.652     R49C61A.F1 to     R48C65D.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
-CTOF_DEL    ---     0.180     R48C65D.D0 to     R48C65D.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500
-ROUTE         1     0.000     R48C65D.F0 to    R48C65D.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[15] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-                  --------
-                    5.960   (21.7% logic, 78.3% route), 6 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C64B.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
-                  --------
-                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R48C65D.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
-                  --------
-                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 4.250ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[16]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
 
    Delay:               5.960ns  (21.7% logic, 78.3% route), 6 logic levels.
@@ -1904,6 +1851,59 @@ CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5
 ROUTE        38     1.652     R49C61A.F1 to     R48C65D.D1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
 CTOF_DEL    ---     0.180     R48C65D.D1 to     R48C65D.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500
 ROUTE         1     0.000     R48C65D.F1 to    R48C65D.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[16] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+                  --------
+                    5.960   (21.7% logic, 78.3% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C64B.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+                  --------
+                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R48C65D.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+                  --------
+                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 4.250ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[15]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+
+   Delay:               5.960ns  (21.7% logic, 78.3% route), 6 logic levels.
+
+ Constraint Details:
+
+      5.960ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500 meets
+     10.000ns delay constraint less
+      0.000ns skew and
+     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.250ns
+
+ Physical Path Details:
+
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.393    R51C64B.CLK to     R51C64B.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+ROUTE         4     0.775     R51C64B.Q1 to     R49C64A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]
+CTOF_DEL    ---     0.180     R49C64A.B0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
+ROUTE         2     0.775     R49C64A.F0 to     R48C63B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_12_0
+CTOF_DEL    ---     0.180     R48C63B.B1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
+ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
+CTOF_DEL    ---     0.180     R49C62B.A1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
+ROUTE         1     0.577     R49C62B.F1 to     R49C61A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2
+CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
+ROUTE        38     1.652     R49C61A.F1 to     R48C65D.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
+CTOF_DEL    ---     0.180     R48C65D.D0 to     R48C65D.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500
+ROUTE         1     0.000     R48C65D.F0 to    R48C65D.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[15] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
                   --------
                     5.960   (21.7% logic, 78.3% route), 6 logic levels.
 
@@ -2037,59 +2037,6 @@ Passed: The following path meets requirements by 4.274ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[18]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[15]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
-
-   Delay:               5.936ns  (21.8% logic, 78.2% route), 6 logic levels.
-
- Constraint Details:
-
-      5.936ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500 meets
-     10.000ns delay constraint less
-      0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.274ns
-
- Physical Path Details:
-
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.395    R49C65D.CLK to     R49C65D.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-ROUTE         4     0.924     R49C65D.Q0 to     R48C63B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[18]
-CTOF_DEL    ---     0.180     R48C63B.B0 to     R48C63B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
-ROUTE         2     0.600     R48C63B.F0 to     R48C63B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_11
-CTOF_DEL    ---     0.180     R48C63B.A1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
-ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
-CTOF_DEL    ---     0.180     R49C62B.A1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
-ROUTE         1     0.577     R49C62B.F1 to     R49C61A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2
-CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
-ROUTE        38     1.652     R49C61A.F1 to     R48C65D.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
-CTOF_DEL    ---     0.180     R48C65D.D0 to     R48C65D.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500
-ROUTE         1     0.000     R48C65D.F0 to    R48C65D.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[15] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-                  --------
-                    5.936   (21.8% logic, 78.2% route), 6 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C65D.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
-                  --------
-                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R48C65D.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
-                  --------
-                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 4.274ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[18]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[16]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
 
    Delay:               5.936ns  (21.8% logic, 78.2% route), 6 logic levels.
@@ -2118,6 +2065,59 @@ CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5
 ROUTE        38     1.652     R49C61A.F1 to     R48C65D.D1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
 CTOF_DEL    ---     0.180     R48C65D.D1 to     R48C65D.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500
 ROUTE         1     0.000     R48C65D.F1 to    R48C65D.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[16] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+                  --------
+                    5.936   (21.8% logic, 78.2% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C65D.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+                  --------
+                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R48C65D.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+                  --------
+                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 4.274ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[18]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[15]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+
+   Delay:               5.936ns  (21.8% logic, 78.2% route), 6 logic levels.
+
+ Constraint Details:
+
+      5.936ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500 meets
+     10.000ns delay constraint less
+      0.000ns skew and
+     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.274ns
+
+ Physical Path Details:
+
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395    R49C65D.CLK to     R49C65D.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3502 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+ROUTE         4     0.924     R49C65D.Q0 to     R48C63B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[18]
+CTOF_DEL    ---     0.180     R48C63B.B0 to     R48C63B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
+ROUTE         2     0.600     R48C63B.F0 to     R48C63B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_11
+CTOF_DEL    ---     0.180     R48C63B.A1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
+ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
+CTOF_DEL    ---     0.180     R49C62B.A1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
+ROUTE         1     0.577     R49C62B.F1 to     R49C61A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2
+CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
+ROUTE        38     1.652     R49C61A.F1 to     R48C65D.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
+CTOF_DEL    ---     0.180     R48C65D.D0 to     R48C65D.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3500
+ROUTE         1     0.000     R48C65D.F0 to    R48C65D.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[15] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
                   --------
                     5.936   (21.8% logic, 78.2% route), 6 logic levels.
 
@@ -2251,59 +2251,6 @@ Passed: The following path meets requirements by 4.286ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[29]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
-
-   Delay:               5.823ns  (22.2% logic, 77.8% route), 6 logic levels.
-
- Constraint Details:
-
-      5.823ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3509 meets
-     10.000ns delay constraint less
-      0.000ns skew and
-     -0.109ns CE_SET requirement (totaling 10.109ns) by 4.286ns
-
- Physical Path Details:
-
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3509:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.393    R51C65A.CLK to     R51C65A.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-ROUTE         4     0.780     R51C65A.Q1 to     R49C64A.C0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]
-CTOF_DEL    ---     0.180     R49C64A.C0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
-ROUTE         2     0.775     R49C64A.F0 to     R48C63B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_12_0
-CTOF_DEL    ---     0.180     R48C63B.B1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
-ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
-CTOF_DEL    ---     0.180     R49C62B.A1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
-ROUTE         1     0.577     R49C62B.F1 to     R49C61A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2
-CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
-ROUTE        38     0.440     R49C61A.F1 to     R49C61A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
-CTOF_DEL    ---     0.180     R49C61A.B0 to     R49C61A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
-ROUTE        20     1.070     R49C61A.F0 to     R51C66A.CE U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnte (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-                  --------
-                    5.823   (22.2% logic, 77.8% route), 6 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C65A.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
-                  --------
-                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3509:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C66A.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
-                  --------
-                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 4.286ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[27]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
 
    Delay:               5.823ns  (22.2% logic, 77.8% route), 6 logic levels.
@@ -2352,30 +2299,30 @@ ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C66B.CLK U1_CORE/U1_PCIE.U1_E
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 4.291ns
+Passed: The following path meets requirements by 4.286ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[29]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
 
-   Delay:               5.818ns  (22.2% logic, 77.8% route), 6 logic levels.
+   Delay:               5.823ns  (22.2% logic, 77.8% route), 6 logic levels.
 
  Constraint Details:
 
-      5.818ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3509 meets
+      5.823ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3509 meets
      10.000ns delay constraint less
       0.000ns skew and
-     -0.109ns CE_SET requirement (totaling 10.109ns) by 4.291ns
+     -0.109ns CE_SET requirement (totaling 10.109ns) by 4.286ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3509:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3509:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.393    R51C64B.CLK to     R51C64B.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-ROUTE         4     0.775     R51C64B.Q1 to     R49C64A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]
-CTOF_DEL    ---     0.180     R49C64A.B0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
+REG_DEL     ---     0.393    R51C65A.CLK to     R51C65A.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+ROUTE         4     0.780     R51C65A.Q1 to     R49C64A.C0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[21]
+CTOF_DEL    ---     0.180     R49C64A.C0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
 ROUTE         2     0.775     R49C64A.F0 to     R48C63B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_12_0
 CTOF_DEL    ---     0.180     R48C63B.B1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
 ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
@@ -2386,14 +2333,14 @@ ROUTE        38     0.440     R49C61A.F1 to     R49C61A.B0 U1_CORE/U1_PCIE.U1_E5
 CTOF_DEL    ---     0.180     R49C61A.B0 to     R49C61A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
 ROUTE        20     1.070     R49C61A.F0 to     R51C66A.CE U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnte (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
                   --------
-                    5.818   (22.2% logic, 77.8% route), 6 logic levels.
+                    5.823   (22.2% logic, 77.8% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494:
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3503:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C64B.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C65A.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -2458,55 +2405,55 @@ ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C66B.CLK U1_CORE/U1_PCIE.U1_E
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 4.294ns
+Passed: The following path meets requirements by 4.291ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[23]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[25]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[29]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
 
-   Delay:               5.916ns  (24.2% logic, 75.8% route), 6 logic levels.
+   Delay:               5.818ns  (22.2% logic, 77.8% route), 6 logic levels.
 
  Constraint Details:
 
-      5.916ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3504 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3506 meets
+      5.818ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3509 meets
      10.000ns delay constraint less
       0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.294ns
+     -0.109ns CE_SET requirement (totaling 10.109ns) by 4.291ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3504 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3506:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3509:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.393    R52C65C.CLK to     R52C65C.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3504 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
-ROUTE         3     1.085     R52C65C.Q1 to     R51C64A.C0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[23]
-CTOF_DEL    ---     0.180     R51C64A.C0 to     R51C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_11497
-ROUTE         1     0.505     R51C64A.F0 to     R51C64D.M0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_16
-MTOF_DEL    ---     0.193     R51C64D.M0 to   R51C64D.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_8535
-ROUTE        28     0.693   R51C64D.OFX0 to     R49C62B.C1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_19
-CTOF_DEL    ---     0.180     R49C62B.C1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
+REG_DEL     ---     0.393    R51C64B.CLK to     R51C64B.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+ROUTE         4     0.775     R51C64B.Q1 to     R49C64A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[6]
+CTOF_DEL    ---     0.180     R49C64A.B0 to     R49C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_10966
+ROUTE         2     0.775     R49C64A.F0 to     R48C63B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_12_0
+CTOF_DEL    ---     0.180     R48C63B.B1 to     R48C63B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9993
+ROUTE         1     0.888     R48C63B.F1 to     R49C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2_N_2L1
+CTOF_DEL    ---     0.180     R49C62B.A1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
 ROUTE         1     0.577     R49C62B.F1 to     R49C61A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2
 CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
-ROUTE        38     1.624     R49C61A.F1 to     R49C66B.D1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
-CTOOFX_DEL  ---     0.306     R49C66B.D1 to   R49C66B.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3506
-ROUTE         1     0.000   R49C66B.OFX0 to    R49C66B.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[25] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+ROUTE        38     0.440     R49C61A.F1 to     R49C61A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
+CTOF_DEL    ---     0.180     R49C61A.B0 to     R49C61A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
+ROUTE        20     1.070     R49C61A.F0 to     R51C66A.CE U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnte (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
                   --------
-                    5.916   (24.2% logic, 75.8% route), 6 logic levels.
+                    5.818   (22.2% logic, 77.8% route), 6 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3504:
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3494:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R52C65C.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C64B.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3506:
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3509:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C66B.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R51C66A.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -2560,6 +2507,59 @@ ROUTE       113     1.777 EXTREF0.REFCLKO to    R52C65C.CLK U1_CORE/U1_PCIE.U1_E
 
    Name    Fanout   Delay (ns)          Site               Resource
 ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C66A.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+                  --------
+                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 4.294ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[23]  (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[25]  (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk +)
+
+   Delay:               5.916ns  (24.2% logic, 75.8% route), 6 logic levels.
+
+ Constraint Details:
+
+      5.916ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3504 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3506 meets
+     10.000ns delay constraint less
+      0.000ns skew and
+     -0.210ns DIN_SET requirement (totaling 10.210ns) by 4.294ns
+
+ Physical Path Details:
+
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3504 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3506:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.393    R52C65C.CLK to     R52C65C.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3504 (from U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+ROUTE         3     1.085     R52C65C.Q1 to     R51C64A.C0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt[23]
+CTOF_DEL    ---     0.180     R51C64A.C0 to     R51C64A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_11497
+ROUTE         1     0.505     R51C64A.F0 to     R51C64D.M0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_16
+MTOF_DEL    ---     0.193     R51C64D.M0 to   R51C64D.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_8535
+ROUTE        28     0.693   R51C64D.OFX0 to     R49C62B.C1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_cnt_19
+CTOF_DEL    ---     0.180     R49C62B.C1 to     R49C62B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9991
+ROUTE         1     0.577     R49C62B.F1 to     R49C61A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_2
+CTOF_DEL    ---     0.180     R49C61A.B1 to     R49C61A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_9996
+ROUTE        38     1.624     R49C61A.F1 to     R49C66B.D1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/un1_rx_sm_0_sqmuxa_6_1
+CTOOFX_DEL  ---     0.306     R49C66B.D1 to   R49C66B.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3506
+ROUTE         1     0.000   R49C66B.OFX0 to    R49C66B.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/cnt_lm[25] (to U1_CORE/U1_PCIE.U1_E5/s_u3_refclk)
+                  --------
+                    5.916   (24.2% logic, 75.8% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3504:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R52C65C.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
+                  --------
+                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U3_REFCLK/EXTREF0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/rx_rsl_inst/SLICE_3506:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       113     1.777 EXTREF0.REFCLKO to    R49C66B.CLK U1_CORE/U1_PCIE.U1_E5/s_u3_refclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -2704,8 +2704,8 @@ ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5
 CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C1TOFCO_DE  ---     0.355     R52C62A.A1 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
+ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C0TOFCO_DE  ---     0.355     R52C62A.A0 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
 ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
 FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
 ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
@@ -2763,8 +2763,8 @@ ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5
 CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C0TOFCO_DE  ---     0.355     R52C62A.A0 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
+ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C1TOFCO_DE  ---     0.355     R52C62A.A1 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
 ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
 FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
 ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
@@ -2822,8 +2822,8 @@ ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5
 CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C1TOFCO_DE  ---     0.355     R52C62A.A1 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
+ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C0TOFCO_DE  ---     0.355     R52C62A.A0 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
 ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
 FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
 ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
@@ -2879,8 +2879,8 @@ ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5
 CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C0TOFCO_DE  ---     0.355     R52C62A.A0 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
+ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C1TOFCO_DE  ---     0.355     R52C62A.A1 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
 ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
 FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
 ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
@@ -2915,6 +2915,63 @@ Passed: The following path meets requirements by 0.827ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[2]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[9]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+
+   Delay:               3.383ns  (47.5% logic, 52.5% route), 8 logic levels.
+
+ Constraint Details:
+
+      3.383ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635 meets
+      4.000ns delay constraint less
+      0.000ns skew and
+     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.827ns
+
+ Physical Path Details:
+
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395    R51C53A.CLK to     R51C53A.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[2]
+CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
+ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
+CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
+ROUTE        11     0.646     R52C61B.F0 to     R52C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C1TOFCO_DE  ---     0.355     R52C62B.A1 to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
+ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
+FCITOFCO_D  ---     0.056    R52C62C.FCI to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
+ROUTE         1     0.000    R52C62C.FCO to    R52C62D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[4]
+FCITOFCO_D  ---     0.056    R52C62D.FCI to    R52C62D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633
+ROUTE         1     0.000    R52C62D.FCO to    R52C63A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[6]
+FCITOFCO_D  ---     0.056    R52C63A.FCI to    R52C63A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634
+ROUTE         1     0.000    R52C63A.FCO to    R52C63B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[8]
+FCITOF0_DE  ---     0.328    R52C63B.FCI to     R52C63B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635
+ROUTE         1     0.000     R52C63B.F0 to    R52C63B.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[9] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+                  --------
+                    3.383   (47.5% logic, 52.5% route), 8 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C53A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+                  --------
+                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63B.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+                  --------
+                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.827ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[2]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[7]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
 
    Delay:               3.383ns  (47.5% logic, 52.5% route), 8 logic levels.
@@ -2936,8 +2993,8 @@ ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5
 CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C1TOFCO_DE  ---     0.355     R52C62A.A1 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
+ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C0TOFCO_DE  ---     0.355     R52C62A.A0 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
 ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
 FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
 ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
@@ -3050,8 +3107,8 @@ ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5
 CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C0TOFCO_DE  ---     0.355     R52C62A.A0 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
+ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C1TOFCO_DE  ---     0.355     R52C62A.A1 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
 ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
 FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
 ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
@@ -3081,34 +3138,36 @@ ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63A.CLK U1_CORE/U1_PCIE.U1_
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 0.827ns
+Passed: The following path meets requirements by 0.833ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[2]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[0]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[9]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
 
-   Delay:               3.383ns  (47.5% logic, 52.5% route), 8 logic levels.
+   Delay:               3.377ns  (49.2% logic, 50.8% route), 9 logic levels.
 
  Constraint Details:
 
-      3.383ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635 meets
+      3.377ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635 meets
       4.000ns delay constraint less
       0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.827ns
+     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.833ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.395    R51C53A.CLK to     R51C53A.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
-ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[2]
-CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
+REG_DEL     ---     0.395    R51C58B.CLK to     R51C58B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+ROUTE         2     0.796     R51C58B.Q0 to     R52C61B.B1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[0]
+CTOF_DEL    ---     0.180     R52C61B.B1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C1TOFCO_DE  ---     0.355     R52C62B.A1 to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
+ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C0TOFCO_DE  ---     0.355     R52C62A.A0 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
+ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
+FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
 ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
 FCITOFCO_D  ---     0.056    R52C62C.FCI to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
 ROUTE         1     0.000    R52C62C.FCO to    R52C62D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[4]
@@ -3119,14 +3178,14 @@ ROUTE         1     0.000    R52C63A.FCO to    R52C63B.FCI U1_CORE/U1_PCIE.U1_E5
 FCITOF0_DE  ---     0.328    R52C63B.FCI to     R52C63B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635
 ROUTE         1     0.000     R52C63B.F0 to    R52C63B.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[9] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
                   --------
-                    3.383   (47.5% logic, 52.5% route), 8 logic levels.
+                    3.377   (49.2% logic, 50.8% route), 9 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719:
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C53A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C58B.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
                   --------
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -3197,30 +3256,30 @@ ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63B.CLK U1_CORE/U1_PCIE.U1_
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 0.833ns
+Passed: The following path meets requirements by 0.860ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[0]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/core_rstn_2  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[9]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
 
-   Delay:               3.377ns  (49.2% logic, 50.8% route), 9 logic levels.
+   Delay:               3.350ns  (49.6% logic, 50.4% route), 9 logic levels.
 
  Constraint Details:
 
-      3.377ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635 meets
+      3.350ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_3411 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635 meets
       4.000ns delay constraint less
       0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.833ns
+     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.860ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_3411 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.395    R51C58B.CLK to     R51C58B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
-ROUTE         2     0.796     R51C58B.Q0 to     R52C61B.B1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[0]
-CTOF_DEL    ---     0.180     R52C61B.B1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
+REG_DEL     ---     0.393    R51C60B.CLK to     R51C60B.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_3411 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+ROUTE         2     0.771     R51C60B.Q1 to     R52C61B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/core_rstn_2
+CTOF_DEL    ---     0.180     R52C61B.A1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
@@ -3237,14 +3296,14 @@ ROUTE         1     0.000    R52C63A.FCO to    R52C63B.FCI U1_CORE/U1_PCIE.U1_E5
 FCITOF0_DE  ---     0.328    R52C63B.FCI to     R52C63B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635
 ROUTE         1     0.000     R52C63B.F0 to    R52C63B.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[9] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
                   --------
-                    3.377   (49.2% logic, 50.8% route), 9 logic levels.
+                    3.350   (49.6% logic, 50.4% route), 9 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718:
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_3411:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C58B.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C60B.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
                   --------
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -3311,175 +3370,6 @@ ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C60B.CLK U1_CORE/U1_PCIE.U1_
 
    Name    Fanout   Delay (ns)          Site               Resource
 ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63B.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
-                  --------
-                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.860ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/core_rstn_2  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[9]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
-
-   Delay:               3.350ns  (49.6% logic, 50.4% route), 9 logic levels.
-
- Constraint Details:
-
-      3.350ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_3411 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635 meets
-      4.000ns delay constraint less
-      0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.860ns
-
- Physical Path Details:
-
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_3411 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.393    R51C60B.CLK to     R51C60B.Q1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_3411 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
-ROUTE         2     0.771     R51C60B.Q1 to     R52C61B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/core_rstn_2
-CTOF_DEL    ---     0.180     R52C61B.A1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
-CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C0TOFCO_DE  ---     0.355     R52C62A.A0 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
-ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
-FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
-ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
-FCITOFCO_D  ---     0.056    R52C62C.FCI to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
-ROUTE         1     0.000    R52C62C.FCO to    R52C62D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[4]
-FCITOFCO_D  ---     0.056    R52C62D.FCI to    R52C62D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633
-ROUTE         1     0.000    R52C62D.FCO to    R52C63A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[6]
-FCITOFCO_D  ---     0.056    R52C63A.FCI to    R52C63A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634
-ROUTE         1     0.000    R52C63A.FCO to    R52C63B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[8]
-FCITOF0_DE  ---     0.328    R52C63B.FCI to     R52C63B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635
-ROUTE         1     0.000     R52C63B.F0 to    R52C63B.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[9] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
-                  --------
-                    3.350   (49.6% logic, 50.4% route), 9 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_3411:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C60B.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
-                  --------
-                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63B.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
-                  --------
-                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.862ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[2]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[8]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
-
-   Delay:               3.348ns  (46.9% logic, 53.1% route), 7 logic levels.
-
- Constraint Details:
-
-      3.348ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634 meets
-      4.000ns delay constraint less
-      0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.862ns
-
- Physical Path Details:
-
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.395    R51C53A.CLK to     R51C53A.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
-ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[2]
-CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
-CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C1TOFCO_DE  ---     0.355     R52C62B.A1 to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
-ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
-FCITOFCO_D  ---     0.056    R52C62C.FCI to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
-ROUTE         1     0.000    R52C62C.FCO to    R52C62D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[4]
-FCITOFCO_D  ---     0.056    R52C62D.FCI to    R52C62D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633
-ROUTE         1     0.000    R52C62D.FCO to    R52C63A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[6]
-FCITOF1_DE  ---     0.349    R52C63A.FCI to     R52C63A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634
-ROUTE         1     0.000     R52C63A.F1 to    R52C63A.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[8] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
-                  --------
-                    3.348   (46.9% logic, 53.1% route), 7 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C53A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
-                  --------
-                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
-                  --------
-                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 0.862ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[2]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[6]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
-
-   Delay:               3.348ns  (46.9% logic, 53.1% route), 7 logic levels.
-
- Constraint Details:
-
-      3.348ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633 meets
-      4.000ns delay constraint less
-      0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.862ns
-
- Physical Path Details:
-
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.395    R51C53A.CLK to     R51C53A.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
-ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[2]
-CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
-CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C1TOFCO_DE  ---     0.355     R52C62A.A1 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
-ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
-FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
-ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
-FCITOFCO_D  ---     0.056    R52C62C.FCI to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
-ROUTE         1     0.000    R52C62C.FCO to    R52C62D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[4]
-FCITOF1_DE  ---     0.349    R52C62D.FCI to     R52C62D.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633
-ROUTE         1     0.000     R52C62D.F1 to    R52C62D.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[6] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
-                  --------
-                    3.348   (46.9% logic, 53.1% route), 7 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C53A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
-                  --------
-                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C62D.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
                   --------
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -3594,30 +3484,85 @@ ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63A.CLK U1_CORE/U1_PCIE.U1_
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 0.868ns
+Passed: The following path meets requirements by 0.862ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[0]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[2]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[8]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
 
-   Delay:               3.342ns  (48.7% logic, 51.3% route), 8 logic levels.
+   Delay:               3.348ns  (46.9% logic, 53.1% route), 7 logic levels.
 
  Constraint Details:
 
-      3.342ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634 meets
+      3.348ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634 meets
       4.000ns delay constraint less
       0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.868ns
+     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.862ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.395    R51C58B.CLK to     R51C58B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
-ROUTE         2     0.796     R51C58B.Q0 to     R52C61B.B1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[0]
-CTOF_DEL    ---     0.180     R52C61B.B1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
+REG_DEL     ---     0.395    R51C53A.CLK to     R51C53A.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[2]
+CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
+ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
+CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
+ROUTE        11     0.646     R52C61B.F0 to     R52C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C1TOFCO_DE  ---     0.355     R52C62B.A1 to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
+ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
+FCITOFCO_D  ---     0.056    R52C62C.FCI to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
+ROUTE         1     0.000    R52C62C.FCO to    R52C62D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[4]
+FCITOFCO_D  ---     0.056    R52C62D.FCI to    R52C62D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633
+ROUTE         1     0.000    R52C62D.FCO to    R52C63A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[6]
+FCITOF1_DE  ---     0.349    R52C63A.FCI to     R52C63A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634
+ROUTE         1     0.000     R52C63A.F1 to    R52C63A.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[8] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+                  --------
+                    3.348   (46.9% logic, 53.1% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C53A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+                  --------
+                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+                  --------
+                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.862ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[2]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[6]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+
+   Delay:               3.348ns  (46.9% logic, 53.1% route), 7 logic levels.
+
+ Constraint Details:
+
+      3.348ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633 meets
+      4.000ns delay constraint less
+      0.000ns skew and
+     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.862ns
+
+ Physical Path Details:
+
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395    R51C53A.CLK to     R51C53A.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[2]
+CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
@@ -3627,26 +3572,24 @@ FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5
 ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
 FCITOFCO_D  ---     0.056    R52C62C.FCI to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
 ROUTE         1     0.000    R52C62C.FCO to    R52C62D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[4]
-FCITOFCO_D  ---     0.056    R52C62D.FCI to    R52C62D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633
-ROUTE         1     0.000    R52C62D.FCO to    R52C63A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[6]
-FCITOF1_DE  ---     0.349    R52C63A.FCI to     R52C63A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634
-ROUTE         1     0.000     R52C63A.F1 to    R52C63A.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[8] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+FCITOF1_DE  ---     0.349    R52C62D.FCI to     R52C62D.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633
+ROUTE         1     0.000     R52C62D.F1 to    R52C62D.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[6] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
                   --------
-                    3.342   (48.7% logic, 51.3% route), 8 logic levels.
+                    3.348   (46.9% logic, 53.1% route), 7 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718:
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C58B.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C53A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
                   --------
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C62D.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
                   --------
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -3708,57 +3651,59 @@ ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63A.CLK U1_CORE/U1_PCIE.U1_
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 0.871ns
+Passed: The following path meets requirements by 0.868ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[2]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[9]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[0]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[8]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
 
-   Delay:               3.339ns  (46.4% logic, 53.6% route), 7 logic levels.
+   Delay:               3.342ns  (48.7% logic, 51.3% route), 8 logic levels.
 
  Constraint Details:
 
-      3.339ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635 meets
+      3.342ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634 meets
       4.000ns delay constraint less
       0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.871ns
+     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.868ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
 
    Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.395    R51C53A.CLK to     R51C53A.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
-ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[2]
-CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
+REG_DEL     ---     0.395    R51C58B.CLK to     R51C58B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+ROUTE         2     0.796     R51C58B.Q0 to     R52C61B.B1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[0]
+CTOF_DEL    ---     0.180     R52C61B.B1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.658     R52C61B.F0 to     R52C62C.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C1TOFCO_DE  ---     0.355     R52C62C.B1 to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
+ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C1TOFCO_DE  ---     0.355     R52C62A.A1 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
+ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
+FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
+ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
+FCITOFCO_D  ---     0.056    R52C62C.FCI to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
 ROUTE         1     0.000    R52C62C.FCO to    R52C62D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[4]
 FCITOFCO_D  ---     0.056    R52C62D.FCI to    R52C62D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633
 ROUTE         1     0.000    R52C62D.FCO to    R52C63A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[6]
-FCITOFCO_D  ---     0.056    R52C63A.FCI to    R52C63A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634
-ROUTE         1     0.000    R52C63A.FCO to    R52C63B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[8]
-FCITOF0_DE  ---     0.328    R52C63B.FCI to     R52C63B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635
-ROUTE         1     0.000     R52C63B.F0 to    R52C63B.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[9] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+FCITOF1_DE  ---     0.349    R52C63A.FCI to     R52C63A.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634
+ROUTE         1     0.000     R52C63A.F1 to    R52C63A.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[8] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
                   --------
-                    3.339   (46.4% logic, 53.6% route), 7 logic levels.
+                    3.342   (48.7% logic, 51.3% route), 8 logic levels.
 
  Clock Skew Details: 
 
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719:
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5718:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C53A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C58B.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
                   --------
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63B.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
                   --------
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -3818,25 +3763,25 @@ ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63B.CLK U1_CORE/U1_PCIE.U1_
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
 
-Passed: The following path meets requirements by 0.883ns
+Passed: The following path meets requirements by 0.871ns
 
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[2]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[7]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[9]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
 
-   Delay:               3.327ns  (46.6% logic, 53.4% route), 7 logic levels.
+   Delay:               3.339ns  (46.4% logic, 53.6% route), 7 logic levels.
 
  Constraint Details:
 
-      3.327ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634 meets
+      3.339ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635 meets
       4.000ns delay constraint less
       0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.883ns
+     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.871ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.395    R51C53A.CLK to     R51C53A.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
@@ -3844,17 +3789,17 @@ ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5
 CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C1TOFCO_DE  ---     0.355     R52C62B.A1 to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
-ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
-FCITOFCO_D  ---     0.056    R52C62C.FCI to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
+ROUTE        11     0.658     R52C61B.F0 to     R52C62C.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C1TOFCO_DE  ---     0.355     R52C62C.B1 to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
 ROUTE         1     0.000    R52C62C.FCO to    R52C62D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[4]
 FCITOFCO_D  ---     0.056    R52C62D.FCI to    R52C62D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633
 ROUTE         1     0.000    R52C62D.FCO to    R52C63A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[6]
-FCITOF0_DE  ---     0.328    R52C63A.FCI to     R52C63A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634
-ROUTE         1     0.000     R52C63A.F0 to    R52C63A.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[7] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+FCITOFCO_D  ---     0.056    R52C63A.FCI to    R52C63A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634
+ROUTE         1     0.000    R52C63A.FCO to    R52C63B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[8]
+FCITOF0_DE  ---     0.328    R52C63B.FCI to     R52C63B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635
+ROUTE         1     0.000     R52C63B.F0 to    R52C63B.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[9] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
                   --------
-                    3.327   (46.6% logic, 53.4% route), 7 logic levels.
+                    3.339   (46.4% logic, 53.6% route), 7 logic levels.
 
  Clock Skew Details: 
 
@@ -3865,10 +3810,10 @@ ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C53A.CLK U1_CORE/U1_PCIE.U1_
                   --------
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_635:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63B.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
                   --------
                     1.647   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -3899,8 +3844,8 @@ ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5
 CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C1TOFCO_DE  ---     0.355     R52C62A.A1 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
+ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C0TOFCO_DE  ---     0.355     R52C62A.A0 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
 ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
 FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
 ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
@@ -3988,6 +3933,61 @@ Passed: The following path meets requirements by 0.883ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[2]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[7]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
+
+   Delay:               3.327ns  (46.6% logic, 53.4% route), 7 logic levels.
+
+ Constraint Details:
+
+      3.327ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634 meets
+      4.000ns delay constraint less
+      0.000ns skew and
+     -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.883ns
+
+ Physical Path Details:
+
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395    R51C53A.CLK to     R51C53A.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719 (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5/s_u2_rxp_status[2]
+CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
+ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
+CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
+ROUTE        11     0.646     R52C61B.F0 to     R52C62B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C1TOFCO_DE  ---     0.355     R52C62B.A1 to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
+ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
+FCITOFCO_D  ---     0.056    R52C62C.FCI to    R52C62C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_632
+ROUTE         1     0.000    R52C62C.FCO to    R52C62D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[4]
+FCITOFCO_D  ---     0.056    R52C62D.FCI to    R52C62D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_633
+ROUTE         1     0.000    R52C62D.FCO to    R52C63A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[6]
+FCITOF0_DE  ---     0.328    R52C63A.FCI to     R52C63A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634
+ROUTE         1     0.000     R52C63A.F0 to    R52C63A.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_s[7] (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk)
+                  --------
+                    3.327   (46.6% logic, 53.4% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/SLICE_5719:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R51C53A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+                  --------
+                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_clkdiv to U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_634:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       235     1.647 PCSCLKDIV0.CDIV1 to    R52C63A.CLK U1_CORE/U1_PCIE.U1_E5/s_u2_pclk
+                  --------
+                    1.647   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.883ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/RxStatus_chx[2]  (from U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt[5]  (to U1_CORE/U1_PCIE.U1_E5/s_u2_pclk +)
 
    Delay:               3.327ns  (46.6% logic, 53.4% route), 7 logic levels.
@@ -4009,8 +4009,8 @@ ROUTE         3     0.858     R51C53A.Q0 to     R52C61B.C1 U1_CORE/U1_PCIE.U1_E5
 CTOF_DEL    ---     0.180     R52C61B.C1 to     R52C61B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
 ROUTE         1     0.273     R52C61B.F1 to     R52C61B.D0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt11_N_2L1
 CTOF_DEL    ---     0.180     R52C61B.D0 to     R52C61B.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_10015
-ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
-C0TOFCO_DE  ---     0.355     R52C62A.A0 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
+ROUTE        11     0.646     R52C61B.F0 to     R52C62A.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt
+C1TOFCO_DE  ---     0.355     R52C62A.A1 to    R52C62A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_630
 ROUTE         1     0.000    R52C62A.FCO to    R52C62B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[0]
 FCITOFCO_D  ---     0.056    R52C62B.FCI to    R52C62B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/SLICE_631
 ROUTE         1     0.000    R52C62B.FCO to    R52C62C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/rsl_rdy_cnt_cry[2]
@@ -4178,8 +4178,8 @@ Passed: The following path meets requirements by 1.246ns
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.395    R49C52B.CLK to     R49C52B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_3599 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0)
-ROUTE         3     0.744     R49C52B.Q0 to     R49C50B.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/r_gcount_w21
-CTOOFX_DEL  ---     0.306     R49C50B.A0 to   R49C50B.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_8618
+ROUTE         3     0.744     R49C52B.Q0 to     R49C50B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/r_gcount_w21
+CTOOFX_DEL  ---     0.306     R49C50B.A1 to   R49C50B.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_8618
 ROUTE         2     0.724   R49C50B.OFX0 to     R47C50B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/rcount_w0
 C0TOFCO_DE  ---     0.355     R47C50B.B0 to    R47C50B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_618
 ROUTE         1     0.000    R47C50B.FCO to    R47C50C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/co0_7
@@ -4231,8 +4231,8 @@ Passed: The following path meets requirements by 1.246ns
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.395    R49C52B.CLK to     R49C52B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_3599 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0)
-ROUTE         3     0.744     R49C52B.Q0 to     R49C50B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/r_gcount_w21
-CTOOFX_DEL  ---     0.306     R49C50B.A1 to   R49C50B.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_8618
+ROUTE         3     0.744     R49C52B.Q0 to     R49C50B.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/r_gcount_w21
+CTOOFX_DEL  ---     0.306     R49C50B.A0 to   R49C50B.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_8618
 ROUTE         2     0.724   R49C50B.OFX0 to     R47C50B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/rcount_w0
 C0TOFCO_DE  ---     0.355     R47C50B.B0 to    R47C50B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_618
 ROUTE         1     0.000    R47C50B.FCO to    R47C50C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/co0_7
@@ -4496,8 +4496,8 @@ Passed: The following path meets requirements by 1.371ns
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.395    R49C52B.CLK to     R49C52B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_3599 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0)
-ROUTE         3     0.744     R49C52B.Q0 to     R49C50B.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/r_gcount_w21
-CTOOFX_DEL  ---     0.306     R49C50B.A0 to   R49C50B.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_8618
+ROUTE         3     0.744     R49C52B.Q0 to     R49C50B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/r_gcount_w21
+CTOOFX_DEL  ---     0.306     R49C50B.A1 to   R49C50B.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_8618
 ROUTE         2     0.599   R49C50B.OFX0 to     R48C50B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/rcount_w0
 C0TOFCO_DE  ---     0.355     R48C50B.B0 to    R48C50B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_600
 ROUTE         1     0.000    R48C50B.FCO to    R48C50C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/co0_3
@@ -4549,8 +4549,8 @@ Passed: The following path meets requirements by 1.371ns
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.395    R49C52B.CLK to     R49C52B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_3599 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0)
-ROUTE         3     0.744     R49C52B.Q0 to     R49C50B.A1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/r_gcount_w21
-CTOOFX_DEL  ---     0.306     R49C50B.A1 to   R49C50B.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_8618
+ROUTE         3     0.744     R49C52B.Q0 to     R49C50B.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/r_gcount_w21
+CTOOFX_DEL  ---     0.306     R49C50B.A0 to   R49C50B.OFX0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_8618
 ROUTE         2     0.599   R49C50B.OFX0 to     R48C50B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/rcount_w0
 C0TOFCO_DE  ---     0.355     R48C50B.B0 to    R48C50B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_600
 ROUTE         1     0.000    R48C50B.FCO to    R48C50C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/co0_3
@@ -5058,55 +5058,6 @@ Passed: The following path meets requirements by 1.484ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/FF_89  (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0 +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/FF_12  (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0 +)
-
-   Delay:               2.726ns  (46.1% logic, 53.9% route), 4 logic levels.
-
- Constraint Details:
-
-      2.726ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_589 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_603 meets
-      4.000ns delay constraint less
-      0.000ns skew and
-     -0.210ns DIN_SET requirement (totaling 4.210ns) by 1.484ns
-
- Physical Path Details:
-
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_589 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_603:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-REG_DEL     ---     0.395    R50C50D.CLK to     R50C50D.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_589 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0)
-ROUTE         8     0.704     R50C50D.Q0 to     R48C49A.C0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/wcount_4
-CTOF_DEL    ---     0.180     R48C49A.C0 to     R48C49A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_10694
-ROUTE         1     0.764     R48C49A.F0 to     R48C50D.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/full_cmp_set
-C0TOFCO_DE  ---     0.355     R48C50D.A0 to    R48C50D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_602
-ROUTE         1     0.000    R48C50D.FCO to    R48C51A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/full_d_c
-FCITOF0_DE  ---     0.328    R48C51A.FCI to     R48C51A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_603
-ROUTE         1     0.000     R48C51A.F0 to    R48C51A.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/full_d (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0)
-                  --------
-                    2.726   (46.1% logic, 53.9% route), 4 logic levels.
-
- Clock Skew Details: 
-
-      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_589:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE        74     1.777 DCU0.CH0_FF_RX_PCLK to    R50C50D.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0
-                  --------
-                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
-
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_603:
-
-   Name    Fanout   Delay (ns)          Site               Resource
-ROUTE        74     1.777 DCU0.CH0_FF_RX_PCLK to    R48C51A.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0
-                  --------
-                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
-
-
-Passed: The following path meets requirements by 1.484ns
-
- Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
-
-   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/FF_89  (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0 +)
    Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/FF_0  (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0 +)
 
    Delay:               2.726ns  (46.1% logic, 53.9% route), 4 logic levels.
@@ -5147,6 +5098,55 @@ ROUTE        74     1.777 DCU0.CH0_FF_RX_PCLK to    R50C50D.CLK U1_CORE/U1_PCIE.
 
    Name    Fanout   Delay (ns)          Site               Resource
 ROUTE        74     1.777 DCU0.CH0_FF_RX_PCLK to    R47C51A.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0
+                  --------
+                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.484ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/FF_89  (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0 +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/FF_12  (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0 +)
+
+   Delay:               2.726ns  (46.1% logic, 53.9% route), 4 logic levels.
+
+ Constraint Details:
+
+      2.726ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_589 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_603 meets
+      4.000ns delay constraint less
+      0.000ns skew and
+     -0.210ns DIN_SET requirement (totaling 4.210ns) by 1.484ns
+
+ Physical Path Details:
+
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_589 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_603:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395    R50C50D.CLK to     R50C50D.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_589 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0)
+ROUTE         8     0.704     R50C50D.Q0 to     R48C49A.C0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/wcount_4
+CTOF_DEL    ---     0.180     R48C49A.C0 to     R48C49A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_10694
+ROUTE         1     0.764     R48C49A.F0 to     R48C50D.A0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/full_cmp_set
+C0TOFCO_DE  ---     0.355     R48C50D.A0 to    R48C50D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_602
+ROUTE         1     0.000    R48C50D.FCO to    R48C51A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/full_d_c
+FCITOF0_DE  ---     0.328    R48C51A.FCI to     R48C51A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_603
+ROUTE         1     0.000     R48C51A.F0 to    R48C51A.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/full_d (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0)
+                  --------
+                    2.726   (46.1% logic, 53.9% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_589:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        74     1.777 DCU0.CH0_FF_RX_PCLK to    R50C50D.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0
+                  --------
+                    1.777   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pipe_top_0/u0_ctc/ctc_fifo_U/SLICE_603:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE        74     1.777 DCU0.CH0_FF_RX_PCLK to    R48C51A.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/ff_rx_fclk_0
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -5834,8 +5834,8 @@ Passed: The following path meets requirements by 0.862ns
 REG_DEL     ---     0.395    R48C39B.CLK to     R48C39B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
 ROUTE         4     0.816     R48C39B.Q0 to     R51C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1
 CTOF_DEL    ---     0.180     R51C37A.B0 to     R51C37A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_11500
-ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
-C1TOFCO_DE  ---     0.355     R53C37B.B1 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
+ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
+C0TOFCO_DE  ---     0.355     R53C37B.B0 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
 ROUTE         1     0.000    R53C37B.FCO to    R53C37C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[2]
 FCITOFCO_D  ---     0.056    R53C37C.FCI to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
 ROUTE         1     0.000    R53C37C.FCO to    R53C37D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[4]
@@ -5901,8 +5901,8 @@ Passed: The following path meets requirements by 0.862ns
 REG_DEL     ---     0.395    R48C39B.CLK to     R48C39B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
 ROUTE         4     0.816     R48C39B.Q0 to     R51C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1
 CTOF_DEL    ---     0.180     R51C37A.B0 to     R51C37A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_11500
-ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
-C0TOFCO_DE  ---     0.355     R53C37B.B0 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
+ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
+C1TOFCO_DE  ---     0.355     R53C37B.B1 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
 ROUTE         1     0.000    R53C37B.FCO to    R53C37C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[2]
 FCITOFCO_D  ---     0.056    R53C37C.FCI to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
 ROUTE         1     0.000    R53C37C.FCO to    R53C37D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[4]
@@ -6098,8 +6098,8 @@ Passed: The following path meets requirements by 0.897ns
 REG_DEL     ---     0.395    R48C39B.CLK to     R48C39B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
 ROUTE         4     0.816     R48C39B.Q0 to     R51C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1
 CTOF_DEL    ---     0.180     R51C37A.B0 to     R51C37A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_11500
-ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
-C1TOFCO_DE  ---     0.355     R53C37B.B1 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
+ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
+C0TOFCO_DE  ---     0.355     R53C37B.B0 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
 ROUTE         1     0.000    R53C37B.FCO to    R53C37C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[2]
 FCITOFCO_D  ---     0.056    R53C37C.FCI to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
 ROUTE         1     0.000    R53C37C.FCO to    R53C37D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[4]
@@ -6163,8 +6163,8 @@ Passed: The following path meets requirements by 0.897ns
 REG_DEL     ---     0.395    R48C39B.CLK to     R48C39B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
 ROUTE         4     0.816     R48C39B.Q0 to     R51C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1
 CTOF_DEL    ---     0.180     R51C37A.B0 to     R51C37A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_11500
-ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
-C0TOFCO_DE  ---     0.355     R53C37B.B0 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
+ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
+C1TOFCO_DE  ---     0.355     R53C37B.B1 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
 ROUTE         1     0.000    R53C37B.FCO to    R53C37C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[2]
 FCITOFCO_D  ---     0.056    R53C37C.FCI to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
 ROUTE         1     0.000    R53C37C.FCO to    R53C37D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[4]
@@ -6228,8 +6228,8 @@ Passed: The following path meets requirements by 0.906ns
 REG_DEL     ---     0.395    R48C39B.CLK to     R48C39B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
 ROUTE         4     0.816     R48C39B.Q0 to     R51C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1
 CTOF_DEL    ---     0.180     R51C37A.B0 to     R51C37A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_11500
-ROUTE        23     0.782     R51C37A.F0 to     R53C37A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
-C1TOFCO_DE  ---     0.355     R53C37A.B1 to    R53C37A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_518
+ROUTE        23     0.782     R51C37A.F0 to     R53C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
+C0TOFCO_DE  ---     0.355     R53C37A.B0 to    R53C37A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_518
 ROUTE         1     0.000    R53C37A.FCO to    R53C37B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[0]
 FCITOFCO_D  ---     0.056    R53C37B.FCI to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
 ROUTE         1     0.000    R53C37B.FCO to    R53C37C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[2]
@@ -6293,8 +6293,8 @@ Passed: The following path meets requirements by 0.906ns
 REG_DEL     ---     0.395    R48C39B.CLK to     R48C39B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
 ROUTE         4     0.816     R48C39B.Q0 to     R51C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1
 CTOF_DEL    ---     0.180     R51C37A.B0 to     R51C37A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_11500
-ROUTE        23     0.782     R51C37A.F0 to     R53C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
-C0TOFCO_DE  ---     0.355     R53C37A.B0 to    R53C37A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_518
+ROUTE        23     0.782     R51C37A.F0 to     R53C37A.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
+C1TOFCO_DE  ---     0.355     R53C37A.B1 to    R53C37A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_518
 ROUTE         1     0.000    R53C37A.FCO to    R53C37B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[0]
 FCITOFCO_D  ---     0.056    R53C37B.FCI to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
 ROUTE         1     0.000    R53C37B.FCO to    R53C37C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[2]
@@ -6339,27 +6339,29 @@ Passed: The following path meets requirements by 0.918ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1  (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount[21]  (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount[19]  (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
 
    Delay:               3.292ns  (51.8% logic, 48.2% route), 12 logic levels.
 
  Constraint Details:
 
-      3.292ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_529 meets
+      3.292ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528 meets
       4.000ns delay constraint less
       0.000ns skew and
      -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.918ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_529:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528:
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.395    R48C39B.CLK to     R48C39B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
 ROUTE         4     0.816     R48C39B.Q0 to     R51C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1
 CTOF_DEL    ---     0.180     R51C37A.B0 to     R51C37A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_11500
-ROUTE        23     0.770     R51C37A.F0 to     R53C37C.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
-C1TOFCO_DE  ---     0.355     R53C37C.B1 to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
+ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
+C0TOFCO_DE  ---     0.355     R53C37B.B0 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
+ROUTE         1     0.000    R53C37B.FCO to    R53C37C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[2]
+FCITOFCO_D  ---     0.056    R53C37C.FCI to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
 ROUTE         1     0.000    R53C37C.FCO to    R53C37D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[4]
 FCITOFCO_D  ---     0.056    R53C37D.FCI to    R53C37D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_521
 ROUTE         1     0.000    R53C37D.FCO to    R53C38A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[6]
@@ -6375,10 +6377,8 @@ FCITOFCO_D  ---     0.056    R53C39A.FCI to    R53C39A.FCO U1_CORE/U1_PCIE.U1_E5
 ROUTE         1     0.000    R53C39A.FCO to    R53C39B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[16]
 FCITOFCO_D  ---     0.056    R53C39B.FCI to    R53C39B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527
 ROUTE         1     0.000    R53C39B.FCO to    R53C39C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[18]
-FCITOFCO_D  ---     0.056    R53C39C.FCI to    R53C39C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528
-ROUTE         1     0.000    R53C39C.FCO to    R53C39D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[20]
-FCITOF0_DE  ---     0.328    R53C39D.FCI to     R53C39D.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_529
-ROUTE         1     0.000     R53C39D.F0 to    R53C39D.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_s[21] (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
+FCITOF0_DE  ---     0.328    R53C39C.FCI to     R53C39C.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528
+ROUTE         1     0.000     R53C39C.F0 to    R53C39C.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_s[19] (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
                   --------
                     3.292   (51.8% logic, 48.2% route), 12 logic levels.
 
@@ -6391,10 +6391,10 @@ ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R48C39B.CLK U1_CORE/U1_PCIE.
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_529:
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R53C39D.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk
+ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R53C39C.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -6469,29 +6469,27 @@ Passed: The following path meets requirements by 0.918ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1  (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount[19]  (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount[21]  (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
 
    Delay:               3.292ns  (51.8% logic, 48.2% route), 12 logic levels.
 
  Constraint Details:
 
-      3.292ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528 meets
+      3.292ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_529 meets
       4.000ns delay constraint less
       0.000ns skew and
      -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.918ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_529:
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.395    R48C39B.CLK to     R48C39B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
 ROUTE         4     0.816     R48C39B.Q0 to     R51C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1
 CTOF_DEL    ---     0.180     R51C37A.B0 to     R51C37A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_11500
-ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
-C0TOFCO_DE  ---     0.355     R53C37B.B0 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
-ROUTE         1     0.000    R53C37B.FCO to    R53C37C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[2]
-FCITOFCO_D  ---     0.056    R53C37C.FCI to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
+ROUTE        23     0.770     R51C37A.F0 to     R53C37C.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
+C1TOFCO_DE  ---     0.355     R53C37C.B1 to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
 ROUTE         1     0.000    R53C37C.FCO to    R53C37D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[4]
 FCITOFCO_D  ---     0.056    R53C37D.FCI to    R53C37D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_521
 ROUTE         1     0.000    R53C37D.FCO to    R53C38A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[6]
@@ -6507,8 +6505,10 @@ FCITOFCO_D  ---     0.056    R53C39A.FCI to    R53C39A.FCO U1_CORE/U1_PCIE.U1_E5
 ROUTE         1     0.000    R53C39A.FCO to    R53C39B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[16]
 FCITOFCO_D  ---     0.056    R53C39B.FCI to    R53C39B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527
 ROUTE         1     0.000    R53C39B.FCO to    R53C39C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[18]
-FCITOF0_DE  ---     0.328    R53C39C.FCI to     R53C39C.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528
-ROUTE         1     0.000     R53C39C.F0 to    R53C39C.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_s[19] (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
+FCITOFCO_D  ---     0.056    R53C39C.FCI to    R53C39C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528
+ROUTE         1     0.000    R53C39C.FCO to    R53C39D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[20]
+FCITOF0_DE  ---     0.328    R53C39D.FCI to     R53C39D.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_529
+ROUTE         1     0.000     R53C39D.F0 to    R53C39D.DI0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_s[21] (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
                   --------
                     3.292   (51.8% logic, 48.2% route), 12 logic levels.
 
@@ -6521,10 +6521,10 @@ ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R48C39B.CLK U1_CORE/U1_PCIE.
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528:
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_529:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R53C39C.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk
+ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R53C39D.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -6725,27 +6725,29 @@ Passed: The following path meets requirements by 0.953ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1  (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount[20]  (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount[18]  (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
 
    Delay:               3.257ns  (51.3% logic, 48.7% route), 11 logic levels.
 
  Constraint Details:
 
-      3.257ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528 meets
+      3.257ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527 meets
       4.000ns delay constraint less
       0.000ns skew and
      -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.953ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527:
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.395    R48C39B.CLK to     R48C39B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
 ROUTE         4     0.816     R48C39B.Q0 to     R51C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1
 CTOF_DEL    ---     0.180     R51C37A.B0 to     R51C37A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_11500
-ROUTE        23     0.770     R51C37A.F0 to     R53C37C.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
-C1TOFCO_DE  ---     0.355     R53C37C.B1 to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
+ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
+C0TOFCO_DE  ---     0.355     R53C37B.B0 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
+ROUTE         1     0.000    R53C37B.FCO to    R53C37C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[2]
+FCITOFCO_D  ---     0.056    R53C37C.FCI to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
 ROUTE         1     0.000    R53C37C.FCO to    R53C37D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[4]
 FCITOFCO_D  ---     0.056    R53C37D.FCI to    R53C37D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_521
 ROUTE         1     0.000    R53C37D.FCO to    R53C38A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[6]
@@ -6759,10 +6761,8 @@ FCITOFCO_D  ---     0.056    R53C38D.FCI to    R53C38D.FCO U1_CORE/U1_PCIE.U1_E5
 ROUTE         1     0.000    R53C38D.FCO to    R53C39A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[14]
 FCITOFCO_D  ---     0.056    R53C39A.FCI to    R53C39A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_526
 ROUTE         1     0.000    R53C39A.FCO to    R53C39B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[16]
-FCITOFCO_D  ---     0.056    R53C39B.FCI to    R53C39B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527
-ROUTE         1     0.000    R53C39B.FCO to    R53C39C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[18]
-FCITOF1_DE  ---     0.349    R53C39C.FCI to     R53C39C.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528
-ROUTE         1     0.000     R53C39C.F1 to    R53C39C.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_s[20] (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
+FCITOF1_DE  ---     0.349    R53C39B.FCI to     R53C39B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527
+ROUTE         1     0.000     R53C39B.F1 to    R53C39B.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_s[18] (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
                   --------
                     3.257   (51.3% logic, 48.7% route), 11 logic levels.
 
@@ -6775,10 +6775,10 @@ ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R48C39B.CLK U1_CORE/U1_PCIE.
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528:
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R53C39C.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk
+ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R53C39B.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -6870,8 +6870,8 @@ Passed: The following path meets requirements by 0.953ns
 REG_DEL     ---     0.395    R48C39B.CLK to     R48C39B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
 ROUTE         4     0.816     R48C39B.Q0 to     R51C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1
 CTOF_DEL    ---     0.180     R51C37A.B0 to     R51C37A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_11500
-ROUTE        23     0.770     R51C37A.F0 to     R53C37C.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
-C0TOFCO_DE  ---     0.355     R53C37C.B0 to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
+ROUTE        23     0.770     R51C37A.F0 to     R53C37C.B1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
+C1TOFCO_DE  ---     0.355     R53C37C.B1 to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
 ROUTE         1     0.000    R53C37C.FCO to    R53C37D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[4]
 FCITOFCO_D  ---     0.056    R53C37D.FCI to    R53C37D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_521
 ROUTE         1     0.000    R53C37D.FCO to    R53C38A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[6]
@@ -6914,29 +6914,27 @@ Passed: The following path meets requirements by 0.953ns
  Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
 
    Source:         FF         Q              U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1  (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
-   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount[18]  (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
+   Destination:    FF         Data in        U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount[20]  (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk +)
 
    Delay:               3.257ns  (51.3% logic, 48.7% route), 11 logic levels.
 
  Constraint Details:
 
-      3.257ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527 meets
+      3.257ns physical path delay U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528 meets
       4.000ns delay constraint less
       0.000ns skew and
      -0.210ns DIN_SET requirement (totaling 4.210ns) by 0.953ns
 
  Physical Path Details:
 
-      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527:
+      Data path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528:
 
    Name    Fanout   Delay (ns)          Site               Resource
 REG_DEL     ---     0.395    R48C39B.CLK to     R48C39B.Q0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_3536 (from U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
 ROUTE         4     0.816     R48C39B.Q0 to     R51C37A.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/ppul_sync_p1
 CTOF_DEL    ---     0.180     R51C37A.B0 to     R51C37A.F0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_11500
-ROUTE        23     0.770     R51C37A.F0 to     R53C37B.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
-C0TOFCO_DE  ---     0.355     R53C37B.B0 to    R53C37B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_519
-ROUTE         1     0.000    R53C37B.FCO to    R53C37C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[2]
-FCITOFCO_D  ---     0.056    R53C37C.FCI to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
+ROUTE        23     0.770     R51C37A.F0 to     R53C37C.B0 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount
+C0TOFCO_DE  ---     0.355     R53C37C.B0 to    R53C37C.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_520
 ROUTE         1     0.000    R53C37C.FCO to    R53C37D.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[4]
 FCITOFCO_D  ---     0.056    R53C37D.FCI to    R53C37D.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_521
 ROUTE         1     0.000    R53C37D.FCO to    R53C38A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[6]
@@ -6950,8 +6948,10 @@ FCITOFCO_D  ---     0.056    R53C38D.FCI to    R53C38D.FCO U1_CORE/U1_PCIE.U1_E5
 ROUTE         1     0.000    R53C38D.FCO to    R53C39A.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[14]
 FCITOFCO_D  ---     0.056    R53C39A.FCI to    R53C39A.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_526
 ROUTE         1     0.000    R53C39A.FCO to    R53C39B.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[16]
-FCITOF1_DE  ---     0.349    R53C39B.FCI to     R53C39B.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527
-ROUTE         1     0.000     R53C39B.F1 to    R53C39B.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_s[18] (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
+FCITOFCO_D  ---     0.056    R53C39B.FCI to    R53C39B.FCO U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527
+ROUTE         1     0.000    R53C39B.FCO to    R53C39C.FCI U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_cry[18]
+FCITOF1_DE  ---     0.349    R53C39C.FCI to     R53C39C.F1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528
+ROUTE         1     0.000     R53C39C.F1 to    R53C39C.DI1 U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/pcount_s[20] (to U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk)
                   --------
                     3.257   (51.3% logic, 48.7% route), 11 logic levels.
 
@@ -6964,10 +6964,10 @@ ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R48C39B.CLK U1_CORE/U1_PCIE.
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
-      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_527:
+      Destination Clock Path U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/DCU0_inst to U1_CORE/U1_PCIE.U1_E5/U2_PHY/pcs_top_0/sll_inst/SLICE_528:
 
    Name    Fanout   Delay (ns)          Site               Resource
-ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R53C39B.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk
+ROUTE        31     1.777 DCU0.CH0_FF_TX_PCLK to    R53C39C.CLK U1_CORE/U1_PCIE.U1_E5/U2_PHY/tx_pclk
                   --------
                     1.777   (0.0% logic, 100.0% route), 0 logic levels.
 
@@ -15982,7 +15982,7 @@ Constraints cover 254404 paths, 8 nets, and 78073 connections (92.50% coverage)
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454
-Sun Feb 27 16:09:52 2022
+Fri Mar 04 20:35:20 2022
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.

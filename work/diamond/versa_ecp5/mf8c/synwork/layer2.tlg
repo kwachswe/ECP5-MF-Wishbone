@@ -5,7 +5,7 @@ Post processing for work.rx_rsl.rx_rsl_arc
 Running optimization stage 1 on rx_rsl .......
 Finished optimization stage 1 on rx_rsl (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 106MB)
 Running optimization stage 2 on rx_rsl .......
-Finished optimization stage 2 on rx_rsl (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 108MB)
+Finished optimization stage 2 on rx_rsl (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 107MB)
 
 For a summary of runtime and memory usage per design unit, please see file:
 ==========================================================
